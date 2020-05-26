@@ -2,9 +2,9 @@
 <game xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xmlns:xsd="http://www.w3.org/2001/XMLSchema"
       name="Doomtown"
-      id="9afa6473-fd81-41b9-955f-8f67c7d3f423"
+      id="f2764a2b-7498-4ec1-8f6a-39cfdee37c26"
       octgnVersion="3.1.0.0"
-      version="3.2.7.0"
+      version="3.2.7.2"
       markersize="16"
       tags="western deadlands poker maneuvering multiplayer"
       description="A western themed card game, marying poker mechanics, town building, and chess-like maneuvering.
@@ -14,8 +14,8 @@
       &#xd;(This game definition contains automation of common actions to reduce tediousness amd speed up play.)"
       setsurl="http://octgn.gamersjudgement.com/wordpress/doomtown/sets/"
       gameurl="http://octgn.gamersjudgement.com/wordpress/doomtown"
-      authors="Db0"
-      iconurl="https://raw.github.com/db0/Doomtown-for-OCTGN/master/doomtown_logo.jpg"
+      authors="Db0,jbeast"
+      iconurl="https://raw.github.com/jbeast/Doomtown-for-OCTGN/master/logo.jpg"
       scriptVersion="3.1.0.2"
       usetwosidedtable="False">
 
