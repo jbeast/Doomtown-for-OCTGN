@@ -39,9 +39,9 @@ def checkMovedCard(player,card,fromGroup,toGroup,oldIndex,index,oldX,oldY,x,y,is
    mute()
    debugNotify("isScriptMove = {}".format(isScriptMove))
    if isScriptMove: return # If the card move happened via a script, then all automations should have happened already.
-   if fromGroup == me.hand and toGroup == table: 
+   if fromGroup == me.piles['Play Hand'] and toGroup == table:
       if card.Type == 'Outfit': 
-         card.moveTo(me.hand)
+         card.moveTo(me.piles['Play Hand'])
          setup(group = table)
       else: playcard(card, retainPos = True)
    elif fromGroup != table and toGroup == table and card.owner == me: # If the player moves a card into the table from Deck or Trash, we assume they are installing it for free.

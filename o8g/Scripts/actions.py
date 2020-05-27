@@ -28,11 +28,11 @@ playerOutfit = None # Variable to keep track of the player's outfit.
 PlayerColor = "#" # Variable with the player's unique colour.
 AttachingCard = None # Holds the card about to have other card attached. This needs to become a shared OCTGN variable when available.
 
-wantedDudes = {} # A dictionaty to store which dude is wanted.
+wantedDudes = {} # A dictionary to store which dude is wanted.
 harrowedDudes = {} # Which dudes are harrowed
 jailbrokenDeeds = {} # Which deeds are jailbroken
-ValueMemory = {} # Which cards have amodified value
-AttachedCards = {} # A dictionary which holds a coutner for each card, numbering how many attached cards each card has.
+ValueMemory = {} # Which cards have a modified value
+AttachedCards = {} # A dictionary which holds a counter for each card, numbering how many attached cards each card has.
 InfluenceRAM = {} # Which cards have extra influence
 ControlRAM = {} # Which cards have extra cp
 
@@ -136,7 +136,7 @@ def setup(group,x=0,y=0):
    if len([c for c in table if c.name == 'Town Square']) == 0: # Only create a Town Square token if there's not one in the table until now
       TSL = table.create("ac0b08ed-8f78-4cff-a63b-fa1010878af9",2 - cwidth(divisor = 0),0, 1, True) # Create a Left Town Square card in the middle of the table.
       TSR = table.create("72f6c0a9-e4f6-4b17-9777-185f88187ad7",-1,0, 1, True) # Create a Right Town Square card in the middle of the table.
-   for card in me.hand: # For every card in the player's hand... (which should be an outfit and a bunch of dudes usually)
+   for card in me.piles['Play Hand']: # For every card in the player's hand... (which should be an outfit and a bunch of dudes usually)
       if card.Type == "Outfit" :  # First we do a loop to find an play the outfit, (in case the player managed to mess the order somehow)
          placeCard(card,'SetupHome')
          me.GhostRock += num(card.properties['Ghost Rock']) # Then we add its starting Ghost Rock to the bank
@@ -149,7 +149,7 @@ def setup(group,x=0,y=0):
    dudecount = 0
    concat_dudes = 'and has the following starting dudes: ' # A string where we collect the names of the dudes we bring in
    concat_other = '' # A string to remember any other card (like sweetrock's mine)
-   for card in me.hand: # For every card in the player's hand... (which should a bunch of dudes now)
+   for card in me.piles['Play Hand']: # For every card in the player's hand... (which should a bunch of dudes now)
       debugNotify("Placing {}".format(card),4)
       if card.Type == "Dude" : # If it's a dude...
          placeCard(card,'SetupDude',dudecount)
@@ -804,7 +804,7 @@ def playcard(card,retainPos = False):
       if not hostCard:
          if card.Type == "Improvement": whisper("You need to target the deed which is going to be improved")
          else: whisper("You need to target the dude which is going to purchase the goods")
-         if retainPos: card.moveTo(me.hand)
+         if retainPos: card.moveTo(me.piles['Play Hand'])
          return
       else:
          if hostCard.orientation != Rot0 and card.Type != "Improvement" and not confirm("You can only attach goods to unbooted dudes. Bypass restriction?"): return      
@@ -835,7 +835,9 @@ def playcard(card,retainPos = False):
 def shuffle(group): # A simple function to shuffle piles
    group.shuffle()
 
-def reshuffle(group = me.piles['Discard Pile']): # This function reshuffles the player's discard pile into their deck.
+def reshuffle(group = None): # This function reshuffles the player's discard pile into their deck.
+   if group is None:
+      group = me.piles['Discard Pile']
    mute()
    Deck = me.Deck # Just to save us some repetition
    for card in group: card.moveTo(Deck) # Move the player's cards from the discard to their deck one-by-one.
@@ -844,16 +846,27 @@ def reshuffle(group = me.piles['Discard Pile']): # This function reshuffles the 
    Deck.shuffle() # Then use the built-in shuffle action
    notify("{} reshuffled their {} into their Deck.".format(me, group.name)) # And inform everyone.
 
-def draw(group = me.Deck): # Draws one card from the deck into the player's hand.
+def draw(group = None): # Draws one card from the deck into the player's hand.
+   if group is None:
+      group = me.Deck
    mute()
    if len(group) == 0: # In case the deck is empty, invoke the reshuffle function.
       notify("{}'s Deck empty. Will reshuffle discard pile".format(me))
       reshuffle()
-   group.top().moveTo(me.hand)
-   notify("{} draws a card.".format(me))   
+   card = group.top()
+   if card is None:
+      notify("top of group is empty")
+   else:
+      notify("going to move to hand")
+      hand = me.piles['Play Hand']
+      notify("hand is good")
+      card.moveTo(hand)
+      notify("{} draws a card.".format(me))
    
-def pull(group = me.Deck, x = 0, y = 0, silent = False): # Draws one card from the deck into the discard pile and announces its value.
+def pull(group = None, x = 0, y = 0, silent = False): # Draws one card from the deck into the discard pile and announces its value.
    mute()
+   if group is None:
+      group =  me.Deck
    Deck = me.Deck
    if len(Deck) == 0: # In case the deck is empty, invoke the reshuffle function.
       notify("{}'s Deck empty. Will reshuffle discard pile".format(me))
@@ -871,7 +884,7 @@ def drawMany(group, count = None, notification = 'loud'): # This function draws 
    if count == None: count = askInteger("Draw how many cards to your Play Hand?", 5) # Ask the player how many cards they want.
    for i in range(0, count): 
       if len(group) == 0: reshuffle() # If before moving a card the deck is empty, reshuffle.
-      group.top().moveTo(me.hand) # Then move them one by one into their play hand.
+      group.top().moveTo(me.piles['Play Hand']) # Then move them one by one into their play hand.
    if notification == loud : notify("{} draws {} cards to their play hand.".format(me, count)) # And if we're "loud", notify what happened.
 
 def setHandSize(group): # A function to modify a player's hand size. This is used during nighfall when refilling the player's hand automatically.
@@ -880,9 +893,11 @@ def setHandSize(group): # A function to modify a player's hand size. This is use
    if handsize == None: handsize = 5
    notify("{} sets their hand size to {}".format(me, handsize))
    
-def refill(group = me.hand): # Refill the player's hand to its hand size.
+def refill(group = None): # Refill the player's hand to its hand size.
    global handsize
-   playhand = len(me.hand) # count how many cards there are currently there.
+   if group is None:
+      group = me.piles['Play Hand']
+   playhand = len(me.piles['Play Hand']) # count how many cards there are currently there.
    if playhand < handsize: drawMany(me.Deck, handsize - playhand, silent) # If there's less cards than the handsize, draw from the deck until it's full.
 
 def handDiscard(card, x = 0, y = 0): # Discard a card from your hand.
@@ -923,14 +938,18 @@ def drawhandMany(group, count = None, notification = 'loud'): #Same as drawMany,
       group.top().moveTo(me.piles['Draw Hand'])
    if notification == loud : notify("{} draws {} cards to their draw hand.".format(me, count))   
 
-def discardDrawHand(group = me.piles['Draw Hand']): # Discards the player's whole Draw Hand.
+def discardDrawHand(group = None): # Discards the player's whole Draw Hand.
    mute()
+   if group is None:
+      group = me.piles['Draw Hand']
    Discard = me.piles['Discard Pile']
    notify("{} moved their {} ({} cards) to their discard pile.".format(me, group.name, len(group)))    
    for card in group: card.moveTo(Discard)
 
-def aceevents(group = me.piles['Discard Pile']): # Goes through your discard pile and moves all events to the boot hill
+def aceevents(group = None): # Goes through your discard pile and moves all events to the boot hill
    mute()
+   if group is None:
+      me.piles['Discard Pile']
    notify("{} is going through their discard pile and acing all events".format(me))
    for card in group:
       if card.Type == 'Event': 
@@ -956,13 +975,15 @@ def permRemove(card): # Takes a card from the boot hill and moves it to the shar
 # Draw Hand related actions 
 #---------------------------------------------------------------------------
    
-def revealHand(group = me.piles['Draw Hand'], type = 'lowball', event = None): 
+def revealHand(group = None, type = 'lowball', event = None):
 # This function moves 5 cards from the player's Draw Hand pile into the table (normally there should be only 5 there when this function is invoked)
 # It also highlights those cards, so that they are not confused with the cards in play
 # The cards are moved to the table relevant to the player's side and they are placed next to each other so that their suit&ranks are read easily
 # Finally their suit and rank are announced
    #chooseSide() # Just in case no side was chosen.
    mute()
+   if group is None:
+      group = me.piles['Draw Hand']
    i = 0 
    rank = ['','','','',''] # We create some empty lists for the suits and ranks.
    suit = ['','','','','']
@@ -1025,8 +1046,10 @@ def revealShootoutHand(group):
          notify ("The Shootout is a tie. Both player suffer one casualty")
          clearHandRanks()
    
-def revealLowballHand(group = me.piles['Draw Hand'], type = 'normal'): 
+def revealLowballHand(group = None, type = 'normal'):
    debugNotify(">>> revealLowballHand()")
+   if group is None:
+      group = me.piles['Draw Hand']
    mute()
    if len(group) > 5: 
       whisper("Please reduce your draw hand to 5 cards before revealing it")
@@ -1060,7 +1083,7 @@ def revealHandAsk(group):
    if confirm("Are you revealing a shootout hand?"): revealShootoutHand(group)
    else: revealLowballHand(group)
    
-def playLowball(group = me.Deck):
+def playLowball(group = None):
 # This function does the following. 
 # * It takes one Ghost Rock from the player and adds it to the shared Lowball pot.
 # * It draws 5 cards from the deck with the drawHandMany() function
@@ -1069,6 +1092,8 @@ def playLowball(group = me.Deck):
 # * If there isn't a tie, then uses it gives the winner all the GR from the shared lowball pot
 # * It assigns a "Winner" counter to the winner's outfit and wipes the previous winner's marker.
    mute()
+   if group is None:
+      group = me.Deck
    if shared.Phase != 1:
       if not confirm(":::WARNING::: It is not yet the Gamblin' phase. Do you want to jump to lowball now?"): return
       goToGamblin()
@@ -1080,15 +1105,19 @@ def playLowball(group = me.Deck):
       if winner == 'tie': notify ("It's a tie! Y'all need to compare high cards to determine the lucky bastard.")
    except: winLowball(winner = winner) # If it's a python exception it means we tried to compare a string to a player object, therefore we actually have a player object in our 'winner' variable
 
-def betLowball(group = table,x = 0,y = 0, silent = False): # Bets a 1 ghost rock to the lowball pot
+def betLowball(group = None,x = 0,y = 0, silent = False): # Bets a 1 ghost rock to the lowball pot
    mute()
+   if group is None:
+      group = table
    potCard = getPotCard()
    me.GhostRock -= 1
    potCard.markers[mdict['Ante']] += 1
    if not silent: notify ("{} has put their ante in their Lowball pot.".format(me))
 
-def winLowball(group = table, x = 0,y = 0, winner = me): # A function which sets the lowball winner and awards him the lowball money
+def winLowball(group = None, x = 0,y = 0, winner = me): # A function which sets the lowball winner and awards him the lowball money
    mute()
+   if group is None:
+      group = table
    debugNotify(">>> winLowball()")
    potCard = getPotCard()
    setWinner(winner) # Set the winner's marker
