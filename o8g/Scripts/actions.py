@@ -645,7 +645,7 @@ def tradeGoods(card, x = 0, y = 0):
    chkHighNoon()
    if newHost.orientation != Rot0 and not confirm("You can only trade goods to unbooted dudes. Bypass restriction?"): return
    hostCards = eval(getGlobalVariable('Host Cards'))
-   attachedGoods = [Card(att_id) for att_id in hostCards if hostCards[att_id] == card._id and Card(att_id).Type == 'Goods']
+   attachedGoods = [Card(att_id) for att_id in hostCards if hostCards[att_id] == card._id and Card(att_id).Type == 'Good']
    chosenGoods = []
    if len(attachedGoods) == 0: 
       whisper(":::ERROR::: This dude does not hold any goods they can trade.")
@@ -744,7 +744,7 @@ def playcard(card,retainPos = False):
                   and (tablecard.Type == 'Dude'  # But only dude or deeds...
                         or tablecard.Type == 'Deed' 
                         or (re.search('Unique.', tablecard.Text) # ...or cards with an explicit "Unique" in the text that are Goods, Improvements or Spells.
-                           and (tablecard.Type == 'Goods'        # Because otherwise those types can be up to 4 per player.
+                           and (tablecard.Type == 'Good'        # Because otherwise those types can be up to 4 per player.
                               or tablecard.Type == 'Improvement' 
                               or tablecard.Type == 'Spell')))) 
    for c in uniquecards: # Append the cards from the table and the cards from the boot hill into one list we can go through.
@@ -755,7 +755,7 @@ def playcard(card,retainPos = False):
                      and (acedcard.Type == 'Dude' 
                            or acedcard.Type == 'Deed' 
                            or (re.search('Unique.', acedcard.Text) 
-                              and (acedcard.Type == 'Goods' 
+                              and (acedcard.Type == 'Good'
                                  or acedcard.Type == 'Improvement' 
                                  or acedcard.Type == 'Spell')))) 
       for c in acedcards:
@@ -797,10 +797,10 @@ def playcard(card,retainPos = False):
       if payCost(card.Cost, loud) == 'ABORT' : return # Check if the player can pay the cost. If not, abort.
       if not retainPos: placeCard(card,'BuyDeed')
       notify("{} has acquired the deed to {}.".format(me, card))
-   elif card.Type == "Goods" or card.Type == "Spell" or card.Type == "Improvement": # If we're bringing in any goods, just remind the player to pull for gadgets.
+   elif card.Type == "Good" or card.Type == "Spell" or card.Type == "Improvement": # If we're bringing in any goods, just remind the player to pull for gadgets.
       chkHighNoon()
       if card.Type == "Improvement": hostCard = findHost('Improvement')
-      else: hostCard = findHost('Goods')
+      else: hostCard = findHost('Good')
       if not hostCard:
          if card.Type == "Improvement": whisper("You need to target the deed which is going to be improved")
          else: whisper("You need to target the dude which is going to purchase the goods")

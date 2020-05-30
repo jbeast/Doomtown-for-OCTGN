@@ -168,3 +168,5 @@ pip-log.txt
 *.o8s*
 *.o8p*
 *.o8g*
+*.o8c
+Decks/

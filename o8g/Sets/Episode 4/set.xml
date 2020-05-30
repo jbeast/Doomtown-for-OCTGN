@@ -1,0 +1,889 @@
+<?xml version="1.0" ?>
+<set gameId="9afa6473-fd81-41b9-955f-8f67c7d3f423" gameVersion="3.0.0" id="8ff3d180-85b4-4d2c-97fc-dd2552adcb6c" name="Episode 4" version="3.0.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CardSet.xsd">
+  <cards>
+    <card id="c05e1411-fd73-411e-bd38-fe5d3488774e" name="Barkum &amp; Barkum Attorneys">
+      <property name="Rank" value="5"/>
+      <property name="Suit" value="D"/>
+      <property name="Type" value="Deed"/>
+      <property name="Cost" value="5"/>
+      <property name="Upkeep" value=""/>
+      <property name="Production" value="0"/>
+      <property name="Bullets" value=""/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value=""/>
+      <property name="Influence" value=""/>
+      <property name="Control" value="1"/>
+      <property name="Outfit" value=""/>
+      <property name="Rarity" value="C"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="Private. Controller Noon Pull: Boot the Attorneys and target and boot one of your Wanted Dudes. If the pull is less than or equal to the Dude''s value, the Dude is no longer Wanted."/>
+    </card>
+    <card id="a769d080-eadc-4015-80b9-338fe9971d2c" name="Basil Whateley">
+      <property name="Rank" value="9"/>
+      <property name="Suit" value="S"/>
+      <property name="Type" value="Dude"/>
+      <property name="Cost" value="5"/>
+      <property name="Upkeep" value="0"/>
+      <property name="Production" value=""/>
+      <property name="Bullets" value="0"/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value="Draw"/>
+      <property name="Influence" value="1"/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value="Whateleys"/>
+      <property name="Rarity" value="R"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="Noon Pull: Boot Basil and target one dude in play. If the pull plus Basil''s Huckster skill are greater than the dude''s value, the dude is booted."/>
+    </card>
+    <card id="0d37d40e-c32a-45c7-9ed5-e4443b4c06f1" name="Billy No-Neck">
+      <property name="Rank" value="7"/>
+      <property name="Suit" value="S"/>
+      <property name="Type" value="Dude"/>
+      <property name="Cost" value="4"/>
+      <property name="Upkeep" value="0"/>
+      <property name="Production" value=""/>
+      <property name="Bullets" value="2"/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value="Stud"/>
+      <property name="Influence" value="0"/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value="Drifters"/>
+      <property name="Rarity" value="R"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="May not have any weapons."/>
+    </card>
+    <card id="abc2dd6d-d1e4-4c7f-ae2a-d7a6cc62a0f5" name="Blood Curse">
+      <property name="Rank" value="10"/>
+      <property name="Suit" value="H"/>
+      <property name="Type" value="Spell"/>
+      <property name="Cost" value="0"/>
+      <property name="Upkeep" value=""/>
+      <property name="Production" value=""/>
+      <property name="Bullets" value=""/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value=""/>
+      <property name="Influence" value=""/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value=""/>
+      <property name="Rarity" value="R"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="Noon Hex 8: Target a Dude. If this Hex succeeds, the Dude has a -1 Bullet penalty and a -1 Influence penalty (minimum 0) until after Nightfall. Shootout Hex 9: Target a Dude in this shootout. If this Hex succeeds, the Dude has a -2 Bullet penalty (minimum 0) until after Nightfall."/>
+    </card>
+    <card id="407bab8b-4d3f-4e20-8426-c3d24d1011d7" name="Bronco Bjork Gutmansen">
+      <property name="Rank" value="6"/>
+      <property name="Suit" value="S"/>
+      <property name="Type" value="Dude"/>
+      <property name="Cost" value="3"/>
+      <property name="Upkeep" value="0"/>
+      <property name="Production" value=""/>
+      <property name="Bullets" value="2"/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value="Draw"/>
+      <property name="Influence" value="0"/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value="Drifters"/>
+      <property name="Rarity" value="C"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="Horses being attached to Bjork have their cost reduced by four. Bronco Bjork will not trade away a horse he has attached."/>
+    </card>
+    <card id="ba1392b1-037d-4f9f-86b6-d42a542f6f45" name="Buckets Nelson">
+      <property name="Rank" value="6"/>
+      <property name="Suit" value="S"/>
+      <property name="Type" value="Dude"/>
+      <property name="Cost" value="3"/>
+      <property name="Upkeep" value="1"/>
+      <property name="Production" value=""/>
+      <property name="Bullets" value="1"/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value="Draw"/>
+      <property name="Influence" value="0"/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value="Maze Rats"/>
+      <property name="Rarity" value="C"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="Shootout: Discard a card from your hand to create one shark in Nelson''s posse if this Shootout is taking place at an out-of-town location. The shark is a dude with a one-Bullet Stud rating The shark is removed from play after the Shootout is over. Nelson can perform this action any number of times per turn."/>
+    </card>
+    <card id="293e87f1-f76b-4f74-89c2-da7b08667411" name="Byron St. James">
+      <property name="Rank" value="7"/>
+      <property name="Suit" value="S"/>
+      <property name="Type" value="Dude"/>
+      <property name="Cost" value="7"/>
+      <property name="Upkeep" value="1"/>
+      <property name="Production" value=""/>
+      <property name="Bullets" value="3"/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value="Stud"/>
+      <property name="Influence" value="1"/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value="Sweetrock"/>
+      <property name="Rarity" value="R"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="You cannot move St. James to any location that contains Howard Findley."/>
+    </card>
+    <card id="82391af7-d268-4691-8e91-a6cace85aa81" name="Callahan''s Ditch">
+      <property name="Rank" value="9"/>
+      <property name="Suit" value="D"/>
+      <property name="Type" value="Deed"/>
+      <property name="Cost" value="2"/>
+      <property name="Upkeep" value=""/>
+      <property name="Production" value="2"/>
+      <property name="Bullets" value=""/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value=""/>
+      <property name="Influence" value=""/>
+      <property name="Control" value="0"/>
+      <property name="Outfit" value=""/>
+      <property name="Rarity" value="C"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="Private. Strike."/>
+    </card>
+    <card id="97125ab3-25f9-4285-ba75-213bd53750b5" name="Circus Sideshow">
+      <property name="Rank" value="2"/>
+      <property name="Suit" value="H"/>
+      <property name="Type" value="Event"/>
+      <property name="Cost" value="0"/>
+      <property name="Upkeep" value=""/>
+      <property name="Production" value=""/>
+      <property name="Bullets" value=""/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value=""/>
+      <property name="Influence" value=""/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value=""/>
+      <property name="Rarity" value="C"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="Charlie Landers goes to his controller''s discard pile if he is in play. Until nightfall, all Draw Hands are drawn from the opposing Player''s deck. Cards from Draw Hands are discarded into their owner''s discard pile."/>
+    </card>
+    <card id="a08acab1-89d6-4451-95b8-0ed28d816683" name="Deputize">
+      <property name="Rank" value="2"/>
+      <property name="Suit" value="C"/>
+      <property name="Type" value="Action"/>
+      <property name="Cost" value="0"/>
+      <property name="Upkeep" value=""/>
+      <property name="Production" value=""/>
+      <property name="Bullets" value=""/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value=""/>
+      <property name="Influence" value=""/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value=""/>
+      <property name="Rarity" value="C"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="Noon: All of your Dudes not in your Outfit become members of your Outfit. They remain members of any other Outfit to which they belong."/>
+    </card>
+    <card id="ee4b7818-f33c-4ff7-ae59-015d0b81b2c2" name="Dolores Whateley">
+      <property name="Rank" value="7"/>
+      <property name="Suit" value="S"/>
+      <property name="Type" value="Dude"/>
+      <property name="Cost" value="4"/>
+      <property name="Upkeep" value="1"/>
+      <property name="Production" value=""/>
+      <property name="Bullets" value="0"/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value="Draw"/>
+      <property name="Influence" value="1"/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value="Whateleys"/>
+      <property name="Rarity" value="R"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="Noon: Target a Dude. Boot Dolores to give the Dude a -1 Bullet penalty until after nightfall. Noon: Discard a black card to give Dolores a +2 Bullet bonus and increase her Huckster rating by 2, until after nightfall."/>
+    </card>
+    <card id="d73f8a57-e518-408b-8d7d-65c0d8a442d0" name="Eagle Rock">
+      <property name="Rank" value="9"/>
+      <property name="Suit" value="S"/>
+      <property name="Type" value="Dude"/>
+      <property name="Cost" value="5"/>
+      <property name="Upkeep" value="0"/>
+      <property name="Production" value=""/>
+      <property name="Bullets" value="3"/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value="Stud"/>
+      <property name="Influence" value="0"/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value="Sioux"/>
+      <property name="Rarity" value="C"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="Will not call out a Sioux."/>
+    </card>
+    <card id="c219ee68-087f-4ef8-b5d9-4591931976d4" name="Ezekiel Whateley">
+      <property name="Rank" value="2"/>
+      <property name="Suit" value="S"/>
+      <property name="Type" value="Dude"/>
+      <property name="Cost" value="2"/>
+      <property name="Upkeep" value="0"/>
+      <property name="Production" value=""/>
+      <property name="Bullets" value="2"/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value="Draw"/>
+      <property name="Influence" value="0"/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value="Whateleys"/>
+      <property name="Rarity" value="C"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value=""/>
+    </card>
+    <card id="23c7570d-a015-40fa-9493-f0c317df8665" name="Foreclosure">
+      <property name="Rank" value="6"/>
+      <property name="Suit" value="C"/>
+      <property name="Type" value="Action"/>
+      <property name="Cost" value="0"/>
+      <property name="Upkeep" value=""/>
+      <property name="Production" value=""/>
+      <property name="Bullets" value=""/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value=""/>
+      <property name="Influence" value=""/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value=""/>
+      <property name="Rarity" value="C"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="Cheatin''! Reaction: Play when another player reveals an illegal Draw hand. Target and discard one Deed owned by that player. Only one Cheatin! Card can be played against a player per draw."/>
+    </card>
+    <card id="68638821-8895-4f96-8625-d438f3614f9e" name="Forgery">
+      <property name="Rank" value="K"/>
+      <property name="Suit" value="C"/>
+      <property name="Type" value="Action"/>
+      <property name="Cost" value="2"/>
+      <property name="Upkeep" value=""/>
+      <property name="Production" value=""/>
+      <property name="Bullets" value=""/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value=""/>
+      <property name="Influence" value=""/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value=""/>
+      <property name="Rarity" value="C"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="Noon: Play a deed out of your hand that matches a deed in play. The deed in play is aced and your deed enters play normally. All dudes that were at the deed are moved to yours, without booting."/>
+    </card>
+    <card id="f71d4403-76d0-4997-9bfe-c1a06b39bed0" name="Greased Lightning Pill">
+      <property name="Rank" value="9"/>
+      <property name="Suit" value="H"/>
+      <property name="Type" value="Good"/>
+      <property name="Cost" value="0"/>
+      <property name="Upkeep" value=""/>
+      <property name="Production" value=""/>
+      <property name="Bullets" value=""/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value=""/>
+      <property name="Influence" value=""/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value=""/>
+      <property name="Rarity" value="R"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="Gadget Difficulty: 4. Shootout: Ace the Pill to give this dude +3 Bullets until the end of this Shootout."/>
+    </card>
+    <card id="8da5797e-8d1d-4a94-be5c-1d66f7477efa" name="Helpin'' Hand">
+      <property name="Rank" value="8"/>
+      <property name="Suit" value="H"/>
+      <property name="Type" value="Spell"/>
+      <property name="Cost" value="0"/>
+      <property name="Upkeep" value=""/>
+      <property name="Production" value=""/>
+      <property name="Bullets" value=""/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value=""/>
+      <property name="Influence" value=""/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value=""/>
+      <property name="Rarity" value="C"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="Reaction Hex X: Boot this Huckster when a dude is aced. The difficulty of this hex is equal to the Dude''s value plus Influence plus bullets. If the hex is successful, the Dude is not aced, but is moved home booted."/>
+    </card>
+    <card id="8b56824e-f6dc-459f-a747-1716d042410a" name="His Back Was to Me">
+      <property name="Rank" value="9"/>
+      <property name="Suit" value="C"/>
+      <property name="Type" value="Action"/>
+      <property name="Cost" value="0"/>
+      <property name="Upkeep" value=""/>
+      <property name="Production" value=""/>
+      <property name="Bullets" value=""/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value=""/>
+      <property name="Influence" value=""/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value=""/>
+      <property name="Rarity" value="C"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="Shootout: Reduce the Bullet Rating of one opposing dude to be equal to the highest Bullet Rating in your posse. If you do not have any Studs in your posse, the target becomes a Draw bonus fighter as well. The reduction is only for this round of the Shootout."/>
+    </card>
+    <card id="ad2f46a2-4857-488c-84c5-b5028475d733" name="Independence Day">
+      <property name="Rank" value="5"/>
+      <property name="Suit" value="H"/>
+      <property name="Type" value="Event"/>
+      <property name="Cost" value="0"/>
+      <property name="Upkeep" value=""/>
+      <property name="Production" value=""/>
+      <property name="Bullets" value=""/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value=""/>
+      <property name="Influence" value=""/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value=""/>
+      <property name="Rarity" value="R"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="All government buildings are booted except for a Jail and give no bonuses or production this turn. Boot Lucky Ted(s). Ace this card."/>
+    </card>
+    <card id="ce8cff41-77db-4e73-87fe-7170d44065ff" name="It''s Just Coal…">
+      <property name="Rank" value="3"/>
+      <property name="Suit" value="C"/>
+      <property name="Type" value="Action"/>
+      <property name="Cost" value="0"/>
+      <property name="Upkeep" value=""/>
+      <property name="Production" value=""/>
+      <property name="Bullets" value=""/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value=""/>
+      <property name="Influence" value=""/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value=""/>
+      <property name="Rarity" value="C"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="Noon: Target one player, who loses 2 ghost rock. Ace this card."/>
+    </card>
+    <card id="2a59dc6b-b4ee-4682-a478-becc8717726e" name="King Willy''s Mother Lode">
+      <property name="Rank" value="6"/>
+      <property name="Suit" value="D"/>
+      <property name="Type" value="Deed"/>
+      <property name="Cost" value="5"/>
+      <property name="Upkeep" value=""/>
+      <property name="Production" value="3"/>
+      <property name="Bullets" value=""/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value=""/>
+      <property name="Influence" value=""/>
+      <property name="Control" value="1"/>
+      <property name="Outfit" value=""/>
+      <property name="Rarity" value="C"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="Private. Strike."/>
+    </card>
+    <card id="b8b6218b-d957-45be-bf7d-3f2b117eaed8" name="Lord Grimely''s Manor">
+      <property name="Rank" value="2"/>
+      <property name="Suit" value="D"/>
+      <property name="Type" value="Deed"/>
+      <property name="Cost" value="10"/>
+      <property name="Upkeep" value=""/>
+      <property name="Production" value="0"/>
+      <property name="Bullets" value=""/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value=""/>
+      <property name="Influence" value=""/>
+      <property name="Control" value="1"/>
+      <property name="Outfit" value=""/>
+      <property name="Rarity" value="R"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="Raise the Fear level by one while the Manor is in play. Players other than the Manor is in play. Players other than the Manor''s owner may not gain control of the Manor or Deeds adjacent to the Manor. While the Fear Level is 10, you have one additional Control Point"/>
+    </card>
+    <card id="4022c723-754d-4a34-8d47-05ceddecb6b1" name="Manitou''s Revenge">
+      <property name="Rank" value="1"/>
+      <property name="Suit" value="C"/>
+      <property name="Type" value="Action"/>
+      <property name="Cost" value="0"/>
+      <property name="Upkeep" value=""/>
+      <property name="Production" value=""/>
+      <property name="Bullets" value=""/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value=""/>
+      <property name="Influence" value=""/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value=""/>
+      <property name="Rarity" value="R"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="Reaction: Play when a Spell fails. Target the Dude casting the Spell and pull: If the pull is lower than the Spell''s Difficulty, the Dude is aced."/>
+    </card>
+    <card id="43942c5b-87a0-4b47-b1e2-c00a22aa516d" name="Mind Twist">
+      <property name="Rank" value="1"/>
+      <property name="Suit" value="H"/>
+      <property name="Type" value="Spell"/>
+      <property name="Cost" value="0"/>
+      <property name="Upkeep" value=""/>
+      <property name="Production" value=""/>
+      <property name="Bullets" value=""/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value=""/>
+      <property name="Influence" value=""/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value=""/>
+      <property name="Rarity" value="R"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="Noon Hex X: Boot this Huckster. The difficulty of this Hex is three times the target''s Influence. If the hex is successful, the target in play has his or her Influence reduced by two (minimum zero) until after nightfall."/>
+    </card>
+    <card id="c8a396d3-10d0-4a2e-9b5e-c36dbf5c5e0d" name="Missed Me!">
+      <property name="Rank" value="J"/>
+      <property name="Suit" value="H"/>
+      <property name="Type" value="Spell"/>
+      <property name="Cost" value="0"/>
+      <property name="Upkeep" value=""/>
+      <property name="Production" value=""/>
+      <property name="Bullets" value=""/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value=""/>
+      <property name="Influence" value=""/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value=""/>
+      <property name="Rarity" value="R"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="Shootout Hex 5: If this hex is successful, then one is subtracted form the number of dudes in your posse that must be aced in this round of the combat."/>
+    </card>
+    <card id="340a9e8d-4e04-4240-9866-0e082aa19f11" name="Missing Children">
+      <property name="Rank" value="8"/>
+      <property name="Suit" value="H"/>
+      <property name="Type" value="Event"/>
+      <property name="Cost" value="0"/>
+      <property name="Upkeep" value=""/>
+      <property name="Production" value=""/>
+      <property name="Bullets" value=""/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value=""/>
+      <property name="Influence" value=""/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value=""/>
+      <property name="Rarity" value="R"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="All Whateleys in play with the Huckster skill have a +1 Bullet Rating this turn."/>
+    </card>
+    <card id="9b90ff53-522d-4550-86cf-05e90dc7a035" name="Moses Whateley-Braun">
+      <property name="Rank" value="3"/>
+      <property name="Suit" value="S"/>
+      <property name="Type" value="Dude"/>
+      <property name="Cost" value="3"/>
+      <property name="Upkeep" value="0"/>
+      <property name="Production" value=""/>
+      <property name="Bullets" value="1"/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value="Draw"/>
+      <property name="Influence" value="0"/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value="Whateleys"/>
+      <property name="Rarity" value="C"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value=""/>
+    </card>
+    <card id="f2559712-cc59-460e-a3ed-2cd8c371fbb3" name="Nicodemus Whateley">
+      <property name="Rank" value="10"/>
+      <property name="Suit" value="S"/>
+      <property name="Type" value="Dude"/>
+      <property name="Cost" value="6"/>
+      <property name="Upkeep" value="1"/>
+      <property name="Production" value=""/>
+      <property name="Bullets" value="1"/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value="Draw"/>
+      <property name="Influence" value="2"/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value="Whateleys"/>
+      <property name="Rarity" value="R"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="Noon: Boot Nicodemus when he is in the same location as an Abomination. You control the Abomination until after nightfall."/>
+    </card>
+    <card id="a216ac4d-a0c7-43bb-aae4-fe495d8d5f12" name="Nowhere to Run">
+      <property name="Rank" value="6"/>
+      <property name="Suit" value="C"/>
+      <property name="Type" value="Action"/>
+      <property name="Cost" value="0"/>
+      <property name="Upkeep" value=""/>
+      <property name="Production" value=""/>
+      <property name="Bullets" value=""/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value=""/>
+      <property name="Influence" value=""/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value=""/>
+      <property name="Rarity" value="C"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="Reaction: Play when a posse is trying to escape a Shootout. They are stuck in the Shootout and must fight another round."/>
+    </card>
+    <card id="4d02e6a0-cfad-4b12-bcce-91580b6ce282" name="Pacific Maze Railstation">
+      <property name="Rank" value="3"/>
+      <property name="Suit" value="D"/>
+      <property name="Type" value="Deed"/>
+      <property name="Cost" value="8"/>
+      <property name="Upkeep" value=""/>
+      <property name="Production" value="0"/>
+      <property name="Bullets" value=""/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value=""/>
+      <property name="Influence" value=""/>
+      <property name="Control" value="2"/>
+      <property name="Outfit" value=""/>
+      <property name="Rarity" value="R"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="Public. The Railstation''s Production is equal to the number of Maze Rats in play. Controller Reaction: When a Goods enters play, boot the Railstation to increase or reduce its ghost rock cost by 2."/>
+    </card>
+    <card id="d7660c05-fc5f-414f-b731-13dc13c4a9ac" name="Pierre Fontaine">
+      <property name="Rank" value="3"/>
+      <property name="Suit" value="S"/>
+      <property name="Type" value="Dude"/>
+      <property name="Cost" value="5"/>
+      <property name="Upkeep" value="0"/>
+      <property name="Production" value=""/>
+      <property name="Bullets" value="0"/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value="Draw"/>
+      <property name="Influence" value="1"/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value="Collegium"/>
+      <property name="Rarity" value="C"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="Noon: Move Pierre from one out-of-town deed to another, This does not boot Pierre."/>
+    </card>
+    <card id="0a936d48-9721-45fc-8f6e-70f0c77c348d" name="Sam Horowitz">
+      <property name="Rank" value="5"/>
+      <property name="Suit" value="S"/>
+      <property name="Type" value="Dude"/>
+      <property name="Cost" value="3"/>
+      <property name="Upkeep" value="0"/>
+      <property name="Production" value=""/>
+      <property name="Bullets" value="1"/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value="Draw"/>
+      <property name="Influence" value="0"/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value="Blackjacks"/>
+      <property name="Rarity" value="C"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="Cards with &quot;Dynamite&quot; or &quot;Bomb&quot; in their title have no Ghost Rock cost when being attached to Horowitz. Noon: Boot Horowitz. The deed where he is located produces no Ghost Rock until after Nightfall next turn, and Horowitz cannot perform any actions until after nightfall this turn."/>
+    </card>
+    <card id="cdf9f155-0821-4913-822e-1f60a9c8ba29" name="Samhain">
+      <property name="Rank" value="10"/>
+      <property name="Suit" value="H"/>
+      <property name="Type" value="Event"/>
+      <property name="Cost" value="0"/>
+      <property name="Upkeep" value=""/>
+      <property name="Production" value=""/>
+      <property name="Bullets" value=""/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value=""/>
+      <property name="Influence" value=""/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value=""/>
+      <property name="Rarity" value="R"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="Harrowed dudes aced this turn are returned to play immediately to the controller''s home booted (no pull necessary). All Terrors gain +1 Bullet bonus for this turn. Raise the Fear Level by one. Ace this card."/>
+    </card>
+    <card id="c0b4c10e-b617-42b1-9a56-ca49e77443c8" name="Saul Whateley">
+      <property name="Rank" value="1"/>
+      <property name="Suit" value="S"/>
+      <property name="Type" value="Dude"/>
+      <property name="Cost" value="2"/>
+      <property name="Upkeep" value="0"/>
+      <property name="Production" value=""/>
+      <property name="Bullets" value="0"/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value="Stud"/>
+      <property name="Influence" value="0"/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value="Whateleys"/>
+      <property name="Rarity" value="C"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="Reaction: Boot Saul as the target for a hex is being selected to redirect the hex to any other legal target."/>
+    </card>
+    <card id="3898524a-4ec3-4db5-8160-f49f057557f7" name="Shadow Walk">
+      <property name="Rank" value="5"/>
+      <property name="Suit" value="H"/>
+      <property name="Type" value="Spell"/>
+      <property name="Cost" value="0"/>
+      <property name="Upkeep" value=""/>
+      <property name="Production" value=""/>
+      <property name="Bullets" value=""/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value=""/>
+      <property name="Influence" value=""/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value=""/>
+      <property name="Rarity" value="C"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="Noon Hex 4: If this hex is successful, move this huckster to any location in play. Reaction Hex 6: If this Hex is successful when a posse is being formed or moved, then this Huckster joins the posse regardless of location."/>
+    </card>
+    <card id="b74042c2-bf53-4606-81f7-b772b7cc64a1" name="Sheila Mirabella">
+      <property name="Rank" value="10"/>
+      <property name="Suit" value="S"/>
+      <property name="Type" value="Dude"/>
+      <property name="Cost" value="6"/>
+      <property name="Upkeep" value="0"/>
+      <property name="Production" value=""/>
+      <property name="Bullets" value="0"/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value="Draw"/>
+      <property name="Influence" value="0"/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value="Drifters"/>
+      <property name="Rarity" value="R"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="You can attach goods to Sheila while she is at a strike you do not control. Noon: Boot Sheila and pay 2 ghost rock to get any one goods card from your deck. Show the card to the other players and attach it to Sheila. You must meet all normal restrictions and costs."/>
+    </card>
+    <card id="babb35cc-2621-46b6-a60d-fde3e92c5b6e" name="Sheriff''s Watchin''">
+      <property name="Rank" value="8"/>
+      <property name="Suit" value="C"/>
+      <property name="Type" value="Action"/>
+      <property name="Cost" value="0"/>
+      <property name="Upkeep" value=""/>
+      <property name="Production" value=""/>
+      <property name="Bullets" value=""/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value=""/>
+      <property name="Influence" value=""/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value=""/>
+      <property name="Rarity" value="C"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="Reaction: Play immediately before one or more Dudes begin an action that could make them Wanted, or start a job that will take effect at another player''s private location. The action is cancelled without effect."/>
+    </card>
+    <card id="f0040471-0158-4cbe-b720-c2347c7468f0" name="Shotgun">
+      <property name="Rank" value="5"/>
+      <property name="Suit" value="H"/>
+      <property name="Type" value="Good"/>
+      <property name="Cost" value="3"/>
+      <property name="Upkeep" value=""/>
+      <property name="Production" value=""/>
+      <property name="Bullets" value=""/>
+      <property name="Bullet Bonus" value="1"/>
+      <property name="Draw Type" value="Draw"/>
+      <property name="Influence" value=""/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value=""/>
+      <property name="Rarity" value="C"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="Weapon. Shootout: Target a Dude in the opposing posse whose value is less than or equal to this Dude’s Bullet rating. Ace the target Dude."/>
+    </card>
+    <card id="b87df62d-600b-4454-b9d4-26fec55c232b" name="Smith &amp; Robards Delivery">
+      <property name="Rank" value="5"/>
+      <property name="Suit" value="C"/>
+      <property name="Type" value="Action"/>
+      <property name="Cost" value="2"/>
+      <property name="Upkeep" value=""/>
+      <property name="Production" value=""/>
+      <property name="Bullets" value=""/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value=""/>
+      <property name="Influence" value=""/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value=""/>
+      <property name="Rarity" value="R"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="Noon: You may put one gadget into play as a Noon action this turn. You must still pay the cost of the gadget and test to make sure it works (as if a Mad Scientist:1 were bringing the gadget into play). This gadget can be attached to any dude that may legally accept it."/>
+    </card>
+    <card id="62837a10-37dd-46c1-a6cb-239c1433075e" name="Soul Blast">
+      <property name="Rank" value="2"/>
+      <property name="Suit" value="H"/>
+      <property name="Type" value="Spell"/>
+      <property name="Cost" value="0"/>
+      <property name="Upkeep" value=""/>
+      <property name="Production" value=""/>
+      <property name="Bullets" value=""/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value=""/>
+      <property name="Influence" value=""/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value=""/>
+      <property name="Rarity" value="C"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="Shootout Hex X: Target an opposing Dude. X is the value plus Bullet rating of the Dude. If this Hex succeeds, send the Dude home booted. If the skill check exceeds the Difficulty by more than 5, ace the Dude instead. If you pull an ace or Joker, the Huckster is also aced."/>
+    </card>
+    <card id="e4186fbf-6131-4a5b-8605-ec879d693831" name="Stray Lead">
+      <property name="Rank" value="8"/>
+      <property name="Suit" value="C"/>
+      <property name="Type" value="Action"/>
+      <property name="Cost" value="0"/>
+      <property name="Upkeep" value=""/>
+      <property name="Production" value=""/>
+      <property name="Bullets" value=""/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value=""/>
+      <property name="Influence" value=""/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value=""/>
+      <property name="Rarity" value="C"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="Reaction: Play immediately after hands have been revealed in a Shootout when a player has won by more ranks than the losing posse has dudes. The Player winning this Shootout has killed an innocent person-until the end of the game, he or she is always considered to have one fewer control points than he or she actually does."/>
+    </card>
+    <card id="89efeae9-da04-400c-ac9c-796773d20801" name="Sunnyside Hotel">
+      <property name="Rank" value="4"/>
+      <property name="Suit" value="D"/>
+      <property name="Type" value="Deed"/>
+      <property name="Cost" value="7"/>
+      <property name="Upkeep" value=""/>
+      <property name="Production" value="2"/>
+      <property name="Bullets" value=""/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value=""/>
+      <property name="Influence" value=""/>
+      <property name="Control" value="2"/>
+      <property name="Outfit" value=""/>
+      <property name="Rarity" value="R"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value=""/>
+    </card>
+    <card id="efdf7d4d-3637-4e7d-bc64-dd69ebf458b6" name="Texas Twister">
+      <property name="Rank" value="3"/>
+      <property name="Suit" value="H"/>
+      <property name="Type" value="Spell"/>
+      <property name="Cost" value="0"/>
+      <property name="Upkeep" value=""/>
+      <property name="Production" value=""/>
+      <property name="Bullets" value=""/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value=""/>
+      <property name="Influence" value=""/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value=""/>
+      <property name="Rarity" value="C"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="Noon Hex 5: Target an unbooted Dude at an adjacent location. If this Hex succeeds, boot the Dude. Noon Hex X: Target an unbooted Dude in play. X is the value plus Influence of the Dude. If this Hex succeeds, boot the Dude."/>
+    </card>
+    <card id="e2c0306d-591d-447b-bf85-497cd7e70c11" name="The Clock Tower">
+      <property name="Rank" value="K"/>
+      <property name="Suit" value="D"/>
+      <property name="Type" value="Deed"/>
+      <property name="Cost" value="1"/>
+      <property name="Upkeep" value=""/>
+      <property name="Production" value="0"/>
+      <property name="Bullets" value=""/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value=""/>
+      <property name="Influence" value=""/>
+      <property name="Control" value="0"/>
+      <property name="Outfit" value=""/>
+      <property name="Rarity" value="R"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="Public. The controller of The Clock Tower gets one Shootout action per round before Shootout actions would normally begin."/>
+    </card>
+    <card id="0b389b7f-cf9c-4dad-9e13-85bd1ee653b5" name="The Witching Hour">
+      <property name="Rank" value="8"/>
+      <property name="Suit" value="C"/>
+      <property name="Type" value="Action"/>
+      <property name="Cost" value="0"/>
+      <property name="Upkeep" value=""/>
+      <property name="Production" value=""/>
+      <property name="Bullets" value=""/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value=""/>
+      <property name="Influence" value=""/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value=""/>
+      <property name="Rarity" value="R"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="Noon: Boot more of your Hucksters than the current Fear Level to raise the Fear Level by one. Ace this card."/>
+    </card>
+    <card id="c91ec2b7-bde4-4466-bb52-708ae79ff859" name="They Just Pay Better ''n You">
+      <property name="Rank" value="7"/>
+      <property name="Suit" value="C"/>
+      <property name="Type" value="Action"/>
+      <property name="Cost" value="4"/>
+      <property name="Upkeep" value=""/>
+      <property name="Production" value=""/>
+      <property name="Bullets" value=""/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value=""/>
+      <property name="Influence" value=""/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value=""/>
+      <property name="Rarity" value="R"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="Noon: Play a dude out of your hand that matches a non-unique dude in play (but not in Boot Hill). Your dude enters play (ghost rock costs are waived), and the opposing dude is discarded with an goods he may have. Any permanent effects carry over to your dude."/>
+    </card>
+    <card id="4a95b534-840f-43c6-9b5e-87b2119fcf3e" name="Unknown Hooded Figure">
+      <property name="Rank" value="J"/>
+      <property name="Suit" value="S"/>
+      <property name="Type" value="Dude"/>
+      <property name="Cost" value="10"/>
+      <property name="Upkeep" value="1"/>
+      <property name="Production" value=""/>
+      <property name="Bullets" value="3"/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value="Stud"/>
+      <property name="Influence" value="0"/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value="Whateleys"/>
+      <property name="Rarity" value="R"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="Abomination. You must have a member of the Whateley Outfit in play to bring the Figure into play or use it''s Reaction. The figure can start the game in play. Reaction: The first time it is aced in a game, return the Figure home Harrowed as your first action next high Noon, and give it a permanent +1 Bullet bonus."/>
+    </card>
+    <card id="49456c63-1640-4430-9fdc-3404a2082d1e" name="Werewolf">
+      <property name="Rank" value="J"/>
+      <property name="Suit" value="S"/>
+      <property name="Type" value="Dude"/>
+      <property name="Cost" value="0"/>
+      <property name="Upkeep" value="3"/>
+      <property name="Production" value=""/>
+      <property name="Bullets" value="5"/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value="Stud"/>
+      <property name="Influence" value="0"/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value="Drifters"/>
+      <property name="Rarity" value="R"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="Abomination. You may not bring the Werewolf into play through normal means. Goods cannot be attached to the Werewolf. Noon Pull: Boot the Werewolf. If the pull is Black, put a Lycanthrope dude into play from your Hand in the Werewolf''s location. Put the Werewolf into your Hand, discarding attached goods. You may only perform this action if the Fear level is below 8."/>
+    </card>
+    <card id="e21c63b1-9a4d-4a61-aaa8-5ea9c8007b83" name="Werner Braun">
+      <property name="Rank" value="10"/>
+      <property name="Suit" value="S"/>
+      <property name="Type" value="Dude"/>
+      <property name="Cost" value="7"/>
+      <property name="Upkeep" value="1"/>
+      <property name="Production" value=""/>
+      <property name="Bullets" value="0"/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value="Draw"/>
+      <property name="Influence" value="4"/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value="Drifters"/>
+      <property name="Rarity" value="R"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="Proprietor of the 1st Bank of Gomorra"/>
+    </card>
+    <card id="826f471c-5440-4867-8b30-68ff40c0c401" name="Whateley Family Estate">
+      <property name="Rank" value=""/>
+      <property name="Suit" value=""/>
+      <property name="Type" value="Outfit"/>
+      <property name="Cost" value="0"/>
+      <property name="Upkeep" value=""/>
+      <property name="Production" value="3"/>
+      <property name="Bullets" value=""/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value=""/>
+      <property name="Influence" value=""/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value="Whateleys"/>
+      <property name="Rarity" value="F"/>
+      <property name="Ghost Rock" value="17"/>
+      <property name="Text" value="GR: 17 Noon: Boot one of your Hucksters who is at a location where a dude was aced this turn. Your dude''s Huckster skill is permanently increased by one."/>
+    </card>
+    <card id="b29b3a28-c394-47cf-8e88-81e2f8ca10ea" name="Wilhelmina Whateley">
+      <property name="Rank" value="K"/>
+      <property name="Suit" value="S"/>
+      <property name="Type" value="Dude"/>
+      <property name="Cost" value="9"/>
+      <property name="Upkeep" value="1"/>
+      <property name="Production" value=""/>
+      <property name="Bullets" value="0"/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value="Draw"/>
+      <property name="Influence" value="3"/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value="Whateleys"/>
+      <property name="Rarity" value="F"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="If Wilhelmina ever dies, Whateley dudes in play can not take ant actions this turn. Wilhelmina cannot move out of town. Noon: Boot Wilhelmina and pay ghost rock to produce combat bonuses. Each ghost rock paid gives +1 Bullet bonus to a dude you control until after nightfall. No dude can receive more than a +2 Bullet bonus."/>
+    </card>
+    <card id="d5090d2a-f55a-44cf-9f36-f234c166ade2" name="Yer Cheatin'' Too!">
+      <property name="Rank" value="2"/>
+      <property name="Suit" value="C"/>
+      <property name="Type" value="Action"/>
+      <property name="Cost" value="0"/>
+      <property name="Upkeep" value=""/>
+      <property name="Production" value=""/>
+      <property name="Bullets" value=""/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value=""/>
+      <property name="Influence" value=""/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value=""/>
+      <property name="Rarity" value="R"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="Reaction: Play when another player plays a Cheatin! Card targeting you and they also have an illegal hand for this draw. Your opponent''s Cheatin! Card is canceled and has no effects."/>
+    </card>
+  </cards>
+</set>

@@ -273,7 +273,7 @@ def getPotCard(): # Checks if the Lowball Pot Card is on the table and creates i
 # Card Attachments scripts
 #------------------------------------------------------------------------------
 
-def findHost(type = 'Goods'):
+def findHost(type = 'Good'):
    debugNotify(">>> findHost(){}".format(extraASDebug())) #Debug
    # Tries to find a host to attach the gear
    hostCards = eval(getGlobalVariable('Host Cards'))
@@ -281,7 +281,7 @@ def findHost(type = 'Goods'):
                      if card.targetedBy # Cards that are targeted by the player
                      and card.targetedBy == me 
                      and card.controller == me # Which the player control
-                     and ((card.Type == 'Dude' and type == 'Goods') or (card.Type == 'Deed' and type == 'Improvement'))# That is a Dude or a Deed if we're installing improvements
+                     and ((card.Type == 'Dude' and type == 'Good') or (card.Type == 'Deed' and type == 'Improvement'))# That is a Dude or a Deed if we're installing improvements
                      ]
    debugNotify("Finished gatherting potential hosts",2)
    if len(potentialHosts) == 0:
@@ -351,13 +351,13 @@ def orgAttachments(card,facing = 'Same'):
          else: FaceDown = True
       attachment.moveToTable(x + (xAlg * attNR), y + (yAlg * attNR),FaceDown)
       if attachment.controller == me and FaceDown: attachment.peek()
-      attachment.setIndex(len(cardAttachements) - attNR) # This whole thing has become unnecessary complicated because sendToBack() does not work reliably
-      debugNotify("{} index = {}".format(attachment,attachment.getIndex), 4) # Debug
+      attachment.sendToBack() # This whole thing has become unnecessary complicated because sendToBack() does not work reliably
+      # debugNotify("{} index = {}".format(attachment,attachment.getIndex), 4) # Debug
       attNR += 1
       debugNotify("Moving {}, Iter = {}".format(attachment,attNR), 4)
    card.sendToFront() # Because things don't work as they should :(
-   if debugVerbosity >= 4: # Checking Final Indices
-      for attachment in cardAttachements: notify("{} index = {}".format(attachment,attachment.getIndex)) # Debug
+   # if debugVerbosity >= 4: # Checking Final Indices
+   #    for attachment in cardAttachements: notify("{} index = {}".format(attachment,attachment.getIndex)) # Debug
    debugNotify("<<< orgAttachments()", 3) #Debug      
 
 def makeChoiceListfromCardList(cardList,includeText = False):

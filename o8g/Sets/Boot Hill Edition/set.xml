@@ -1,0 +1,226 @@
+<?xml version="1.0" ?>
+<set gameId="9afa6473-fd81-41b9-955f-8f67c7d3f423" gameVersion="3.0.0" id="fc352cb2-80c7-44de-a774-bbd2d4fe4457" name="Boot Hill Edition" version="3.0.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CardSet.xsd">
+  <cards>
+    <card id="43c12052-445f-4dfd-8591-dc3ff9aee90f" name="Ambition">
+      <property name="Rank" value="6"/>
+      <property name="Suit" value="C"/>
+      <property name="Type" value="Action"/>
+      <property name="Cost" value="0"/>
+      <property name="Upkeep" value=""/>
+      <property name="Production" value=""/>
+      <property name="Bullets" value=""/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value=""/>
+      <property name="Influence" value=""/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value=""/>
+      <property name="Rarity" value="U"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="Noon Harrowed Power: Target one of your unbooted Harrowed Dudes. Until the end of the game, the Dude has the ability &quot;Shootout: Boot this Dude to move this Dude to the shootout''s location and join your posse.&quot; Ace this card."/>
+    </card>
+    <card id="a4813433-4c8f-49b6-98c7-81f7b4f18c67" name="Corky''s Sidearm">
+      <property name="Rank" value="K"/>
+      <property name="Suit" value="H"/>
+      <property name="Type" value="Good"/>
+      <property name="Cost" value="9"/>
+      <property name="Upkeep" value=""/>
+      <property name="Production" value=""/>
+      <property name="Bullets" value=""/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value=""/>
+      <property name="Influence" value=""/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value=""/>
+      <property name="Rarity" value="F"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="Unique. Weapon. Can only be attached to a Law Dog Dude. This Dude gains +1 Bullet bonus and a +1 Influence bonus for every other Law Dog Dude in this location."/>
+    </card>
+    <card id="3fac76ce-1ab4-4929-80ed-5c71312acc25" name="Dragon''s Claw">
+      <property name="Rank" value="K"/>
+      <property name="Suit" value="H"/>
+      <property name="Type" value="Good"/>
+      <property name="Cost" value="9"/>
+      <property name="Upkeep" value=""/>
+      <property name="Production" value=""/>
+      <property name="Bullets" value=""/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value=""/>
+      <property name="Influence" value=""/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value=""/>
+      <property name="Rarity" value="F"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="Unique. Weapon. Can only be attached to a Maze Rat Dude. This Dude gains +1 Bullet bonus and a +1 Influence bonus for every other Maze Rat Dude in this location."/>
+    </card>
+    <card id="4c7c774e-f1b4-4552-b124-480a56aac2e4" name="Electrothermic Entropy Projector">
+      <property name="Rank" value="K"/>
+      <property name="Suit" value="H"/>
+      <property name="Type" value="Good"/>
+      <property name="Cost" value="9"/>
+      <property name="Upkeep" value=""/>
+      <property name="Production" value=""/>
+      <property name="Bullets" value=""/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value=""/>
+      <property name="Influence" value=""/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value=""/>
+      <property name="Rarity" value="F"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="Unique. Weapon. Gadget. Can only be attached to a Collegium Dude. This Dude gains +1 Bullet bonus and a +1 Influence bonus for every other Collegium Dude in this location. When bringing this Gadget into play, it can be attached to Dudes other than Mad Scientists, and does not require a skill check."/>
+    </card>
+    <card id="52ab5f33-3e08-4b40-9af6-a72a486125bf" name="Flamethrower">
+      <property name="Rank" value="4"/>
+      <property name="Suit" value="H"/>
+      <property name="Type" value="Good"/>
+      <property name="Cost" value="3"/>
+      <property name="Upkeep" value=""/>
+      <property name="Production" value=""/>
+      <property name="Bullets" value=""/>
+      <property name="Bullet Bonus" value="2"/>
+      <property name="Draw Type" value="Stud"/>
+      <property name="Influence" value=""/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value=""/>
+      <property name="Rarity" value="U"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="Weapon. Gadget Difficulty: 5. If this Dude is aced in a shootout, pull: If the pull is odd, the Flamethrower explodes, acing two additional Dudes of your choice in your posse. Shootout: Pay 1 ghost rock. This Dude gains a +2 Bullet bonus and is a Stud until the end of the shootout. This action can be used once per shootout."/>
+    </card>
+    <card id="3bc9e8ca-ed27-4962-8f2b-ea99da94c18b" name="Flaming Barrels">
+      <property name="Rank" value="9"/>
+      <property name="Suit" value="C"/>
+      <property name="Type" value="Action"/>
+      <property name="Cost" value="0"/>
+      <property name="Upkeep" value=""/>
+      <property name="Production" value=""/>
+      <property name="Bullets" value=""/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value=""/>
+      <property name="Influence" value=""/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value=""/>
+      <property name="Rarity" value="C"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="Shootout: Target a Dude with a ready Weapon in your posse. The Dude gains a +2 Bullet bonus until the end of the shootout.  "/>
+    </card>
+    <card id="abe4b694-6712-4231-999e-c5f0cb3ea463" name="Frank">
+      <property name="Rank" value="K"/>
+      <property name="Suit" value="H"/>
+      <property name="Type" value="Good"/>
+      <property name="Cost" value="9"/>
+      <property name="Upkeep" value=""/>
+      <property name="Production" value=""/>
+      <property name="Bullets" value=""/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value=""/>
+      <property name="Influence" value=""/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value=""/>
+      <property name="Rarity" value="F"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="Unique. Weapon. Can only be attached to a Texas Ranger Dude. This Dude gains +1 Bullet bonus and a +1 Influence bonus for every other Texas Ranger Dude in this location."/>
+    </card>
+    <card id="941c38e8-d99a-45ce-952e-eb9b96fde8c6" name="Mr. Prim''s Bust">
+      <property name="Rank" value="K"/>
+      <property name="Suit" value="H"/>
+      <property name="Type" value="Good"/>
+      <property name="Cost" value="9"/>
+      <property name="Upkeep" value=""/>
+      <property name="Production" value=""/>
+      <property name="Bullets" value=""/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value=""/>
+      <property name="Influence" value=""/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value=""/>
+      <property name="Rarity" value="F"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="Unique. Weapon. Can only be attached to a Sweetrock Dude. This Dude gains +1 Bullet bonus and a +1 Influence bonus for every other Sweetrock Dude in this location."/>
+    </card>
+    <card id="91ee6da5-706e-426e-992f-5dbb769a1066" name="Pinned Down">
+      <property name="Rank" value="1"/>
+      <property name="Suit" value="C"/>
+      <property name="Type" value="Action"/>
+      <property name="Cost" value="0"/>
+      <property name="Upkeep" value=""/>
+      <property name="Production" value=""/>
+      <property name="Bullets" value=""/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value=""/>
+      <property name="Influence" value=""/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value=""/>
+      <property name="Rarity" value="R"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="Shootout: Target a booted Dude in the opposing posse. Until the shootout ends, the target cannot be the shooter if another Dude can be, and the target''s Bullet rating does not contribute to the number of cards drawn or redrawn by the opposing player."/>
+    </card>
+    <card id="f5c38371-ab7c-49b0-962b-ada79aa849b3" name="Rachel''s Sidearm">
+      <property name="Rank" value="K"/>
+      <property name="Suit" value="H"/>
+      <property name="Type" value="Good"/>
+      <property name="Cost" value="9"/>
+      <property name="Upkeep" value=""/>
+      <property name="Production" value=""/>
+      <property name="Bullets" value=""/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value=""/>
+      <property name="Influence" value=""/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value=""/>
+      <property name="Rarity" value="F"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="Unique. Weapon. Can only be attached to a Black Jack Dude. This Dude gains +1 Bullet bonus and a +1 Influence bonus for every other Black Jack Dude in this location."/>
+    </card>
+    <card id="a9f0f3e1-96d9-403c-92a7-f2dfe40b83af" name="Raven''s Chop">
+      <property name="Rank" value="K"/>
+      <property name="Suit" value="H"/>
+      <property name="Type" value="Good"/>
+      <property name="Cost" value="9"/>
+      <property name="Upkeep" value=""/>
+      <property name="Production" value=""/>
+      <property name="Bullets" value=""/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value=""/>
+      <property name="Influence" value=""/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value=""/>
+      <property name="Rarity" value="F"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="Unique. Weapon. Can only be attached to a Sioux Union Dude. This Dude gains +1 Bullet bonus and a +1 Influence bonus for every other Texas Ranger Dude in this location."/>
+    </card>
+    <card id="9b29de56-5995-4256-b8cb-73004a7bee29" name="Sister Mary''s Shotgun">
+      <property name="Rank" value="K"/>
+      <property name="Suit" value="H"/>
+      <property name="Type" value="Good"/>
+      <property name="Cost" value="9"/>
+      <property name="Upkeep" value=""/>
+      <property name="Production" value=""/>
+      <property name="Bullets" value=""/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value=""/>
+      <property name="Influence" value=""/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value=""/>
+      <property name="Rarity" value="F"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="Unique. Weapon. Can only be attached to an Agency Dude. This Dude gains +1 Bullet bonus and a +1 Influence bonus for every other Agency Dude in this location."/>
+    </card>
+    <card id="41d26b4d-7dbc-4a6c-a1d8-53e184a919d7" name="The Hooded Figure''s Scythe">
+      <property name="Rank" value="K"/>
+      <property name="Suit" value="H"/>
+      <property name="Type" value="Good"/>
+      <property name="Cost" value="9"/>
+      <property name="Upkeep" value=""/>
+      <property name="Production" value=""/>
+      <property name="Bullets" value=""/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value=""/>
+      <property name="Influence" value=""/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value=""/>
+      <property name="Rarity" value="F"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="Unique. Weapon. Can only be attached to a Whateley Dude. This Dude gains +1 Bullet bonus and a +1 Influence bonus for every other Whateley Dude in this location."/>
+    </card>
+  </cards>
+</set>

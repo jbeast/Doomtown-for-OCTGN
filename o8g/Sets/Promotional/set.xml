@@ -1,0 +1,209 @@
+<?xml version="1.0" ?>
+<set gameId="9afa6473-fd81-41b9-955f-8f67c7d3f423" gameVersion="3.0.0" id="642ea38f-964e-4d22-a07c-cd0e86767c31" name="Promotional" version="3.0.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CardSet.xsd">
+  <cards>
+    <card id="7e05685a-50c1-40f1-94e3-2196f1fc58fe" name="Big Doc''s Casino">
+      <property name="Rank" value="2"/>
+      <property name="Suit" value="D"/>
+      <property name="Type" value="Deed"/>
+      <property name="Cost" value="4"/>
+      <property name="Upkeep" value=""/>
+      <property name="Production" value="1"/>
+      <property name="Bullets" value=""/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value=""/>
+      <property name="Influence" value=""/>
+      <property name="Control" value="1"/>
+      <property name="Outfit" value=""/>
+      <property name="Rarity" value="F"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="Controller Reaction: Before hands are drawn during the Gambling Phase, all players must ante 1 additional or one less ghost rock - your choice (players can borrow from the bank but must repay immediately, as when borrowing for ante)."/>
+    </card>
+    <card id="8bc2f8cc-2f38-4bb5-bfbe-df35f9ebbbb1" name="Crawford Talmadge">
+      <property name="Rank" value="6"/>
+      <property name="Suit" value="S"/>
+      <property name="Type" value="Dude"/>
+      <property name="Cost" value="6"/>
+      <property name="Upkeep" value="1"/>
+      <property name="Production" value=""/>
+      <property name="Bullets" value="0"/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value="Draw"/>
+      <property name="Influence" value="1"/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value="Drifters"/>
+      <property name="Rarity" value="F"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="Noon Pull: Target a Hex attached to a Huckster at the same location as Crawford. If the pull is greater than the value of the targeted Huckster, the hex card is now attached to Crawford. After nightfall, return the hex to the target (or Boot Hill if the target was aced)."/>
+    </card>
+    <card id="a2a52bd6-c01b-4609-a59d-cf1459d685f2" name="Harrowed Kenny">
+      <property name="Rank" value="1"/>
+      <property name="Suit" value="S"/>
+      <property name="Type" value="Dude"/>
+      <property name="Cost" value="2"/>
+      <property name="Upkeep" value="0"/>
+      <property name="Production" value=""/>
+      <property name="Bullets" value="0"/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value="Draw"/>
+      <property name="Influence" value="0"/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value="Drifters"/>
+      <property name="Rarity" value="F"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="Nonunique. Harrowed.  You may not bring Harrowed Kenny into play through normal means. Reaction: When a Kenny you control is aced, remove it from the game. Pay Harrowed Kenny''s cost and Pull: If the pull is Black, put Harrowed Kenny into play at your home. This is the only way Kenny can become Harrowed."/>
+    </card>
+    <card id="56674b12-8857-4364-a028-4d8853efeac8" name="Hit Me">
+      <property name="Rank" value="4"/>
+      <property name="Suit" value="C"/>
+      <property name="Type" value="Action"/>
+      <property name="Cost" value="0"/>
+      <property name="Upkeep" value=""/>
+      <property name="Production" value=""/>
+      <property name="Bullets" value=""/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value=""/>
+      <property name="Influence" value=""/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value=""/>
+      <property name="Rarity" value="F"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="Reaction: Play before the gambling phase begins. You draw and discard an additional card when playing lowball for the gambling phase this turn. Ace this card."/>
+    </card>
+    <card id="2b972dcd-77b2-45ab-90b0-1eac55e820a5" name="Law Dogs: Mob Justice">
+      <property name="Rank" value=""/>
+      <property name="Suit" value=""/>
+      <property name="Type" value="Outfit"/>
+      <property name="Cost" value="0"/>
+      <property name="Upkeep" value=""/>
+      <property name="Production" value="3"/>
+      <property name="Bullets" value=""/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value=""/>
+      <property name="Influence" value=""/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value="Law Dogs"/>
+      <property name="Rarity" value="F"/>
+      <property name="Ghost Rock" value="19"/>
+      <property name="Text" value="GR: 19 All your Dudes with &quot;Deputy&quot; in the title have their ghost rock cost and upkeep reduced by 1 (minimum 0). Reaction: Boot a Law Dog Dude you control when a wanted Dude moves to an in-town location. Target the wanted Dude and move him or her to another in-town location of your choice."/>
+    </card>
+    <card id="0f120825-fc08-44c3-a06a-3e9959799542" name="Lilith Vandekamp">
+      <property name="Rank" value="7"/>
+      <property name="Suit" value="S"/>
+      <property name="Type" value="Dude"/>
+      <property name="Cost" value="6"/>
+      <property name="Upkeep" value="2"/>
+      <property name="Production" value=""/>
+      <property name="Bullets" value="1"/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value="Stud"/>
+      <property name="Influence" value="2"/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value="Drifters"/>
+      <property name="Rarity" value="F"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="Experienced. Abomination. Vampire. Noon: Boot any number of your other dudes in Lilith Vandekamp''s location. Lilith Vandekamp gains a +1 bullet or +2 value bonus until after Nightfall for each booting Dude."/>
+    </card>
+    <card id="a5ca63c1-ad79-4ee9-a7f1-fa6782bd3313" name="Lucky Rabbit''s Foot">
+      <property name="Rank" value="7"/>
+      <property name="Suit" value="H"/>
+      <property name="Type" value="Good"/>
+      <property name="Cost" value="4"/>
+      <property name="Upkeep" value=""/>
+      <property name="Production" value=""/>
+      <property name="Bullets" value=""/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value=""/>
+      <property name="Influence" value=""/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value=""/>
+      <property name="Rarity" value="F"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="Reaction: Ace the Lucky Rabbit''s Foot after Draw hands have been drawn but before they have been revealed for a shootout this Dude is in.  Discard your Draw hand and draw another hand using all of the same bonuses to the number of cards drawn and discarded."/>
+    </card>
+    <card id="560eefe8-12eb-4f31-ae28-c3a0470e1ca9" name="No Mas">
+      <property name="Rank" value="3"/>
+      <property name="Suit" value="C"/>
+      <property name="Type" value="Action"/>
+      <property name="Cost" value="0"/>
+      <property name="Upkeep" value=""/>
+      <property name="Production" value=""/>
+      <property name="Bullets" value=""/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value=""/>
+      <property name="Influence" value=""/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value=""/>
+      <property name="Rarity" value="F"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="Reaction: Play immediately after an action card is resolved. Ace the action card and this card."/>
+    </card>
+    <card id="70bdbc09-5296-42e6-8461-c876791eba5a" name="Readin'' The Stars">
+      <property name="Rank" value="K"/>
+      <property name="Suit" value="C"/>
+      <property name="Type" value="Action"/>
+      <property name="Cost" value="0"/>
+      <property name="Upkeep" value=""/>
+      <property name="Production" value=""/>
+      <property name="Bullets" value=""/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value=""/>
+      <property name="Influence" value=""/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value=""/>
+      <property name="Rarity" value="F"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="Reaction: Play this card when an Event is revealed during the Gambling Phase. The Event is not resolved this turn but is instead resolved next turn as if it had been revealed as part of the player''s Gambling Phase draw. This does not affect the actual contents of that player''s lowball hand."/>
+    </card>
+    <card id="01f4d203-7dac-43b0-94a9-d731e3c4c84d" name="Start Again">
+      <property name="Rank" value="2"/>
+      <property name="Suit" value="C"/>
+      <property name="Type" value="Action"/>
+      <property name="Cost" value="0"/>
+      <property name="Upkeep" value=""/>
+      <property name="Production" value=""/>
+      <property name="Bullets" value=""/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value=""/>
+      <property name="Influence" value=""/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value=""/>
+      <property name="Rarity" value="F"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="Cheatin''! Reaction: Play when another player reveals an illegal Draw hand during a shootout. All the cards in that player''s Draw hand are sent to Boot Hill, but are not considered &quot;aced.&quot; Those cards may not leave Boot Hill in any way until the end of the game. That player draws five new cards to form his or her new Draw hand. Only one Cheatin''! card can be played against a player per draw."/>
+    </card>
+    <card id="ddaff894-9933-4727-bdd7-81a3e45c362b" name="Stop The Presses">
+      <property name="Rank" value="4"/>
+      <property name="Suit" value="C"/>
+      <property name="Type" value="Action"/>
+      <property name="Cost" value="0"/>
+      <property name="Upkeep" value=""/>
+      <property name="Production" value=""/>
+      <property name="Bullets" value=""/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value=""/>
+      <property name="Influence" value=""/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value=""/>
+      <property name="Rarity" value="F"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="Noon: Boot a Deed you control with the word &quot;Dispatch&quot; or &quot;Gazette&quot; in the title.  Increase or decrease the Influence of any one Dude by 1 until after Nightfall."/>
+    </card>
+    <card id="50adb30b-1075-48d2-9896-0d7a1dce85e1" name="Strange Days">
+      <property name="Rank" value="3"/>
+      <property name="Suit" value="H"/>
+      <property name="Type" value="Event"/>
+      <property name="Cost" value="0"/>
+      <property name="Upkeep" value=""/>
+      <property name="Production" value=""/>
+      <property name="Bullets" value=""/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value=""/>
+      <property name="Influence" value=""/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value=""/>
+      <property name="Rarity" value="F"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="Pull: If the pull is less than or equal to the current Fear level, all Dudes with a value less than the pull are booted. Ace this card."/>
+    </card>
+  </cards>
+</set>
