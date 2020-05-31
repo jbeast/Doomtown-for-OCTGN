@@ -243,7 +243,7 @@ def upkeep(group, x = 0, y = 0): # Automatically receive production and pay upke
       # Grab its production value (usually 0 for most non-deeds) then 
       # add the amount of any +production markers you have on the card and remove the amount of any -production markers you have on the card.
       if (card.Outfit != playerOutfit and # If a non-drifter dude is not from the player's outfit, 
-         card.Outfit != 'Drifter' and     # they need to play an extra GR upkeep per influence.
+         card.Outfit != 'Drifters' and     # they need to play an extra GR upkeep per influence.
          card.Type == 'Dude' and
          num(card.Influence) + card.markers[InfluencePlusMarker] - card.markers[InfluenceMinusMarker] > 0): 
          gr -= (num(card.Influence) + card.markers[InfluencePlusMarker] - card.markers[InfluenceMinusMarker])
