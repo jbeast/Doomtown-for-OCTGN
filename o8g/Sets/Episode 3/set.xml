@@ -755,7 +755,7 @@
       <property name="Type" value="Outfit"/>
       <property name="Cost" value="0"/>
       <property name="Upkeep" value=""/>
-      <property name="Production" value="3"/>
+      <property name="Production" value="5"/>
       <property name="Bullets" value=""/>
       <property name="Bullet Bonus" value=""/>
       <property name="Draw Type" value=""/>
@@ -764,7 +764,7 @@
       <property name="Outfit" value="Sweetrock"/>
       <property name="Rarity" value="F"/>
       <property name="Ghost Rock" value="20"/>
-      <property name="Text" value="GR: 20 You cannot put into play or take control of a Dude from another Outfit if you already control a non-Sweetrock, non-Drifter Dude. You have +1 Control Point for each Strike that you control that has a current Production more than 5. When playing lowball during the Gambling Phase, draw an extra card, then discard a card."/>
+      <property name="Text" value="GR: 20. You have one additional Control Point for each Strike that produces more than 5 ghost rock per turn. When playing lowball during the gambling Phase, you draw and discard an additional card."/>
     </card>
     <card id="e4ccf125-1aae-4fbc-ab64-43a044e931e9" name="The Docks">
       <property name="Rank" value="6"/>

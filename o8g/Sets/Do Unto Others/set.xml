@@ -589,12 +589,12 @@
       <property name="Bullets" value="1"/>
       <property name="Bullet Bonus" value=""/>
       <property name="Draw Type" value="Draw"/>
-      <property name="Influence" value="0"/>
+      <property name="Influence" value="1"/>
       <property name="Control" value=""/>
       <property name="Outfit" value="Lost Angels"/>
       <property name="Rarity" value="F"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Noon: Target a Hex in this location attached to another Dude. Until after Nightfall, Deluse is considered to have a copy of that Hex attached."/>
+      <property name="Text" value="Noon: Target a Hex in this location attached to another Dude. Until after Nightfall, Deluge is considered to have a copy of that Hex attached."/>
     </card>
     <card id="c6ddc799-6be4-4e35-9e09-8668b5f5c719" name="Deputized Civilian">
       <property name="Rank" value="6"/>
