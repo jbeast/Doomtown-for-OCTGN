@@ -52,3 +52,12 @@ def checkMovedCard(player,card,fromGroup,toGroup,oldIndex,index,oldX,oldY,x,y,is
       else: clearAttachLinks(card) # If the card was manually uninstalled or moved elsewhere than trash, then we simply take care of the attachments
    elif fromGroup == table and toGroup == table and card.controller == me: # If the player dragged a card manually to a different location on the table, we want to re-arrange the attachments
       orgAttachments(card) 
+
+
+def onCardControllerChanged(args):
+   mute()
+   control_change = num(args.card.Control) + args.card.markers[ControlPlusMarker] - args.card.markers[ControlMinusMarker]
+   if args.player == me:
+      modControl(control_change, notification = loud)
+   elif args.oldPlayer == me:
+      modControl(-control_change)

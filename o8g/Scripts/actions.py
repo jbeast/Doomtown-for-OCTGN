@@ -949,7 +949,7 @@ def discardDrawHand(group = None): # Discards the player's whole Draw Hand.
 def aceevents(group = None): # Goes through your discard pile and moves all events to the boot hill
    mute()
    if group is None:
-      me.piles['Discard Pile']
+      group = me.piles['Discard Pile']
    notify("{} is going through their discard pile and acing all events".format(me))
    for card in group:
       if card.Type == 'Event': 
