@@ -16,7 +16,7 @@
       <property name="Outfit" value=""/>
       <property name="Rarity" value="C"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Private. Controller Noon Pull: Boot the Attorneys and target and boot one of your Wanted Dudes. If the pull is less than or equal to the Dude''s value, the Dude is no longer Wanted."/>
+      <property name="Text" value="Private. Controller Noon Pull: Boot the Attorneys and target and boot one of your Wanted Dudes. If the pull is less than or equal to the Dude's value, the Dude is no longer Wanted."/>
     </card>
     <card id="a769d080-eadc-4015-80b9-338fe9971d2c" name="Basil Whateley">
       <property name="Rank" value="9"/>
@@ -33,7 +33,7 @@
       <property name="Outfit" value="Whateleys"/>
       <property name="Rarity" value="R"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Noon Pull: Boot Basil and target one dude in play. If the pull plus Basil''s Huckster skill are greater than the dude''s value, the dude is booted."/>
+      <property name="Text" value="Noon Pull: Boot Basil and target one dude in play. If the pull plus Basil's Huckster skill are greater than the dude's value, the dude is booted."/>
     </card>
     <card id="0d37d40e-c32a-45c7-9ed5-e4443b4c06f1" name="Billy No-Neck">
       <property name="Rank" value="7"/>
@@ -101,7 +101,7 @@
       <property name="Outfit" value="Maze Rats"/>
       <property name="Rarity" value="C"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Shootout: Discard a card from your hand to create one shark in Nelson''s posse if this Shootout is taking place at an out-of-town location. The shark is a dude with a one-Bullet Stud rating The shark is removed from play after the Shootout is over. Nelson can perform this action any number of times per turn."/>
+      <property name="Text" value="Shootout: Discard a card from your hand to create one shark in Nelson's posse if this Shootout is taking place at an out-of-town location. The shark is a dude with a one-Bullet Stud rating The shark is removed from play after the Shootout is over. Nelson can perform this action any number of times per turn."/>
     </card>
     <card id="293e87f1-f76b-4f74-89c2-da7b08667411" name="Byron St. James">
       <property name="Rank" value="7"/>
@@ -120,7 +120,7 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="You cannot move St. James to any location that contains Howard Findley."/>
     </card>
-    <card id="82391af7-d268-4691-8e91-a6cace85aa81" name="Callahan''s Ditch">
+    <card id="82391af7-d268-4691-8e91-a6cace85aa81" name="Callahan's Ditch">
       <property name="Rank" value="9"/>
       <property name="Suit" value="D"/>
       <property name="Type" value="Deed"/>
@@ -152,7 +152,7 @@
       <property name="Outfit" value=""/>
       <property name="Rarity" value="C"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Charlie Landers goes to his controller''s discard pile if he is in play. Until nightfall, all Draw Hands are drawn from the opposing Player''s deck. Cards from Draw Hands are discarded into their owner''s discard pile."/>
+      <property name="Text" value="Charlie Landers goes to his controller's discard pile if he is in play. Until nightfall, all Draw Hands are drawn from the opposing Player's deck. Cards from Draw Hands are discarded into their owner's discard pile."/>
     </card>
     <card id="a08acab1-89d6-4451-95b8-0ed28d816683" name="Deputize">
       <property name="Rank" value="2"/>
@@ -237,7 +237,7 @@
       <property name="Outfit" value=""/>
       <property name="Rarity" value="C"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Cheatin''! Reaction: Play when another player reveals an illegal Draw hand. Target and discard one Deed owned by that player. Only one Cheatin! Card can be played against a player per draw."/>
+      <property name="Text" value="Cheatin'! Reaction: Play when another player reveals an illegal Draw hand. Target and discard one Deed owned by that player. Only one Cheatin! Card can be played against a player per draw."/>
     </card>
     <card id="68638821-8895-4f96-8625-d438f3614f9e" name="Forgery">
       <property name="Rank" value="K"/>
@@ -273,7 +273,7 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="Gadget Difficulty: 4. Shootout: Ace the Pill to give this dude +3 Bullets until the end of this Shootout."/>
     </card>
-    <card id="8da5797e-8d1d-4a94-be5c-1d66f7477efa" name="Helpin'' Hand">
+    <card id="8da5797e-8d1d-4a94-be5c-1d66f7477efa" name="Helpin' Hand">
       <property name="Rank" value="8"/>
       <property name="Suit" value="H"/>
       <property name="Type" value="Spell"/>
@@ -288,7 +288,7 @@
       <property name="Outfit" value=""/>
       <property name="Rarity" value="C"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Reaction Hex X: Boot this Huckster when a dude is aced. The difficulty of this hex is equal to the Dude''s value plus Influence plus bullets. If the hex is successful, the Dude is not aced, but is moved home booted."/>
+      <property name="Text" value="Reaction Hex X: Boot this Huckster when a dude is aced. The difficulty of this hex is equal to the Dude's value plus Influence plus bullets. If the hex is successful, the Dude is not aced, but is moved home booted."/>
     </card>
     <card id="8b56824e-f6dc-459f-a747-1716d042410a" name="His Back Was to Me">
       <property name="Rank" value="9"/>
@@ -324,7 +324,7 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="All government buildings are booted except for a Jail and give no bonuses or production this turn. Boot Lucky Ted(s). Ace this card."/>
     </card>
-    <card id="ce8cff41-77db-4e73-87fe-7170d44065ff" name="It''s Just Coal…">
+    <card id="ce8cff41-77db-4e73-87fe-7170d44065ff" name="It's Just Coal…">
       <property name="Rank" value="3"/>
       <property name="Suit" value="C"/>
       <property name="Type" value="Action"/>
@@ -341,7 +341,7 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="Noon: Target one player, who loses 2 ghost rock. Ace this card."/>
     </card>
-    <card id="2a59dc6b-b4ee-4682-a478-becc8717726e" name="King Willy''s Mother Lode">
+    <card id="2a59dc6b-b4ee-4682-a478-becc8717726e" name="King Willy's Mother Lode">
       <property name="Rank" value="6"/>
       <property name="Suit" value="D"/>
       <property name="Type" value="Deed"/>
@@ -358,7 +358,7 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="Private. Strike."/>
     </card>
-    <card id="b8b6218b-d957-45be-bf7d-3f2b117eaed8" name="Lord Grimely''s Manor">
+    <card id="b8b6218b-d957-45be-bf7d-3f2b117eaed8" name="Lord Grimely's Manor">
       <property name="Rank" value="2"/>
       <property name="Suit" value="D"/>
       <property name="Type" value="Deed"/>
@@ -373,9 +373,9 @@
       <property name="Outfit" value=""/>
       <property name="Rarity" value="R"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Raise the Fear level by one while the Manor is in play. Players other than the Manor is in play. Players other than the Manor''s owner may not gain control of the Manor or Deeds adjacent to the Manor. While the Fear Level is 10, you have one additional Control Point"/>
+      <property name="Text" value="Raise the Fear level by one while the Manor is in play. Players other than the Manor is in play. Players other than the Manor's owner may not gain control of the Manor or Deeds adjacent to the Manor. While the Fear Level is 10, you have one additional Control Point"/>
     </card>
-    <card id="4022c723-754d-4a34-8d47-05ceddecb6b1" name="Manitou''s Revenge">
+    <card id="4022c723-754d-4a34-8d47-05ceddecb6b1" name="Manitou's Revenge">
       <property name="Rank" value="1"/>
       <property name="Suit" value="C"/>
       <property name="Type" value="Action"/>
@@ -390,7 +390,7 @@
       <property name="Outfit" value=""/>
       <property name="Rarity" value="R"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Reaction: Play when a Spell fails. Target the Dude casting the Spell and pull: If the pull is lower than the Spell''s Difficulty, the Dude is aced."/>
+      <property name="Text" value="Reaction: Play when a Spell fails. Target the Dude casting the Spell and pull: If the pull is lower than the Spell's Difficulty, the Dude is aced."/>
     </card>
     <card id="43942c5b-87a0-4b47-b1e2-c00a22aa516d" name="Mind Twist">
       <property name="Rank" value="1"/>
@@ -407,7 +407,7 @@
       <property name="Outfit" value=""/>
       <property name="Rarity" value="R"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Noon Hex X: Boot this Huckster. The difficulty of this Hex is three times the target''s Influence. If the hex is successful, the target in play has his or her Influence reduced by two (minimum zero) until after nightfall."/>
+      <property name="Text" value="Noon Hex X: Boot this Huckster. The difficulty of this Hex is three times the target's Influence. If the hex is successful, the target in play has his or her Influence reduced by two (minimum zero) until after nightfall."/>
     </card>
     <card id="c8a396d3-10d0-4a2e-9b5e-c36dbf5c5e0d" name="Missed Me!">
       <property name="Rank" value="J"/>
@@ -509,7 +509,7 @@
       <property name="Outfit" value=""/>
       <property name="Rarity" value="R"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Public. The Railstation''s Production is equal to the number of Maze Rats in play. Controller Reaction: When a Goods enters play, boot the Railstation to increase or reduce its ghost rock cost by 2."/>
+      <property name="Text" value="Public. The Railstation's Production is equal to the number of Maze Rats in play. Controller Reaction: When a Goods enters play, boot the Railstation to increase or reduce its ghost rock cost by 2."/>
     </card>
     <card id="d7660c05-fc5f-414f-b731-13dc13c4a9ac" name="Pierre Fontaine">
       <property name="Rank" value="3"/>
@@ -560,7 +560,7 @@
       <property name="Outfit" value=""/>
       <property name="Rarity" value="R"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Harrowed dudes aced this turn are returned to play immediately to the controller''s home booted (no pull necessary). All Terrors gain +1 Bullet bonus for this turn. Raise the Fear Level by one. Ace this card."/>
+      <property name="Text" value="Harrowed dudes aced this turn are returned to play immediately to the controller's home booted (no pull necessary). All Terrors gain +1 Bullet bonus for this turn. Raise the Fear Level by one. Ace this card."/>
     </card>
     <card id="c0b4c10e-b617-42b1-9a56-ca49e77443c8" name="Saul Whateley">
       <property name="Rank" value="1"/>
@@ -613,7 +613,7 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="You can attach goods to Sheila while she is at a strike you do not control. Noon: Boot Sheila and pay 2 ghost rock to get any one goods card from your deck. Show the card to the other players and attach it to Sheila. You must meet all normal restrictions and costs."/>
     </card>
-    <card id="babb35cc-2621-46b6-a60d-fde3e92c5b6e" name="Sheriff''s Watchin''">
+    <card id="babb35cc-2621-46b6-a60d-fde3e92c5b6e" name="Sheriff's Watchin'">
       <property name="Rank" value="8"/>
       <property name="Suit" value="C"/>
       <property name="Type" value="Action"/>
@@ -628,7 +628,7 @@
       <property name="Outfit" value=""/>
       <property name="Rarity" value="C"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Reaction: Play immediately before one or more Dudes begin an action that could make them Wanted, or start a job that will take effect at another player''s private location. The action is cancelled without effect."/>
+      <property name="Text" value="Reaction: Play immediately before one or more Dudes begin an action that could make them Wanted, or start a job that will take effect at another player's private location. The action is cancelled without effect."/>
     </card>
     <card id="f0040471-0158-4cbe-b720-c2347c7468f0" name="Shotgun">
       <property name="Rank" value="5"/>
@@ -766,7 +766,7 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="Noon: Boot more of your Hucksters than the current Fear Level to raise the Fear Level by one. Ace this card."/>
     </card>
-    <card id="c91ec2b7-bde4-4466-bb52-708ae79ff859" name="They Just Pay Better ''n You">
+    <card id="c91ec2b7-bde4-4466-bb52-708ae79ff859" name="They Just Pay Better 'n You">
       <property name="Rank" value="7"/>
       <property name="Suit" value="C"/>
       <property name="Type" value="Action"/>
@@ -798,7 +798,7 @@
       <property name="Outfit" value="Whateleys"/>
       <property name="Rarity" value="R"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Abomination. You must have a member of the Whateley Outfit in play to bring the Figure into play or use it''s Reaction. The figure can start the game in play. Reaction: The first time it is aced in a game, return the Figure home Harrowed as your first action next high Noon, and give it a permanent +1 Bullet bonus."/>
+      <property name="Text" value="Abomination. You must have a member of the Whateley Outfit in play to bring the Figure into play or use it's Reaction. The figure can start the game in play. Reaction: The first time it is aced in a game, return the Figure home Harrowed as your first action next high Noon, and give it a permanent +1 Bullet bonus."/>
     </card>
     <card id="49456c63-1640-4430-9fdc-3404a2082d1e" name="Werewolf">
       <property name="Rank" value="J"/>
@@ -815,7 +815,7 @@
       <property name="Outfit" value="Drifters"/>
       <property name="Rarity" value="R"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Abomination. You may not bring the Werewolf into play through normal means. Goods cannot be attached to the Werewolf. Noon Pull: Boot the Werewolf. If the pull is Black, put a Lycanthrope dude into play from your Hand in the Werewolf''s location. Put the Werewolf into your Hand, discarding attached goods. You may only perform this action if the Fear level is below 8."/>
+      <property name="Text" value="Abomination. You may not bring the Werewolf into play through normal means. Goods cannot be attached to the Werewolf. Noon Pull: Boot the Werewolf. If the pull is Black, put a Lycanthrope dude into play from your Hand in the Werewolf's location. Put the Werewolf into your Hand, discarding attached goods. You may only perform this action if the Fear level is below 8."/>
     </card>
     <card id="e21c63b1-9a4d-4a61-aaa8-5ea9c8007b83" name="Werner Braun">
       <property name="Rank" value="10"/>
@@ -849,7 +849,7 @@
       <property name="Outfit" value="Whateleys"/>
       <property name="Rarity" value="F"/>
       <property name="Ghost Rock" value="17"/>
-      <property name="Text" value="GR: 17 Noon: Boot one of your Hucksters who is at a location where a dude was aced this turn. Your dude''s Huckster skill is permanently increased by one."/>
+      <property name="Text" value="GR: 17 Noon: Boot one of your Hucksters who is at a location where a dude was aced this turn. Your dude's Huckster skill is permanently increased by one."/>
     </card>
     <card id="b29b3a28-c394-47cf-8e88-81e2f8ca10ea" name="Wilhelmina Whateley">
       <property name="Rank" value="K"/>
@@ -868,7 +868,7 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="If Wilhelmina ever dies, Whateley dudes in play can not take ant actions this turn. Wilhelmina cannot move out of town. Noon: Boot Wilhelmina and pay ghost rock to produce combat bonuses. Each ghost rock paid gives +1 Bullet bonus to a dude you control until after nightfall. No dude can receive more than a +2 Bullet bonus."/>
     </card>
-    <card id="d5090d2a-f55a-44cf-9f36-f234c166ade2" name="Yer Cheatin'' Too!">
+    <card id="d5090d2a-f55a-44cf-9f36-f234c166ade2" name="Yer Cheatin' Too!">
       <property name="Rank" value="2"/>
       <property name="Suit" value="C"/>
       <property name="Type" value="Action"/>
@@ -883,7 +883,7 @@
       <property name="Outfit" value=""/>
       <property name="Rarity" value="R"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Reaction: Play when another player plays a Cheatin! Card targeting you and they also have an illegal hand for this draw. Your opponent''s Cheatin! Card is canceled and has no effects."/>
+      <property name="Text" value="Reaction: Play when another player plays a Cheatin! Card targeting you and they also have an illegal hand for this draw. Your opponent's Cheatin! Card is canceled and has no effects."/>
     </card>
   </cards>
 </set>

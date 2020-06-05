@@ -33,7 +33,7 @@
       <property name="Outfit" value=""/>
       <property name="Rarity" value="R"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Noon: Target a Wanted Dude. A Bounty Hunter enters play at the Dude''s location and calls out the Dude, who cannot refuse. The Bounty Hunter is a 2-Stud, 0 Influence, ace value token Dude. Remove the token Dude from play after the shootout."/>
+      <property name="Text" value="Noon: Target a Wanted Dude. A Bounty Hunter enters play at the Dude's location and calls out the Dude, who cannot refuse. The Bounty Hunter is a 2-Stud, 0 Influence, ace value token Dude. Remove the token Dude from play after the shootout."/>
     </card>
     <card id="a4c7bc81-be4e-4483-bdda-183dc654ecd4" name="Bow and Arrow">
       <property name="Rank" value="2"/>
@@ -50,7 +50,7 @@
       <property name="Outfit" value=""/>
       <property name="Rarity" value="C"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="May only be held by a Sioux. Shootout Pull: Boot this dude and the Bow and Arrow, target an opposing dude. If the Pull is greater than the target''s value plus his bullet rating, then Ace the target."/>
+      <property name="Text" value="May only be held by a Sioux. Shootout Pull: Boot this dude and the Bow and Arrow, target an opposing dude. If the Pull is greater than the target's value plus his bullet rating, then Ace the target."/>
     </card>
     <card id="4aa265ba-48e3-4910-98cb-cc749ff5dfca" name="Calming Spirits">
       <property name="Rank" value="J"/>
@@ -273,7 +273,7 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="Shootout: Attach this card as a Goods card to your Mad Scientist in this shootout. This card acts as a goods card and is a +1 Bullet weapon Gadget (with no difficulty)."/>
     </card>
-    <card id="8b85f7e4-4309-4e59-ad78-fa21bbcd4338" name="Hot Lead Flyin''">
+    <card id="8b85f7e4-4309-4e59-ad78-fa21bbcd4338" name="Hot Lead Flyin'">
       <property name="Rank" value="4"/>
       <property name="Suit" value="C"/>
       <property name="Type" value="Action"/>
@@ -407,7 +407,7 @@
       <property name="Outfit" value="Blackjacks"/>
       <property name="Rarity" value="C"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Noon: One of your other dudes at another location begins a job at the deed Goodman is in. If the job is successful and this deed is in town, take ghost rock from the deed''s owner equal to the bullet rating of the dude performing the deed."/>
+      <property name="Text" value="Noon: One of your other dudes at another location begins a job at the deed Goodman is in. If the job is successful and this deed is in town, take ghost rock from the deed's owner equal to the bullet rating of the dude performing the deed."/>
     </card>
     <card id="eaba8df2-bd7c-447f-a877-5c3c534eb350" name="Lightning Strike">
       <property name="Rank" value="1"/>
@@ -424,7 +424,7 @@
       <property name="Outfit" value=""/>
       <property name="Rarity" value="R"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Shootout Spirit X: The difficulty of this spirit is an opposing Dude''s Value plus Bullets. If this spirit is successful, the target is booted and sent home. If the Spirit is successful by more than 5 points, the target is aced as well. If you pull an ace or Joker, the shaman is also aced."/>
+      <property name="Text" value="Shootout Spirit X: The difficulty of this spirit is an opposing Dude's Value plus Bullets. If this spirit is successful, the target is booted and sent home. If the Spirit is successful by more than 5 points, the target is aced as well. If you pull an ace or Joker, the shaman is also aced."/>
     </card>
     <card id="ec7eb565-2fee-449e-a262-7a1128d933df" name="Little Running Bear">
       <property name="Rank" value="6"/>
@@ -441,7 +441,7 @@
       <property name="Outfit" value="Sioux"/>
       <property name="Rarity" value="R"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Shootout: When in a shootout against a Terror, raise Bear''s bullet rating to be equal to the lowest rating among opposing Terrors."/>
+      <property name="Text" value="Shootout: When in a shootout against a Terror, raise Bear's bullet rating to be equal to the lowest rating among opposing Terrors."/>
     </card>
     <card id="c02b9c0e-537f-422e-b037-a1c6002ac206" name="Medicine">
       <property name="Rank" value="Q"/>
@@ -458,9 +458,9 @@
       <property name="Outfit" value=""/>
       <property name="Rarity" value="C"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Reaction Spirit X: When a Dude is aced, boot this Shaman. X is the target Dude''s value plus Influence plus Bullet rating. If the Spirit succeeds, the Dude is not aced, but is sent home booted."/>
+      <property name="Text" value="Reaction Spirit X: When a Dude is aced, boot this Shaman. X is the target Dude's value plus Influence plus Bullet rating. If the Spirit succeeds, the Dude is not aced, but is sent home booted."/>
     </card>
-    <card id="c5e5ffff-916e-4bfd-9e1b-70bdce539f46" name="Miss Coutreau''s">
+    <card id="c5e5ffff-916e-4bfd-9e1b-70bdce539f46" name="Miss Coutreau's">
       <property name="Rank" value="8"/>
       <property name="Suit" value="D"/>
       <property name="Type" value="Deed"/>
@@ -511,7 +511,7 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="Private. Strike."/>
     </card>
-    <card id="39c39b35-3472-4c6e-9186-55e0ffd1a15e" name="Pembroke''s Analysis of Hoyle">
+    <card id="39c39b35-3472-4c6e-9186-55e0ffd1a15e" name="Pembroke's Analysis of Hoyle">
       <property name="Rank" value="1"/>
       <property name="Suit" value="H"/>
       <property name="Type" value="Good"/>
@@ -526,7 +526,7 @@
       <property name="Outfit" value=""/>
       <property name="Rarity" value="R"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Mystical. Play only on a Huckster. This Huckster has his huckster level increased by 2. Reaction: When this dude''s opponent in a shootout reveals an illegal Draw hand, target one dude in the opposing posse who is aced immediately, before the results of the shootout are determined."/>
+      <property name="Text" value="Mystical. Play only on a Huckster. This Huckster has his huckster level increased by 2. Reaction: When this dude's opponent in a shootout reveals an illegal Draw hand, target one dude in the opposing posse who is aced immediately, before the results of the shootout are determined."/>
     </card>
     <card id="a3815a61-5f8c-4879-be7e-6e05633e8f8d" name="Reserves">
       <property name="Rank" value="10"/>
@@ -577,7 +577,7 @@
       <property name="Outfit" value=""/>
       <property name="Rarity" value="R"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Noon Hex 5: If this hex is successful, this huckster cannot be targeted by other players'' actions until after nightfall."/>
+      <property name="Text" value="Noon Hex 5: If this hex is successful, this huckster cannot be targeted by other players' actions until after nightfall."/>
     </card>
     <card id="de154429-ceab-4f43-8323-578cd6115180" name="Singing Feather">
       <property name="Rank" value="3"/>
@@ -611,7 +611,7 @@
       <property name="Outfit" value="Sioux"/>
       <property name="Rarity" value="F"/>
       <property name="Ghost Rock" value="18"/>
-      <property name="Text" value="GR: 18 Reaction: Instead of receiving your home''s production during upkeep, you may get any one spirit or Sioux dude from your deck, show it to your opponents and put it in your hand. If you borrowed from the Bank during the Gambling Phase, you must be able to repay that ghost rock in order to use this action."/>
+      <property name="Text" value="GR: 18 Reaction: Instead of receiving your home's production during upkeep, you may get any one spirit or Sioux dude from your deck, show it to your opponents and put it in your hand. If you borrowed from the Bank during the Gambling Phase, you must be able to repay that ghost rock in order to use this action."/>
     </card>
     <card id="fdb5227e-8913-4159-a322-448581efd725" name="Snakebite">
       <property name="Rank" value="7"/>
@@ -628,7 +628,7 @@
       <property name="Outfit" value=""/>
       <property name="Rarity" value="C"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Cheatin''! Reaction: Play when another player reveals an illegal Draw hand during a shootout. Target and ace a Dude in the opposing posse. Only one Cheatin''! card can be played against a player per draw."/>
+      <property name="Text" value="Cheatin'! Reaction: Play when another player reveals an illegal Draw hand during a shootout. Target and ace a Dude in the opposing posse. Only one Cheatin'! card can be played against a player per draw."/>
     </card>
     <card id="418ad93a-3258-4c96-8e24-c4fb75fecc6f" name="Strength of the Bear">
       <property name="Rank" value="K"/>
@@ -696,7 +696,7 @@
       <property name="Outfit" value="Collegium"/>
       <property name="Rarity" value="C"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Noon: Look at one random card in each of your opponent''s hands."/>
+      <property name="Text" value="Noon: Look at one random card in each of your opponent's hands."/>
     </card>
     <card id="3941f9b7-43ce-4d8a-8ea1-361375b7c1c9" name="Throw Down">
       <property name="Rank" value="4"/>
@@ -713,7 +713,7 @@
       <property name="Outfit" value=""/>
       <property name="Rarity" value="R"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Noon: Boot one of your dudes to call out any dude at the same location that has a lower value. They begin a shootout that can''t be refused."/>
+      <property name="Text" value="Noon: Boot one of your dudes to call out any dude at the same location that has a lower value. They begin a shootout that can't be refused."/>
     </card>
     <card id="19d05902-7f8f-40e2-84c0-26500649b8ef" name="Thunder Gulch Strike">
       <property name="Rank" value="Q"/>
@@ -766,7 +766,7 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="Until nightfall two turns after this one, flushes are no longer a legal poker hand. (Straights and full houses are still two ranks apart). Ace this card."/>
     </card>
-    <card id="292bccad-e07c-4cfb-a541-abb95b6d0634" name="Walkin'' Dead">
+    <card id="292bccad-e07c-4cfb-a541-abb95b6d0634" name="Walkin' Dead">
       <property name="Rank" value="2"/>
       <property name="Suit" value="S"/>
       <property name="Type" value="Dude"/>
@@ -781,7 +781,7 @@
       <property name="Outfit" value="Drifters"/>
       <property name="Rarity" value="C"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Abomination. The Walkin'' Dead cannot move to Strikes. Any Dude in a posse with the Walkin'' Dead immediately becomes Wanted. There is no limit to the number of Walkin'' Dead that each player can have in play. Card Memory does not apply to Walkin'' Dead."/>
+      <property name="Text" value="Abomination. The Walkin' Dead cannot move to Strikes. Any Dude in a posse with the Walkin' Dead immediately becomes Wanted. There is no limit to the number of Walkin' Dead that each player can have in play. Card Memory does not apply to Walkin' Dead."/>
     </card>
     <card id="6afb7957-a1fc-4d89-a4d5-671e132ecf01" name="Walks-in-Footprints">
       <property name="Rank" value="8"/>
@@ -817,7 +817,7 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="Noon: Target one of your Dudes. The Dude gains a +2 Bullet bonus until after Nightfall."/>
     </card>
-    <card id="cd6778d9-34d9-4caf-b59e-c618e710b12f" name="Water''s Edge Strike">
+    <card id="cd6778d9-34d9-4caf-b59e-c618e710b12f" name="Water's Edge Strike">
       <property name="Rank" value="9"/>
       <property name="Suit" value="D"/>
       <property name="Type" value="Deed"/>

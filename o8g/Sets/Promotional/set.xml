@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <set gameId="9afa6473-fd81-41b9-955f-8f67c7d3f423" gameVersion="3.0.0" id="642ea38f-964e-4d22-a07c-cd0e86767c31" name="Promotional" version="3.0.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CardSet.xsd">
   <cards>
-    <card id="7e05685a-50c1-40f1-94e3-2196f1fc58fe" name="Big Doc''s Casino">
+    <card id="7e05685a-50c1-40f1-94e3-2196f1fc58fe" name="Big Doc's Casino">
       <property name="Rank" value="2"/>
       <property name="Suit" value="D"/>
       <property name="Type" value="Deed"/>
@@ -50,7 +50,7 @@
       <property name="Outfit" value="Drifters"/>
       <property name="Rarity" value="F"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Nonunique. Harrowed.  You may not bring Harrowed Kenny into play through normal means. Reaction: When a Kenny you control is aced, remove it from the game. Pay Harrowed Kenny''s cost and Pull: If the pull is Black, put Harrowed Kenny into play at your home. This is the only way Kenny can become Harrowed."/>
+      <property name="Text" value="Nonunique. Harrowed.  You may not bring Harrowed Kenny into play through normal means. Reaction: When a Kenny you control is aced, remove it from the game. Pay Harrowed Kenny's cost and Pull: If the pull is Black, put Harrowed Kenny into play at your home. This is the only way Kenny can become Harrowed."/>
     </card>
     <card id="56674b12-8857-4364-a028-4d8853efeac8" name="Hit Me">
       <property name="Rank" value="4"/>
@@ -101,9 +101,9 @@
       <property name="Outfit" value="Drifters"/>
       <property name="Rarity" value="F"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Experienced. Abomination. Vampire. Noon: Boot any number of your other dudes in Lilith Vandekamp''s location. Lilith Vandekamp gains a +1 bullet or +2 value bonus until after Nightfall for each booting Dude."/>
+      <property name="Text" value="Experienced. Abomination. Vampire. Noon: Boot any number of your other dudes in Lilith Vandekamp's location. Lilith Vandekamp gains a +1 bullet or +2 value bonus until after Nightfall for each booting Dude."/>
     </card>
-    <card id="a5ca63c1-ad79-4ee9-a7f1-fa6782bd3313" name="Lucky Rabbit''s Foot">
+    <card id="a5ca63c1-ad79-4ee9-a7f1-fa6782bd3313" name="Lucky Rabbit's Foot">
       <property name="Rank" value="7"/>
       <property name="Suit" value="H"/>
       <property name="Type" value="Good"/>
@@ -118,7 +118,7 @@
       <property name="Outfit" value=""/>
       <property name="Rarity" value="F"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Reaction: Ace the Lucky Rabbit''s Foot after Draw hands have been drawn but before they have been revealed for a shootout this Dude is in.  Discard your Draw hand and draw another hand using all of the same bonuses to the number of cards drawn and discarded."/>
+      <property name="Text" value="Reaction: Ace the Lucky Rabbit's Foot after Draw hands have been drawn but before they have been revealed for a shootout this Dude is in.  Discard your Draw hand and draw another hand using all of the same bonuses to the number of cards drawn and discarded."/>
     </card>
     <card id="560eefe8-12eb-4f31-ae28-c3a0470e1ca9" name="No Mas">
       <property name="Rank" value="3"/>
@@ -137,7 +137,7 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="Reaction: Play immediately after an action card is resolved. Ace the action card and this card."/>
     </card>
-    <card id="70bdbc09-5296-42e6-8461-c876791eba5a" name="Readin'' The Stars">
+    <card id="70bdbc09-5296-42e6-8461-c876791eba5a" name="Readin' The Stars">
       <property name="Rank" value="K"/>
       <property name="Suit" value="C"/>
       <property name="Type" value="Action"/>
@@ -152,7 +152,7 @@
       <property name="Outfit" value=""/>
       <property name="Rarity" value="F"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Reaction: Play this card when an Event is revealed during the Gambling Phase. The Event is not resolved this turn but is instead resolved next turn as if it had been revealed as part of the player''s Gambling Phase draw. This does not affect the actual contents of that player''s lowball hand."/>
+      <property name="Text" value="Reaction: Play this card when an Event is revealed during the Gambling Phase. The Event is not resolved this turn but is instead resolved next turn as if it had been revealed as part of the player's Gambling Phase draw. This does not affect the actual contents of that player's lowball hand."/>
     </card>
     <card id="01f4d203-7dac-43b0-94a9-d731e3c4c84d" name="Start Again">
       <property name="Rank" value="2"/>
@@ -169,7 +169,7 @@
       <property name="Outfit" value=""/>
       <property name="Rarity" value="F"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Cheatin''! Reaction: Play when another player reveals an illegal Draw hand during a shootout. All the cards in that player''s Draw hand are sent to Boot Hill, but are not considered &quot;aced.&quot; Those cards may not leave Boot Hill in any way until the end of the game. That player draws five new cards to form his or her new Draw hand. Only one Cheatin''! card can be played against a player per draw."/>
+      <property name="Text" value="Cheatin'! Reaction: Play when another player reveals an illegal Draw hand during a shootout. All the cards in that player's Draw hand are sent to Boot Hill, but are not considered &quot;aced.&quot; Those cards may not leave Boot Hill in any way until the end of the game. That player draws five new cards to form his or her new Draw hand. Only one Cheatin'! card can be played against a player per draw."/>
     </card>
     <card id="ddaff894-9933-4727-bdd7-81a3e45c362b" name="Stop The Presses">
       <property name="Rank" value="4"/>

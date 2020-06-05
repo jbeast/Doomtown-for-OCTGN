@@ -256,7 +256,7 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="Shootout Hex X: The Difficulty of this Hex is equal to the value of a target Goods in the opposing posse. If this Hex succeeds, the Goods is aced."/>
     </card>
-    <card id="b75b73a0-f0b7-4f61-b705-451712eb2353" name="Bat''s Breath Mine">
+    <card id="b75b73a0-f0b7-4f61-b705-451712eb2353" name="Bat's Breath Mine">
       <property name="Rank" value="J"/>
       <property name="Suit" value="D"/>
       <property name="Type" value="Deed"/>
@@ -477,7 +477,7 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="Noon: Boot this Dude to boot another Dude at this location."/>
     </card>
-    <card id="fb69a7f0-e6bd-4b81-ab53-54aca90a1604" name="Burnt Offerin''">
+    <card id="fb69a7f0-e6bd-4b81-ab53-54aca90a1604" name="Burnt Offerin'">
       <property name="Rank" value="1"/>
       <property name="Suit" value="H"/>
       <property name="Type" value="Spell"/>
@@ -800,7 +800,7 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="Desmond Quentin will not trade a Gadget to a non-Agency Dude."/>
     </card>
-    <card id="7deb07b0-b209-431b-a2c8-d694afe98af7" name="Devil''s Plaything">
+    <card id="7deb07b0-b209-431b-a2c8-d694afe98af7" name="Devil's Plaything">
       <property name="Rank" value="9"/>
       <property name="Suit" value="H"/>
       <property name="Type" value="Spell"/>
@@ -817,7 +817,7 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="Noon Miracle 6: If this Miracle succeeds, ace a Gadget in this location."/>
     </card>
-    <card id="6151c0df-2152-45fc-95cc-ee43e9a872bc" name="Devil''s Touch">
+    <card id="6151c0df-2152-45fc-95cc-ee43e9a872bc" name="Devil's Touch">
       <property name="Rank" value="10"/>
       <property name="Suit" value="C"/>
       <property name="Type" value="Action"/>
@@ -970,7 +970,7 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="Noon Spirit 5: If this Spirit succeeds, this Shaman can switch locations with any one of your Dudes in play. Movement restrictions apply. Noon Spirit 9: If this Spirit succeeds, this Shaman can switch locations with any one Dude in play. Movement restrictions apply."/>
     </card>
-    <card id="a23c287f-2198-4920-be40-71fcd1801d46" name="Ferret''s Eye">
+    <card id="a23c287f-2198-4920-be40-71fcd1801d46" name="Ferret's Eye">
       <property name="Rank" value="4"/>
       <property name="Suit" value="S"/>
       <property name="Type" value="Dude"/>
@@ -987,7 +987,7 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="Noon: Boot Ferret’s Eye to move him to an adjacent location that contains a Huckster controlled by another player. Ferret’s Eye calls out that Huckster."/>
     </card>
-    <card id="0a76b52c-fb57-4d7d-ba3c-e7453384a0b1" name="Ferryman''s Fee">
+    <card id="0a76b52c-fb57-4d7d-ba3c-e7453384a0b1" name="Ferryman's Fee">
       <property name="Rank" value="K"/>
       <property name="Suit" value="C"/>
       <property name="Type" value="Action"/>
@@ -1038,7 +1038,7 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="Shootout: All Weapons on Dudes in this shootout become unready. Dudes cannot make Weapons ready during this shootout. Any Dude who is leaving this shootout, and all Dudes at the end of the shootout, can make one Weapon ready."/>
     </card>
-    <card id="95dd8937-b847-463f-9910-eb43a522f327" name="Findley''s Quill Pen">
+    <card id="95dd8937-b847-463f-9910-eb43a522f327" name="Findley's Quill Pen">
       <property name="Rank" value="3"/>
       <property name="Suit" value="H"/>
       <property name="Type" value="Good"/>
@@ -1072,7 +1072,7 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="Abomination. Experienced. Flim cannot attach Goods. Flim has no Upkeep cost when he is adjacent to Elijah. Shootout: Flim gains a +1 Bullet bonus until the end of the shootout. Flim can perform this action once per shootout round."/>
     </card>
-    <card id="58761d93-a97a-4551-87e3-929720fd3baa" name="Fortune-Teller''s Shop">
+    <card id="58761d93-a97a-4551-87e3-929720fd3baa" name="Fortune-Teller's Shop">
       <property name="Rank" value="2"/>
       <property name="Suit" value="D"/>
       <property name="Type" value="Deed"/>
@@ -1242,7 +1242,7 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="Noon Pull: The Dude in play whose value is closest to the pull (determine randomly if there is a tie) moves to the Town Square. That Dude can call out any Dude in play controlled by another player (regardless of location). The call-out can be refused as usual. If the call-out is accepted, the other Dude moves to the Town Square for the shootout. Movement costs and restrictions are ignored. The winner of the shootout gains 1 Victory Point."/>
     </card>
-    <card id="c2bb1496-caca-4638-8748-a4e990c4619d" name="Holme''s Workshop">
+    <card id="c2bb1496-caca-4638-8748-a4e990c4619d" name="Holme's Workshop">
       <property name="Rank" value="2"/>
       <property name="Suit" value="D"/>
       <property name="Type" value="Deed"/>
@@ -1310,7 +1310,7 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="Experienced. While Howard Findley is in play, your Strikes cost 1 less ghost rock to put into play. Findley is a Stud while in a shootout at home."/>
     </card>
-    <card id="05768d4f-76ca-40d5-96a8-a976cdbef69c" name="Hunter''s Moon Strike">
+    <card id="05768d4f-76ca-40d5-96a8-a976cdbef69c" name="Hunter's Moon Strike">
       <property name="Rank" value="10"/>
       <property name="Suit" value="D"/>
       <property name="Type" value="Deed"/>
@@ -1497,7 +1497,7 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="Shootout Hex 5: If this Hex succeeds, target a Dude in the opposing posse. Until the end of this shootout, card effects cannot prevent the target Dude from being aced. Any card effect that would prevent the target Dude from being aced is negated."/>
     </card>
-    <card id="072851bd-2076-45d8-ba61-9072a5578c64" name="Law Dogs: Hunter''s Office">
+    <card id="072851bd-2076-45d8-ba61-9072a5578c64" name="Law Dogs: Hunter's Office">
       <property name="Rank" value=""/>
       <property name="Suit" value=""/>
       <property name="Type" value="Outfit"/>
@@ -1531,7 +1531,7 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="Abomination. Lucifer’s Bullet rating, Influence, and Upkeep cost are equal to half the Fear level, rounded up."/>
     </card>
-    <card id="f5730434-723b-4642-b190-1b8b43a2a269" name="Manitou''s Control">
+    <card id="f5730434-723b-4642-b190-1b8b43a2a269" name="Manitou's Control">
       <property name="Rank" value="8"/>
       <property name="Suit" value="C"/>
       <property name="Type" value="Action"/>
@@ -1565,7 +1565,7 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="Experienced. Reaction: When Marcus Perriwinkle is aced, you can ace a Gadget in your hand with a higher value than Marcus Perriwinkle’s instead. Marcus Perriwinkle returns to your home booted."/>
     </card>
-    <card id="8184e4c5-eeff-40f9-a7c3-13ae1a4c93af" name="Martyr''s Mirror">
+    <card id="8184e4c5-eeff-40f9-a7c3-13ae1a4c93af" name="Martyr's Mirror">
       <property name="Rank" value="Q"/>
       <property name="Suit" value="H"/>
       <property name="Type" value="Spell"/>
@@ -1667,7 +1667,7 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="Noon. Harrowed Power: Target an unbooted Harrowed Dude you control. Ace this card. Until the end of the game, the target has the ability “Noon: Choose one action printed on a Dude at this location. Until after Nightfall, this Harrowed Dude can perform that action as if it were printed on this Harrowed Dude.”"/>
     </card>
-    <card id="b7342b60-f638-42f2-85ee-d763b04764f5" name="Miss Greene''s Room">
+    <card id="b7342b60-f638-42f2-85ee-d763b04764f5" name="Miss Greene's Room">
       <property name="Rank" value="3"/>
       <property name="Suit" value="D"/>
       <property name="Type" value="Deed"/>
@@ -1767,7 +1767,7 @@
       <property name="Outfit" value=""/>
       <property name="Rarity" value="C"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Public. Whenever the current controller loses control of the New Town Hall or the New Town Hall leaves play, the controller loses all Town Hall Victory Points. This Deed''s controller is always the player with the most Influence at it (owner wins ties), regardless of other card effects.  Controller Noon: Gain 1 Town Hall Victory Point "/>
+      <property name="Text" value="Public. Whenever the current controller loses control of the New Town Hall or the New Town Hall leaves play, the controller loses all Town Hall Victory Points. This Deed's controller is always the player with the most Influence at it (owner wins ties), regardless of other card effects.  Controller Noon: Gain 1 Town Hall Victory Point "/>
     </card>
     <card id="d9824743-c90c-4381-bdb2-f19fa745bce4" name="Night Haunt Attack">
       <property name="Rank" value="1"/>
@@ -1820,7 +1820,7 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="Reaction: Play this card immediately after a player plays a Cheatin’! card. Any number of additional Cheatin’! cards can be played against that player this draw. Ace this card."/>
     </card>
-    <card id="a1d3c046-cd4f-42a4-9a5a-e449d7c7570a" name="Only Winged ''Em">
+    <card id="a1d3c046-cd4f-42a4-9a5a-e449d7c7570a" name="Only Winged 'Em">
       <property name="Rank" value="1"/>
       <property name="Suit" value="C"/>
       <property name="Type" value="Action"/>
@@ -1937,7 +1937,7 @@
       <property name="Outfit" value="Maze Rats"/>
       <property name="Rarity" value="R"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Experienced. Noon: Use when Po Yu is at a Strike you own and control. Target and ace another player''s Abomination at this location."/>
+      <property name="Text" value="Experienced. Noon: Use when Po Yu is at a Strike you own and control. Target and ace another player's Abomination at this location."/>
     </card>
     <card id="9a489650-069e-49e1-8078-225b65d2f0c2" name="Rachel Murders Warwick">
       <property name="Rank" value="K"/>
@@ -2124,7 +2124,7 @@
       <property name="Outfit" value=""/>
       <property name="Rarity" value="C"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Cheatin''! Reaction: Play this card when another player reveals an illegal Draw hand. If you have a Draw hand, exchange Draw hands with that player. Cheatin’! cards cannot be played on you this draw. The cards are discarded into their owners’ discard piles normally after the draw is completed. Only one Cheatin’! card can be played against a player per draw."/>
+      <property name="Text" value="Cheatin'! Reaction: Play this card when another player reveals an illegal Draw hand. If you have a Draw hand, exchange Draw hands with that player. Cheatin’! cards cannot be played on you this draw. The cards are discarded into their owners’ discard piles normally after the draw is completed. Only one Cheatin’! card can be played against a player per draw."/>
     </card>
     <card id="a5cce326-7653-4f4a-8249-924be08c8161" name="Sawed-off Shotgun">
       <property name="Rank" value="6"/>
@@ -2194,7 +2194,7 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="Private. You must boot one of your Mad Scientists to bring the Secret Lab into play. Non-Mad-Scientist Dudes cannot move to the Secret Lab except by card effect. All Mad Scientists have a +1 Mad Scientist bonus while at the Secret Lab."/>
     </card>
-    <card id="00d590a2-e9db-4b7c-8e04-ce622f0b6f18" name="Shootin'' from the Hip">
+    <card id="00d590a2-e9db-4b7c-8e04-ce622f0b6f18" name="Shootin' from the Hip">
       <property name="Rank" value="8"/>
       <property name="Suit" value="C"/>
       <property name="Type" value="Action"/>
@@ -2347,7 +2347,7 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="Shootout Spirit X: Target a Dude in the opposing posse. X is the value of the Dude. If this Spirit succeeds, send the Dude home booted."/>
     </card>
-    <card id="ff43ec38-63cf-41b2-9727-12dc12fa2eb0" name="Stitchin''">
+    <card id="ff43ec38-63cf-41b2-9727-12dc12fa2eb0" name="Stitchin'">
       <property name="Rank" value="1"/>
       <property name="Suit" value="C"/>
       <property name="Type" value="Action"/>
@@ -2398,7 +2398,7 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="Strikes a Hawk is a Stud when she has a Bow and Arrow ready."/>
     </card>
-    <card id="307d9cb2-e3df-4f53-9a15-4b3cb27f9468" name="Sumner''s Revenge">
+    <card id="307d9cb2-e3df-4f53-9a15-4b3cb27f9468" name="Sumner's Revenge">
       <property name="Rank" value="Q"/>
       <property name="Suit" value="H"/>
       <property name="Type" value="Event"/>
@@ -2447,7 +2447,7 @@
       <property name="Outfit" value="Sweetrock"/>
       <property name="Rarity" value="F"/>
       <property name="Ghost Rock" value="24"/>
-      <property name="Text" value="GR: 24 After revealing your starting posse, you can pay for and put into play one non-Control Point Strike. Other players'' Dudes can only move to that Strike using a card effect. All of your Dudes gain a +1 Bullet bonus while at a Strike you own. "/>
+      <property name="Text" value="GR: 24 After revealing your starting posse, you can pay for and put into play one non-Control Point Strike. Other players' Dudes can only move to that Strike using a card effect. All of your Dudes gain a +1 Bullet bonus while at a Strike you own. "/>
     </card>
     <card id="38f15d75-6ef7-480f-b240-5040b5943038" name="Sympathy for the Devil">
       <property name="Rank" value="7"/>
@@ -2483,7 +2483,7 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="Private. Controller Reaction: Gain 1 ghost rock when a Horse comes into play."/>
     </card>
-    <card id="465812dd-16c6-472b-9897-a8bee3c200a6" name="Takin'' Cover">
+    <card id="465812dd-16c6-472b-9897-a8bee3c200a6" name="Takin' Cover">
       <property name="Rank" value="6"/>
       <property name="Suit" value="C"/>
       <property name="Type" value="Action"/>
@@ -2634,7 +2634,7 @@
       <property name="Outfit" value=""/>
       <property name="Rarity" value="R"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Public. Strike. In Town. When The Lode enters play, put a token on it. Before each High Noon, add a token. The Lode’s Control Points and Production are equal to its number of tokens. The Lode’s controller collects its Production even if not the owner. This Deed''s controller is always the player with the most Influence at it (owner wins ties), regardless of other card effects."/>
+      <property name="Text" value="Public. Strike. In Town. When The Lode enters play, put a token on it. Before each High Noon, add a token. The Lode’s Control Points and Production are equal to its number of tokens. The Lode’s controller collects its Production even if not the owner. This Deed's controller is always the player with the most Influence at it (owner wins ties), regardless of other card effects."/>
     </card>
     <card id="a42bb7ee-6445-457c-8d50-c382558dce05" name="The Mother Lode is Found">
       <property name="Rank" value="5"/>
@@ -2806,7 +2806,7 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="Reaction: Play this card when another player plays an action that is moving your Dude out of the shootout. Your Dude remains in the shootout and gains a +2 Bullet bonus until the end of the shootout. Boot your Dude if he or she is unbooted."/>
     </card>
-    <card id="d28027b3-cbcc-4412-b39b-2a2ef9cbfacb" name="Trick Shootin''">
+    <card id="d28027b3-cbcc-4412-b39b-2a2ef9cbfacb" name="Trick Shootin'">
       <property name="Rank" value="9"/>
       <property name="Suit" value="C"/>
       <property name="Type" value="Action"/>
@@ -2925,7 +2925,7 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="When Walter enters play, target a Dude with Influence less than Walter’s. Walter enters play at the location of the targeted Dude. The Dude is sent home and is unbooted."/>
     </card>
-    <card id="dcc05cbe-6844-4e56-a99f-5f68e22ddeee" name="Warwick''s Gavel">
+    <card id="dcc05cbe-6844-4e56-a99f-5f68e22ddeee" name="Warwick's Gavel">
       <property name="Rank" value="10"/>
       <property name="Suit" value="H"/>
       <property name="Type" value="Good"/>
@@ -2993,7 +2993,7 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="For each Weapon in play (ready or unready), its owner must pay 1 ghost rock or discard it."/>
     </card>
-    <card id="353f0e7c-8807-4156-8cad-d2c973268f91" name="Whiskey Nick''s Joint">
+    <card id="353f0e7c-8807-4156-8cad-d2c973268f91" name="Whiskey Nick's Joint">
       <property name="Rank" value="J"/>
       <property name="Suit" value="D"/>
       <property name="Type" value="Deed"/>
@@ -3044,7 +3044,7 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="Experienced. Reaction: When a Dude refuses a call-out from Xiong “Wendy” Cheng, the Dude permanently has a -1 Influence and -1 Bullet penalty (minimum 0)."/>
     </card>
-    <card id="08302de9-911f-457a-bf9e-7aee9dbed190" name="You''re Not Fast Enough...">
+    <card id="08302de9-911f-457a-bf9e-7aee9dbed190" name="You're Not Fast Enough...">
       <property name="Rank" value="7"/>
       <property name="Suit" value="C"/>
       <property name="Type" value="Action"/>
@@ -3061,7 +3061,7 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="Reaction: Play this card after one of your Dudes accepts a call-out from a Dude with a lower Bullet rating. No other Dudes can join the shootout. No Reactions other than Cheatin’! cards can be played during this shootout."/>
     </card>
-    <card id="b1214e5f-a061-460a-9ec2-edeba9579b16" name="You''re With Me">
+    <card id="b1214e5f-a061-460a-9ec2-edeba9579b16" name="You're With Me">
       <property name="Rank" value="Q"/>
       <property name="Suit" value="C"/>
       <property name="Type" value="Action"/>

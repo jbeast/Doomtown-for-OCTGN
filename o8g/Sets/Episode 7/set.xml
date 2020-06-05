@@ -33,7 +33,7 @@
       <property name="Outfit" value=""/>
       <property name="Rarity" value="C"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Noon Spirit 8: If this spirit is successful, you may immediately play an event from your hand and resolve it''s effects as a noon action."/>
+      <property name="Text" value="Noon Spirit 8: If this spirit is successful, you may immediately play an event from your hand and resolve it's effects as a noon action."/>
     </card>
     <card id="d0b4af9a-0d8c-4a02-bcfb-628ef87bdb5a" name="Billy Iron Horse">
       <property name="Rank" value="7"/>
@@ -101,9 +101,9 @@
       <property name="Outfit" value=""/>
       <property name="Rarity" value="C"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Gadget Difficulty: 8. Noon: Boot this gadget. You may immediately perform 2 additional noon actions before the next player''s turn."/>
+      <property name="Text" value="Gadget Difficulty: 8. Noon: Boot this gadget. You may immediately perform 2 additional noon actions before the next player's turn."/>
     </card>
-    <card id="57020056-b7ea-4383-b4dc-91d646a28758" name="Death''s Head Joker">
+    <card id="57020056-b7ea-4383-b4dc-91d646a28758" name="Death's Head Joker">
       <property name="Rank" value=""/>
       <property name="Suit" value=""/>
       <property name="Type" value="Joker"/>
@@ -186,7 +186,7 @@
       <property name="Outfit" value="Blackjacks"/>
       <property name="Rarity" value="R"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Experienced. Father Juan may not boot to perform the Blackjack Outfit''s ability. Hexes and Spirits cannot target Father Juan."/>
+      <property name="Text" value="Experienced. Father Juan may not boot to perform the Blackjack Outfit's ability. Hexes and Spirits cannot target Father Juan."/>
     </card>
     <card id="91004918-5e8e-48ed-b11c-002761399726" name="Flophouse">
       <property name="Rank" value="K"/>
@@ -203,7 +203,7 @@
       <property name="Outfit" value=""/>
       <property name="Rarity" value="C"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="The Flophouse''s controller may bring dude''s into play at the Flophouse instead of at home."/>
+      <property name="Text" value="The Flophouse's controller may bring dude's into play at the Flophouse instead of at home."/>
     </card>
     <card id="a9a77c6f-3d29-4531-929d-8c8b4f1d7168" name="Friendly Game">
       <property name="Rank" value="7"/>
@@ -220,7 +220,7 @@
       <property name="Outfit" value=""/>
       <property name="Rarity" value="C"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Noon: Boot one of your dudes who begins gambling with any non terror dude at the same location. Each player draws a draw hand, and the winner takes ghost rock equal to the difference between hands from the loser (up to the loser''s entire stockpile of ghost rock)."/>
+      <property name="Text" value="Noon: Boot one of your dudes who begins gambling with any non terror dude at the same location. Each player draws a draw hand, and the winner takes ghost rock equal to the difference between hands from the loser (up to the loser's entire stockpile of ghost rock)."/>
     </card>
     <card id="f38aa215-462c-43af-9e0a-a9ccd9d684df" name="Hired Guns">
       <property name="Rank" value="3"/>
@@ -254,9 +254,9 @@
       <property name="Outfit" value=""/>
       <property name="Rarity" value="C"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Reaction Pull: Ace the Knife immediately when this dude is aced in a Shootout. Target one dude in the opposing posse. If the pull is equal to or greater than the target''s value, the target is aced."/>
+      <property name="Text" value="Reaction Pull: Ace the Knife immediately when this dude is aced in a Shootout. Target one dude in the opposing posse. If the pull is equal to or greater than the target's value, the target is aced."/>
     </card>
-    <card id="a2297265-bf96-4112-88bf-5e44bb377a80" name="Hoyle''s Book, 1769 Ed.">
+    <card id="a2297265-bf96-4112-88bf-5e44bb377a80" name="Hoyle's Book, 1769 Ed.">
       <property name="Rank" value="10"/>
       <property name="Suit" value="H"/>
       <property name="Type" value="Good"/>
@@ -288,7 +288,7 @@
       <property name="Outfit" value=""/>
       <property name="Rarity" value="R"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Until after nightfall, any action cards played from a player''s hand are aced. Ace Spike Dugan. Ace this card."/>
+      <property name="Text" value="Until after nightfall, any action cards played from a player's hand are aced. Ace Spike Dugan. Ace this card."/>
     </card>
     <card id="013d999a-5206-49f5-ac30-2705209d6df5" name="Joe Larson">
       <property name="Rank" value="2"/>
@@ -407,7 +407,7 @@
       <property name="Outfit" value=""/>
       <property name="Rarity" value="R"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Shootout: Your opponent''s draw hand is played face up on the table for this shootout. Your Draw Hand is automatically considered an illegal hand, regardless of its contents."/>
+      <property name="Text" value="Shootout: Your opponent's draw hand is played face up on the table for this shootout. Your Draw Hand is automatically considered an illegal hand, regardless of its contents."/>
     </card>
     <card id="7f8ffa0e-dcfa-4fce-8fae-0217a688e891" name="Massacre at High Noon">
       <property name="Rank" value="3"/>
@@ -424,7 +424,7 @@
       <property name="Outfit" value=""/>
       <property name="Rarity" value="R"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Noon Job: Boot one of your Dudes to start a job that targets a location. Unbooted Dudes can always join the target''s posse from any location, ignoring movement restrictions. Before Shootout actions begin each round, all Dudes can pay 3 ghost rock to leave the shootout and move to an adjacent location, booted. If the job succeeds, your posse goes home, and all Dudes remaining at the location are aced. You cannot play this on the first turn of the game."/>
+      <property name="Text" value="Noon Job: Boot one of your Dudes to start a job that targets a location. Unbooted Dudes can always join the target's posse from any location, ignoring movement restrictions. Before Shootout actions begin each round, all Dudes can pay 3 ghost rock to leave the shootout and move to an adjacent location, booted. If the job succeeds, your posse goes home, and all Dudes remaining at the location are aced. You cannot play this on the first turn of the game."/>
     </card>
     <card id="997a55fd-e5e4-4775-b42c-6123b70ba932" name="Mimic">
       <property name="Rank" value="2"/>
@@ -458,9 +458,9 @@
       <property name="Outfit" value="Whateleys"/>
       <property name="Rarity" value="R"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Experienced. You can ignore the upkeep cost of one Abomination you control, each turn. Noon Pull: Target one hex attached to Nicodemus. Nicodemus can use that hex two times this turn. If the pull is greater than the hex''s value, it is aced immediately after nightfall."/>
+      <property name="Text" value="Experienced. You can ignore the upkeep cost of one Abomination you control, each turn. Noon Pull: Target one hex attached to Nicodemus. Nicodemus can use that hex two times this turn. If the pull is greater than the hex's value, it is aced immediately after nightfall."/>
     </card>
-    <card id="38d09078-e11a-4463-b7ba-759910f44a58" name="Nicodemus'' Deck">
+    <card id="38d09078-e11a-4463-b7ba-759910f44a58" name="Nicodemus' Deck">
       <property name="Rank" value="1"/>
       <property name="Suit" value="H"/>
       <property name="Type" value="Good"/>
@@ -475,7 +475,7 @@
       <property name="Outfit" value=""/>
       <property name="Rarity" value="R"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Mystical.. The Deck can be attached to Nicodemus Whateley without cost. This dude''s Huckster skill is increased by one while the Deck is attached. This will not give the Huckster skill to a Dude without the skill."/>
+      <property name="Text" value="Mystical.. The Deck can be attached to Nicodemus Whateley without cost. This dude's Huckster skill is increased by one while the Deck is attached. This will not give the Huckster skill to a Dude without the skill."/>
     </card>
     <card id="f53a2a37-05bb-4fd5-be86-c2e2516d601b" name="Puppet">
       <property name="Rank" value="9"/>
@@ -492,7 +492,7 @@
       <property name="Outfit" value=""/>
       <property name="Rarity" value="C"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Noon Hex X: Target a Dude at this location. X is the Dude''s value plus Influence plus Bullet rating. If this Hex succeeds, you take control of the Dude until after Nightfall."/>
+      <property name="Text" value="Noon Hex X: Target a Dude at this location. X is the Dude's value plus Influence plus Bullet rating. If this Hex succeeds, you take control of the Dude until after Nightfall."/>
     </card>
     <card id="e8b23168-ce01-4c64-9cec-0c72c04c3ae0" name="Quick-draw Holster">
       <property name="Rank" value="K"/>
@@ -560,7 +560,7 @@
       <property name="Outfit" value=""/>
       <property name="Rarity" value="C"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Noon Spirit X: The difficulty of this Spirit is the value of a Terror in this Shaman''s location. If this Spirit is successful, the Terror is moved to a location of your choice, without booting."/>
+      <property name="Text" value="Noon Spirit X: The difficulty of this Spirit is the value of a Terror in this Shaman's location. If this Spirit is successful, the Terror is moved to a location of your choice, without booting."/>
     </card>
     <card id="b38d51e1-7f0b-4a2c-831d-9f6a37bac0e0" name="Reverend Simon MacPherson">
       <property name="Rank" value="6"/>
@@ -628,7 +628,7 @@
       <property name="Outfit" value=""/>
       <property name="Rarity" value="C"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="During nightfall this turn, dudes in their homes have their influence reduced by one. If &quot;Eureka!&quot; is in play, it is sent to the card owner''s Boot Hill. Ace this card. This card does not affect &quot;Eureka?!?&quot;."/>
+      <property name="Text" value="During nightfall this turn, dudes in their homes have their influence reduced by one. If &quot;Eureka!&quot; is in play, it is sent to the card owner's Boot Hill. Ace this card. This card does not affect &quot;Eureka?!?&quot;."/>
     </card>
     <card id="1369be59-3c93-4840-8b8f-8a91b20ba9f4" name="Spirit Warrior">
       <property name="Rank" value="7"/>
@@ -647,7 +647,7 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="Noon Spirit 3: Target a Sioux Dude. If this Spirit succeeds, the Dude gains a +1 Bullet bonus until after Nightfall. Noon Spirit 7: Target a Sioux Dude. If this Spirit succeeds, the Dude gains a +2 Bullet bonus until after Nightfall."/>
     </card>
-    <card id="5ebd2230-62dd-4c7d-b79a-32de020a4176" name="Stoker''s Sabre">
+    <card id="5ebd2230-62dd-4c7d-b79a-32de020a4176" name="Stoker's Sabre">
       <property name="Rank" value="4"/>
       <property name="Suit" value="H"/>
       <property name="Type" value="Good"/>
@@ -730,9 +730,9 @@
       <property name="Outfit" value=""/>
       <property name="Rarity" value="C"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Tent City''s cost is reduced by 2 if you have Captain Sim Yut-San in play."/>
+      <property name="Text" value="Tent City's cost is reduced by 2 if you have Captain Sim Yut-San in play."/>
     </card>
-    <card id="4ea682f2-8af7-4900-93cc-3b8ec2cc16bc" name="That''s Two Pair">
+    <card id="4ea682f2-8af7-4900-93cc-3b8ec2cc16bc" name="That's Two Pair">
       <property name="Rank" value="5"/>
       <property name="Suit" value="C"/>
       <property name="Type" value="Action"/>
@@ -747,9 +747,9 @@
       <property name="Outfit" value=""/>
       <property name="Rarity" value="C"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Reaction: Play immediately after a player reveals a Draw Hand that is a Dead Man''s Hand. That hand is considered to be just Two Pair (aces and eights) instead of a Dead Man''s Hand."/>
+      <property name="Text" value="Reaction: Play immediately after a player reveals a Draw Hand that is a Dead Man's Hand. That hand is considered to be just Two Pair (aces and eights) instead of a Dead Man's Hand."/>
     </card>
-    <card id="876382d3-92b8-4fde-a523-7310bcfef9f2" name="The Barber''s Shop">
+    <card id="876382d3-92b8-4fde-a523-7310bcfef9f2" name="The Barber's Shop">
       <property name="Rank" value="10"/>
       <property name="Suit" value="D"/>
       <property name="Type" value="Deed"/>
@@ -866,7 +866,7 @@
       <property name="Outfit" value=""/>
       <property name="Rarity" value="C"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Cheatin''! Reaction: Play when another Player reveals an illegal Draw Hand. Until the end of the game, that player is always considered to have one less control point towards victory (cumulative). Only one Cheatin'' card can be played against a player per draw."/>
+      <property name="Text" value="Cheatin'! Reaction: Play when another Player reveals an illegal Draw Hand. Until the end of the game, that player is always considered to have one less control point towards victory (cumulative). Only one Cheatin' card can be played against a player per draw."/>
     </card>
     <card id="db4c610e-fa00-4977-9154-dcb102056c74" name="Zeke Beauchamp">
       <property name="Rank" value="5"/>

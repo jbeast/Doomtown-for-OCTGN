@@ -118,7 +118,7 @@
       <property name="Outfit" value=""/>
       <property name="Rarity" value="F"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Noon Job: Boot one of your Dudes to start a job that targets another player''s Home. If the job succeeds, that player''s maximum hand size is reduced by 1 until the end of the game, and that player must immediately discard down to his or her new maximum hand size if possible. All Dudes in your Posse become Wanted. A player may not be targeted more than once per game with &quot;Bait and Switch.&quot;"/>
+      <property name="Text" value="Noon Job: Boot one of your Dudes to start a job that targets another player's Home. If the job succeeds, that player's maximum hand size is reduced by 1 until the end of the game, and that player must immediately discard down to his or her new maximum hand size if possible. All Dudes in your Posse become Wanted. A player may not be targeted more than once per game with &quot;Bait and Switch.&quot;"/>
     </card>
     <card id="cb199d7d-6e8c-449f-a8f5-3197d86a770b" name="Before the Dawn">
       <property name="Rank" value="5"/>
@@ -152,7 +152,7 @@
       <property name="Outfit" value=""/>
       <property name="Rarity" value="F"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Horse. Gadget Difficulty: 5 Shootout: Target a Horse in the opposing posse and pull; if the pull is greater than the target''s Value, it is aced. If the pull is red and also greater than the Value of the Dude of the target is attached to, the Dude is aced as well."/>
+      <property name="Text" value="Horse. Gadget Difficulty: 5 Shootout: Target a Horse in the opposing posse and pull; if the pull is greater than the target's Value, it is aced. If the pull is red and also greater than the Value of the Dude of the target is attached to, the Dude is aced as well."/>
     </card>
     <card id="f3e48a14-26a0-4e8c-b6aa-5dd5af9caf36" name="Bill Jefferson">
       <property name="Rank" value="9"/>
@@ -290,7 +290,7 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="Experienced. Shootout: Boot one of your Dudes in this posse with a lower Value than Patterson. Patterson gains a +1 Bullet bonus until the end of the shootout. This action may be performed any number of times per turn."/>
     </card>
-    <card id="50ffb738-29ea-48de-a11d-f8c0ceb72fda" name="Burnin'' the Midnight Oil">
+    <card id="50ffb738-29ea-48de-a11d-f8c0ceb72fda" name="Burnin' the Midnight Oil">
       <property name="Rank" value="6"/>
       <property name="Suit" value="C"/>
       <property name="Type" value="Action"/>
@@ -305,7 +305,7 @@
       <property name="Outfit" value=""/>
       <property name="Rarity" value="F"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Noon: Target one of your Dudes. One skill rating on the Dude is increased by 3 until after Nightfall. Until after Nightfall, the Dude''s Value is lowered by 3 (minimum A) and the Dude may not move to another location."/>
+      <property name="Text" value="Noon: Target one of your Dudes. One skill rating on the Dude is increased by 3 until after Nightfall. Until after Nightfall, the Dude's Value is lowered by 3 (minimum A) and the Dude may not move to another location."/>
     </card>
     <card id="f4ae122d-2fee-48f9-b6c5-f66880abd291" name="Capt. Allen Graham">
       <property name="Rank" value="Q"/>
@@ -526,7 +526,7 @@
       <property name="Outfit" value=""/>
       <property name="Rarity" value="F"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Noon Job: Boot one of your Dudes to start a job that targets another player''s Home. If the job succeeds, the text box on that player''s Outfit card is considered blank until after Nightfall next turn, and all Dudes in your Posse become Wanted. Ace this card."/>
+      <property name="Text" value="Noon Job: Boot one of your Dudes to start a job that targets another player's Home. If the job succeeds, the text box on that player's Outfit card is considered blank until after Nightfall next turn, and all Dudes in your Posse become Wanted. Ace this card."/>
     </card>
     <card id="5f093175-0d01-42d8-b178-7c763150e226" name="Crumbling Dam">
       <property name="Rank" value="1"/>
@@ -589,12 +589,12 @@
       <property name="Bullets" value="1"/>
       <property name="Bullet Bonus" value=""/>
       <property name="Draw Type" value="Draw"/>
-      <property name="Influence" value="1"/>
+      <property name="Influence" value="0"/>
       <property name="Control" value=""/>
       <property name="Outfit" value="Lost Angels"/>
       <property name="Rarity" value="F"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Noon: Target a Hex in this location attached to another Dude. Until after Nightfall, Deluge is considered to have a copy of that Hex attached."/>
+      <property name="Text" value="Noon: Target a Hex in this location attached to another Dude. Until after Nightfall, Deluse is considered to have a copy of that Hex attached."/>
     </card>
     <card id="c6ddc799-6be4-4e35-9e09-8668b5f5c719" name="Deputized Civilian">
       <property name="Rank" value="6"/>
@@ -681,7 +681,7 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="You may only attach this Improvement to a Deed that you own but do not control. This Deed is worth 0 Control Points and has 0 Upkeep and Production while this Improvement is attached. Owner Noon: Discard this Improvement."/>
     </card>
-    <card id="8f391b8a-6f7e-4890-b420-e7be2f74d98d" name="Don''t Look">
+    <card id="8f391b8a-6f7e-4890-b420-e7be2f74d98d" name="Don't Look">
       <property name="Rank" value="2"/>
       <property name="Suit" value="C"/>
       <property name="Type" value="Action"/>
@@ -749,7 +749,7 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="Noon Miracle X: Target a Dude. X is the Value of a target Dude. If this Miracle succeeds and there is another Dude in play with the same name as the target, the target Dude is aced."/>
     </card>
-    <card id="06242f6a-d2b0-4edc-b306-8c498191958d" name="Duvalier''s Field Office">
+    <card id="06242f6a-d2b0-4edc-b306-8c498191958d" name="Duvalier's Field Office">
       <property name="Rank" value="1"/>
       <property name="Suit" value="D"/>
       <property name="Type" value="Deed"/>
@@ -1310,7 +1310,7 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="Noon: Target a Huckster in play. The Huckster gains +1 Influence until after Nightfall."/>
     </card>
-    <card id="6fdb3e49-5ec5-4253-ab78-a14ddebc8f94" name="It''s Always Darkest…">
+    <card id="6fdb3e49-5ec5-4253-ab78-a14ddebc8f94" name="It's Always Darkest…">
       <property name="Rank" value="2"/>
       <property name="Suit" value="H"/>
       <property name="Type" value="Event"/>
@@ -1327,7 +1327,7 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="Starting with the Winner and going clockwise, each player may boot one of their Terrors. When a Terror boots in this way, all Dudes in play with both lower Value and Influence than the Terror are booted. Ace this card."/>
     </card>
-    <card id="9bb2747b-efca-4e24-adc6-e90cad3d2ad4" name="It''s That Simple">
+    <card id="9bb2747b-efca-4e24-adc6-e90cad3d2ad4" name="It's That Simple">
       <property name="Rank" value="5"/>
       <property name="Suit" value="C"/>
       <property name="Type" value="Action"/>
@@ -1429,7 +1429,7 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="Reaction: When another player reveals an illegal Draw hand during a shootout, boot Fayllen to target a Dude in that player’s posse. If the Dude is Wanted, he or she is aced. Otherwise, the Dude becomes Wanted. Cheatin’! cards may not be played on that player during this draw, and this action cannot be used if one has already been played."/>
     </card>
-    <card id="6e1215aa-07bc-4872-82b0-12d81425b633" name="Kang''s Pride">
+    <card id="6e1215aa-07bc-4872-82b0-12d81425b633" name="Kang's Pride">
       <property name="Rank" value="J"/>
       <property name="Suit" value="H"/>
       <property name="Type" value="Good"/>
@@ -1444,7 +1444,7 @@
       <property name="Outfit" value=""/>
       <property name="Rarity" value="F"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Unique. Horse. Gadget Difficulty: 8 Can only be put into play by a Maze Rats player. Noon: Boot Kang''s Pride to move this Dude and any number of your other Dudes at this location to another location."/>
+      <property name="Text" value="Unique. Horse. Gadget Difficulty: 8 Can only be put into play by a Maze Rats player. Noon: Boot Kang's Pride to move this Dude and any number of your other Dudes at this location to another location."/>
     </card>
     <card id="6055cfdd-e496-43de-aa4a-511d941d4a78" name="Karl Rundgren">
       <property name="Rank" value="5"/>
@@ -1463,7 +1463,7 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="Karl becomes Wanted when he enters play. Noon: Boot Karl to gain 2 ghost rock. Karl becomes Wanted."/>
     </card>
-    <card id="c8ce0a18-d512-4e2e-9319-16ca2ca66916" name="Katie Karl''s Calibrated Pistols">
+    <card id="c8ce0a18-d512-4e2e-9319-16ca2ca66916" name="Katie Karl's Calibrated Pistols">
       <property name="Rank" value="8"/>
       <property name="Suit" value="H"/>
       <property name="Type" value="Good"/>
@@ -1478,7 +1478,7 @@
       <property name="Outfit" value=""/>
       <property name="Rarity" value="F"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Unique. Weapon. The cost of the Pistols is 0 when being attached to Katie Karl. The cost of the Pistols cannot be reduced when being attached to another Dude. This Dude is a Stud. Reaction: Use after casualties are aced in a shootout round you have won. The opposing player must pull for each surviving member of his posse. If the pull is greater than the Dude''s Value, the Dude is aced."/>
+      <property name="Text" value="Unique. Weapon. The cost of the Pistols is 0 when being attached to Katie Karl. The cost of the Pistols cannot be reduced when being attached to another Dude. This Dude is a Stud. Reaction: Use after casualties are aced in a shootout round you have won. The opposing player must pull for each surviving member of his posse. If the pull is greater than the Dude's Value, the Dude is aced."/>
     </card>
     <card id="73e12964-c8a9-49d2-a7d4-c921728282bc" name="Killer Kerry">
       <property name="Rank" value="Q"/>
@@ -1563,7 +1563,7 @@
       <property name="Outfit" value=""/>
       <property name="Rarity" value="F"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Shootout: Target a Dude in this shootout. The Dude''s Bullet rating is reduced to 0 until the end of the shootout. This action cannot be played in the first round of a shootout."/>
+      <property name="Text" value="Shootout: Target a Dude in this shootout. The Dude's Bullet rating is reduced to 0 until the end of the shootout. This action cannot be played in the first round of a shootout."/>
     </card>
     <card id="a1ac94c7-b5f6-4bc2-8e7a-5332bd2dbab4" name="Lost in the Crowd">
       <property name="Rank" value="4"/>
@@ -1599,7 +1599,7 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="Shootout: Target a Dude in the opposing posse with a Value less than or equal to the number of Dudes in your Posse. Boot Graves to ace that Dude."/>
     </card>
-    <card id="f3a89224-6622-4fa3-b9ac-9e60c3021cde" name="Lyle''s Aquatic Emporium">
+    <card id="f3a89224-6622-4fa3-b9ac-9e60c3021cde" name="Lyle's Aquatic Emporium">
       <property name="Rank" value="8"/>
       <property name="Suit" value="D"/>
       <property name="Type" value="Deed"/>
@@ -1803,7 +1803,7 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="Reaction: Play when a Dude moves to a location you own. Target and boot the Dude."/>
     </card>
-    <card id="1bb5a7cd-5e4b-4554-891b-bf43245b4724" name="Not Who You Were Expectin''?">
+    <card id="1bb5a7cd-5e4b-4554-891b-bf43245b4724" name="Not Who You Were Expectin'?">
       <property name="Rank" value="5"/>
       <property name="Suit" value="C"/>
       <property name="Type" value="Action"/>
@@ -1818,7 +1818,7 @@
       <property name="Outfit" value=""/>
       <property name="Rarity" value="F"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Cheatin''! Reaction: Play when another player reveals an illegal Draw hand. The next card you put into play from your Play hand has its ghost rock cost reduced to 0. Only one Cheatin’! card can be played against a player per draw."/>
+      <property name="Text" value="Cheatin'! Reaction: Play when another player reveals an illegal Draw hand. The next card you put into play from your Play hand has its ghost rock cost reduced to 0. Only one Cheatin’! card can be played against a player per draw."/>
     </card>
     <card id="95231283-620d-4909-a290-03b3bb345280" name="Now, Is That on Three…?">
       <property name="Rank" value="3"/>
@@ -1837,7 +1837,7 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="Shootout: You may perform 2 consecutive shootout actions immediately after this one."/>
     </card>
-    <card id="8c3aff22-bd63-418e-8083-752e610bac2a" name="Old Friends Come Knockin''">
+    <card id="8c3aff22-bd63-418e-8083-752e610bac2a" name="Old Friends Come Knockin'">
       <property name="Rank" value="K"/>
       <property name="Suit" value="H"/>
       <property name="Type" value="Event"/>
@@ -1888,7 +1888,7 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="Noon: Target a Deed worth at least 1 Control Point. The Deed’s Control Points are reduced by 2 (minimum 0) until after Nightfall."/>
     </card>
-    <card id="7148041b-6537-4d04-91ba-e58f05ac3464" name="Oswald''s New Chair">
+    <card id="7148041b-6537-4d04-91ba-e58f05ac3464" name="Oswald's New Chair">
       <property name="Rank" value="7"/>
       <property name="Suit" value="H"/>
       <property name="Type" value="Good"/>
@@ -1903,7 +1903,7 @@
       <property name="Outfit" value=""/>
       <property name="Rarity" value="F"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Unique. Mystical. Gadget Difficulty: 7. This Dude gains a +2 Influence and his or her Value is increased by 4. This Goods may only be traded once per game. Noon: Move this Dude to another location. Shootout: Target a Dude in the opposing posse. The target is booted. If the target was already booted and has a lower Value than this Dude''s Influence, the target is aced."/>
+      <property name="Text" value="Unique. Mystical. Gadget Difficulty: 7. This Dude gains a +2 Influence and his or her Value is increased by 4. This Goods may only be traded once per game. Noon: Move this Dude to another location. Shootout: Target a Dude in the opposing posse. The target is booted. If the target was already booted and has a lower Value than this Dude's Influence, the target is aced."/>
     </card>
     <card id="f16429a7-abe9-4ee8-b20e-05e878cd33a9" name="Out of Range">
       <property name="Rank" value="3"/>
@@ -2039,7 +2039,7 @@
       <property name="Outfit" value=""/>
       <property name="Rarity" value="F"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Cheatin''! Reaction: Play when another player reveals an illegal Draw hand. Boot one of your Blessed to target one of that player’s Dudes with a lower Value and Influence than your Blessed. Ace the target Dude. Only one Cheatin’! card can be played against a player per draw."/>
+      <property name="Text" value="Cheatin'! Reaction: Play when another player reveals an illegal Draw hand. Boot one of your Blessed to target one of that player’s Dudes with a lower Value and Influence than your Blessed. Ace the target Dude. Only one Cheatin’! card can be played against a player per draw."/>
     </card>
     <card id="03f5e79a-1cfd-4e3c-ab1f-fda2c27e8681" name="Po Yu">
       <property name="Rank" value="J"/>
@@ -2398,7 +2398,7 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="Noon Kung-Fu Power: Target one of your unbooted Kung-Fu Dudes. Until the end of the game, the Dude has the ability: “Reaction: Boot this Dude after you reveal Draw hands in a shootout and this Dude is in your posse. Your posse suffers one less casualty.” Ace this card."/>
     </card>
-    <card id="d2c3d027-dce5-46d9-b15e-e21bfe903dbb" name="Shady Jake''s">
+    <card id="d2c3d027-dce5-46d9-b15e-e21bfe903dbb" name="Shady Jake's">
       <property name="Rank" value="5"/>
       <property name="Suit" value="D"/>
       <property name="Type" value="Deed"/>
@@ -2432,7 +2432,7 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="Harrowed. Kung-Fu."/>
     </card>
-    <card id="ecf1a9a4-8543-46a6-8419-4774bc06e7a0" name="Shouting Tom''s Tunnel">
+    <card id="ecf1a9a4-8543-46a6-8419-4774bc06e7a0" name="Shouting Tom's Tunnel">
       <property name="Rank" value="10"/>
       <property name="Suit" value="D"/>
       <property name="Type" value="Deed"/>
@@ -2568,7 +2568,7 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="You must boot a Mad Scientist to put this card into play. Owner Reaction: Play immediately before this Deed is aced. Ace this Improvement instead of this Deed."/>
     </card>
-    <card id="9601d61f-48e8-4f90-b75c-734766ea5cdc" name="Startin'' Over">
+    <card id="9601d61f-48e8-4f90-b75c-734766ea5cdc" name="Startin' Over">
       <property name="Rank" value="8"/>
       <property name="Suit" value="H"/>
       <property name="Type" value="Event"/>
@@ -2653,7 +2653,7 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="Abomination. Cannot attach Goods. “Tabitha” may only enter play if the Fear level is above 5. Shootout: Play when Tabitha is the only Dude in your posse. She becomes a Stud and gains a +2 Bullet bonus until the end of the shootout."/>
     </card>
-    <card id="0a38fbc2-c7e4-4cb2-95a5-a2cf27ea7de1" name="Tai Ch''i Technique">
+    <card id="0a38fbc2-c7e4-4cb2-95a5-a2cf27ea7de1" name="Tai Ch'i Technique">
       <property name="Rank" value="7"/>
       <property name="Suit" value="C"/>
       <property name="Type" value="Action"/>
@@ -2840,7 +2840,7 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="Spells targeting the Lurking Fear have their difficulty increased by 4."/>
     </card>
-    <card id="552da3ca-c7e6-4c01-86d8-9b655a1bb311" name="The Master''s Dojo">
+    <card id="552da3ca-c7e6-4c01-86d8-9b655a1bb311" name="The Master's Dojo">
       <property name="Rank" value="7"/>
       <property name="Suit" value="D"/>
       <property name="Type" value="Deed"/>
@@ -2993,7 +2993,7 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="Tucker has +1 Production while he is in a Saloon. Noon: Play when Tucker is in a Saloon. Target another Dude in the Saloon to move that Dude to the Town Square, booted."/>
     </card>
-    <card id="b2e647d5-e610-4da0-ab33-7b0bcd692859" name="Turnabout''s Fair Play!">
+    <card id="b2e647d5-e610-4da0-ab33-7b0bcd692859" name="Turnabout's Fair Play!">
       <property name="Rank" value="4"/>
       <property name="Suit" value="C"/>
       <property name="Type" value="Action"/>
@@ -3112,7 +3112,7 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="Noon: Target a location you control. The next time one or more Dudes move to the target location, each Dude must pull: If the pull is greater than the Dude’s Value, the Dude is sent home booted. If the pull is greater than the Value plus 5, the Dude is aced. This action has no cost if J.P. Coleman is at the target location."/>
     </card>
-    <card id="fe9795d7-154c-4e2e-a70d-1b78429c4deb" name="Water Lou''s">
+    <card id="fe9795d7-154c-4e2e-a70d-1b78429c4deb" name="Water Lou's">
       <property name="Rank" value="1"/>
       <property name="Suit" value="D"/>
       <property name="Type" value="Deed"/>
@@ -3127,7 +3127,7 @@
       <property name="Outfit" value=""/>
       <property name="Rarity" value="F"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Non-Unique. Public. Saloon. Any Dude aced while at Water Lou''s is removed from play permanently. No other copy of that Dude may enter play for the rest of the game."/>
+      <property name="Text" value="Non-Unique. Public. Saloon. Any Dude aced while at Water Lou's is removed from play permanently. No other copy of that Dude may enter play for the rest of the game."/>
     </card>
     <card id="81a48b2f-a84c-401e-91f6-073aa21d1544" name="Watering Trough">
       <property name="Rank" value="5"/>
@@ -3146,7 +3146,7 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="Controller Noon: Target a Horse at this Deed. The Horse is unbooted, and actions on the Horse may be used an additional time this turn."/>
     </card>
-    <card id="fa46bcb2-42e4-4823-8042-726f5610cd9c" name="What''s That Ticking?">
+    <card id="fa46bcb2-42e4-4823-8042-726f5610cd9c" name="What's That Ticking?">
       <property name="Rank" value="10"/>
       <property name="Suit" value="C"/>
       <property name="Type" value="Action"/>
@@ -3282,7 +3282,7 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="Noon: Give an Agency Dude a +1 Bullet, +1 Influence, or +3 value (maximum King) until after Nightfall."/>
     </card>
-    <card id="df946435-5a59-497a-9764-752f87189d43" name="You Goin'' Somewhere?">
+    <card id="df946435-5a59-497a-9764-752f87189d43" name="You Goin' Somewhere?">
       <property name="Rank" value="4"/>
       <property name="Suit" value="C"/>
       <property name="Type" value="Action"/>
@@ -3299,7 +3299,7 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="Reaction: Play when a Dude moves out of a location. Boot one of your Dudes at the same location to cancel the move. Any costs of the move (such as booting) remain paid."/>
     </card>
-    <card id="5b5f996f-b29e-419d-a1b6-d73aa76aa052" name="You Lookin'' For This?">
+    <card id="5b5f996f-b29e-419d-a1b6-d73aa76aa052" name="You Lookin' For This?">
       <property name="Rank" value="10"/>
       <property name="Suit" value="C"/>
       <property name="Type" value="Action"/>

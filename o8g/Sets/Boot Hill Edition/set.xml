@@ -16,9 +16,9 @@
       <property name="Outfit" value=""/>
       <property name="Rarity" value="U"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Noon Harrowed Power: Target one of your unbooted Harrowed Dudes. Until the end of the game, the Dude has the ability &quot;Shootout: Boot this Dude to move this Dude to the shootout''s location and join your posse.&quot; Ace this card."/>
+      <property name="Text" value="Noon Harrowed Power: Target one of your unbooted Harrowed Dudes. Until the end of the game, the Dude has the ability &quot;Shootout: Boot this Dude to move this Dude to the shootout's location and join your posse.&quot; Ace this card."/>
     </card>
-    <card id="a4813433-4c8f-49b6-98c7-81f7b4f18c67" name="Corky''s Sidearm">
+    <card id="a4813433-4c8f-49b6-98c7-81f7b4f18c67" name="Corky's Sidearm">
       <property name="Rank" value="K"/>
       <property name="Suit" value="H"/>
       <property name="Type" value="Good"/>
@@ -35,7 +35,7 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="Unique. Weapon. Can only be attached to a Law Dog Dude. This Dude gains +1 Bullet bonus and a +1 Influence bonus for every other Law Dog Dude in this location."/>
     </card>
-    <card id="3fac76ce-1ab4-4929-80ed-5c71312acc25" name="Dragon''s Claw">
+    <card id="3fac76ce-1ab4-4929-80ed-5c71312acc25" name="Dragon's Claw">
       <property name="Rank" value="K"/>
       <property name="Suit" value="H"/>
       <property name="Type" value="Good"/>
@@ -120,7 +120,7 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="Unique. Weapon. Can only be attached to a Texas Ranger Dude. This Dude gains +1 Bullet bonus and a +1 Influence bonus for every other Texas Ranger Dude in this location."/>
     </card>
-    <card id="941c38e8-d99a-45ce-952e-eb9b96fde8c6" name="Mr. Prim''s Bust">
+    <card id="941c38e8-d99a-45ce-952e-eb9b96fde8c6" name="Mr. Prim's Bust">
       <property name="Rank" value="K"/>
       <property name="Suit" value="H"/>
       <property name="Type" value="Good"/>
@@ -152,9 +152,9 @@
       <property name="Outfit" value=""/>
       <property name="Rarity" value="R"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Shootout: Target a booted Dude in the opposing posse. Until the shootout ends, the target cannot be the shooter if another Dude can be, and the target''s Bullet rating does not contribute to the number of cards drawn or redrawn by the opposing player."/>
+      <property name="Text" value="Shootout: Target a booted Dude in the opposing posse. Until the shootout ends, the target cannot be the shooter if another Dude can be, and the target's Bullet rating does not contribute to the number of cards drawn or redrawn by the opposing player."/>
     </card>
-    <card id="f5c38371-ab7c-49b0-962b-ada79aa849b3" name="Rachel''s Sidearm">
+    <card id="f5c38371-ab7c-49b0-962b-ada79aa849b3" name="Rachel's Sidearm">
       <property name="Rank" value="K"/>
       <property name="Suit" value="H"/>
       <property name="Type" value="Good"/>
@@ -171,7 +171,7 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="Unique. Weapon. Can only be attached to a Black Jack Dude. This Dude gains +1 Bullet bonus and a +1 Influence bonus for every other Black Jack Dude in this location."/>
     </card>
-    <card id="a9f0f3e1-96d9-403c-92a7-f2dfe40b83af" name="Raven''s Chop">
+    <card id="a9f0f3e1-96d9-403c-92a7-f2dfe40b83af" name="Raven's Chop">
       <property name="Rank" value="K"/>
       <property name="Suit" value="H"/>
       <property name="Type" value="Good"/>
@@ -188,7 +188,7 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="Unique. Weapon. Can only be attached to a Sioux Union Dude. This Dude gains +1 Bullet bonus and a +1 Influence bonus for every other Texas Ranger Dude in this location."/>
     </card>
-    <card id="9b29de56-5995-4256-b8cb-73004a7bee29" name="Sister Mary''s Shotgun">
+    <card id="9b29de56-5995-4256-b8cb-73004a7bee29" name="Sister Mary's Shotgun">
       <property name="Rank" value="K"/>
       <property name="Suit" value="H"/>
       <property name="Type" value="Good"/>
@@ -205,7 +205,7 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="Unique. Weapon. Can only be attached to an Agency Dude. This Dude gains +1 Bullet bonus and a +1 Influence bonus for every other Agency Dude in this location."/>
     </card>
-    <card id="41d26b4d-7dbc-4a6c-a1d8-53e184a919d7" name="The Hooded Figure''s Scythe">
+    <card id="41d26b4d-7dbc-4a6c-a1d8-53e184a919d7" name="The Hooded Figure's Scythe">
       <property name="Rank" value="K"/>
       <property name="Suit" value="H"/>
       <property name="Type" value="Good"/>

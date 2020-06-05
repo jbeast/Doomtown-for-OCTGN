@@ -50,7 +50,7 @@
       <property name="Outfit" value=""/>
       <property name="Rarity" value="C"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Noon Job: Boot one of your Dudes to start a job that targets another player''s Dude. If the job succeeds, the target Dude is aced (if still in play). All Dudes in your posse become Wanted unless the target was Wanted."/>
+      <property name="Text" value="Noon Job: Boot one of your Dudes to start a job that targets another player's Dude. If the job succeeds, the target Dude is aced (if still in play). All Dudes in your posse become Wanted unless the target was Wanted."/>
     </card>
     <card id="d17ab6af-7ba7-4c1c-904b-1d10c74c267f" name="And Scooter">
       <property name="Rank" value="4"/>
@@ -103,7 +103,7 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="The cost to bring Jake into play from your Play Hand and his upkeep are reduced by one if you have Scooter in play. Reaction: Boot Jake immediately before the upkeep phase to reduce the production of one strike to zero for this turn."/>
     </card>
-    <card id="9888d10f-b1b4-4488-b279-34c29265b198" name="Bob''s Fix-It Shop">
+    <card id="9888d10f-b1b4-4488-b279-34c29265b198" name="Bob's Fix-It Shop">
       <property name="Rank" value="8"/>
       <property name="Suit" value="D"/>
       <property name="Type" value="Deed"/>
@@ -118,7 +118,7 @@
       <property name="Outfit" value=""/>
       <property name="Rarity" value="R"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Controller Reaction: Boot the Fix-It Shop when one of your gadgets is being aced to place the Gadget in its owner''s play hand. Controller Reaction: Boot the Fix-it Shop when one of your goods is being aced to place the Gadget in its owner''s Discard pile."/>
+      <property name="Text" value="Controller Reaction: Boot the Fix-It Shop when one of your gadgets is being aced to place the Gadget in its owner's play hand. Controller Reaction: Boot the Fix-it Shop when one of your goods is being aced to place the Gadget in its owner's Discard pile."/>
     </card>
     <card id="3f6cabd3-c60e-494a-a242-5174952d18de" name="Bomb">
       <property name="Rank" value="K"/>
@@ -152,7 +152,7 @@
       <property name="Outfit" value="Sweetrock"/>
       <property name="Rarity" value="C"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Reaction Pull: Boot Dr. Branson when a Dude is aced in a shootout where the difference in hand ranks was less than 2 ranks, and you have at least one other Dude at the shootout location. If the pull is less than the Dude''s value, the Dude is not aced but goes home booted."/>
+      <property name="Text" value="Reaction Pull: Boot Dr. Branson when a Dude is aced in a shootout where the difference in hand ranks was less than 2 ranks, and you have at least one other Dude at the shootout location. If the pull is less than the Dude's value, the Dude is not aced but goes home booted."/>
     </card>
     <card id="138beba5-100a-4d5f-9734-910dce548808" name="Equipment Shop">
       <property name="Rank" value="3"/>
@@ -186,7 +186,7 @@
       <property name="Outfit" value="Drifters"/>
       <property name="Rarity" value="C"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Harrowed. Harlot. Noon: Boot Ezzie and target a Dude. The Dude''s controller makes three pulls: if all three pulls are higher than the Dude''s value, ace the Dude. If the Dude''s controller cannot make three pulls, any pulls the controller cannot make are considered successful for Ezzie."/>
+      <property name="Text" value="Harrowed. Harlot. Noon: Boot Ezzie and target a Dude. The Dude's controller makes three pulls: if all three pulls are higher than the Dude's value, ace the Dude. If the Dude's controller cannot make three pulls, any pulls the controller cannot make are considered successful for Ezzie."/>
     </card>
     <card id="9e43e709-ffbd-4252-bad2-7167f3e207dd" name="Flamethrower">
       <property name="Rank" value="9"/>
@@ -237,7 +237,7 @@
       <property name="Outfit" value=""/>
       <property name="Rarity" value="R"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Noon: Boot one or more of your dudes who have a combined influence greater than the number of Control Points provided by the deed they are in. You control this deed until after nightfall, regardless of other Player''s influence totals."/>
+      <property name="Text" value="Noon: Boot one or more of your dudes who have a combined influence greater than the number of Control Points provided by the deed they are in. You control this deed until after nightfall, regardless of other Player's influence totals."/>
     </card>
     <card id="75ca0f10-d180-4ead-a2e8-7a087e3ef1c0" name="Gatling Gun">
       <property name="Rank" value="5"/>
@@ -288,7 +288,7 @@
       <property name="Outfit" value=""/>
       <property name="Rarity" value="R"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Cheatin''! Reaction: Play this card when another player reveals an illegal Draw Hand. Boot one of your dudes and call out any one of that Player''s dudes for a Shootout. This Shootout cannot be refused, and no other dudes can join the Shootout. Any actions or effects being resolved are suspended in mid-action. Only one Cheatin! Card can be played against a player per draw."/>
+      <property name="Text" value="Cheatin'! Reaction: Play this card when another player reveals an illegal Draw Hand. Boot one of your dudes and call out any one of that Player's dudes for a Shootout. This Shootout cannot be refused, and no other dudes can join the Shootout. Any actions or effects being resolved are suspended in mid-action. Only one Cheatin! Card can be played against a player per draw."/>
     </card>
     <card id="238f5cb7-67cf-4143-89f3-0f7f0a20b4fc" name="Get on Your Feet!">
       <property name="Rank" value="2"/>
@@ -358,7 +358,7 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="Noon: Boot Gunther at any location and pay 1 Ghost Rock. Give him a +3 Bullet Stud bonus until the end of next turn that is in effect whenever he is at a location you control."/>
     </card>
-    <card id="270ce1b5-0e7e-4d04-b0d0-dbb44468ba23" name="Hell''s End Mine">
+    <card id="270ce1b5-0e7e-4d04-b0d0-dbb44468ba23" name="Hell's End Mine">
       <property name="Rank" value="3"/>
       <property name="Suit" value="D"/>
       <property name="Type" value="Deed"/>
@@ -409,7 +409,7 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="While you have Howard Findley in play, your strikes cost 1 less ghost rock to put into play and they produce 1 additional ghost rock per turn."/>
     </card>
-    <card id="5c43c0b9-fff1-425f-9130-22fde15538b3" name="Ignacio''s Exotics">
+    <card id="5c43c0b9-fff1-425f-9130-22fde15538b3" name="Ignacio's Exotics">
       <property name="Rank" value="J"/>
       <property name="Suit" value="D"/>
       <property name="Type" value="Deed"/>
@@ -511,7 +511,7 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value=""/>
     </card>
-    <card id="d74a5265-6a02-4b87-a203-66c7aee6f5ac" name="One Eyed Ike''s Weapons Locker">
+    <card id="d74a5265-6a02-4b87-a203-66c7aee6f5ac" name="One Eyed Ike's Weapons Locker">
       <property name="Rank" value="4"/>
       <property name="Suit" value="D"/>
       <property name="Type" value="Deed"/>
@@ -526,7 +526,7 @@
       <property name="Outfit" value=""/>
       <property name="Rarity" value="C"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="A dude occupying Ike''s can only be called out by Harrowed dudes Weapons the Controller is bringing into play have their cost reduced by two."/>
+      <property name="Text" value="A dude occupying Ike's can only be called out by Harrowed dudes Weapons the Controller is bringing into play have their cost reduced by two."/>
     </card>
     <card id="cbbbeb07-b5b7-4b8b-ba06-04b8f986147f" name="Orphanage">
       <property name="Rank" value="10"/>
@@ -577,7 +577,7 @@
       <property name="Outfit" value=""/>
       <property name="Rarity" value="C"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Shootout: Target a booted Dude in the opposing posse. Until the shootout ends, the target cannot be the shooter if another Dude can be, and the target''s Bullet rating does not contribute to the number of cards drawn or redrawn by the opposing player."/>
+      <property name="Text" value="Shootout: Target a booted Dude in the opposing posse. Until the shootout ends, the target cannot be the shooter if another Dude can be, and the target's Bullet rating does not contribute to the number of cards drawn or redrawn by the opposing player."/>
     </card>
     <card id="0d0a5ad4-7e21-48b4-93d4-ddac04e4710c" name="Pistol Whip">
       <property name="Rank" value="6"/>
@@ -628,7 +628,7 @@
       <property name="Outfit" value=""/>
       <property name="Rarity" value="C"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Public. Controller Reaction: Immediately after the start of the Upkeep Phase, target a Dude you control. Boot the Red Hill Hotel to reduce the Dude''s Upkeep cost to 0 until after Nightfall."/>
+      <property name="Text" value="Public. Controller Reaction: Immediately after the start of the Upkeep Phase, target a Dude you control. Boot the Red Hill Hotel to reduce the Dude's Upkeep cost to 0 until after Nightfall."/>
     </card>
     <card id="7da63926-3196-4b57-8cf5-421bed197a80" name="Refuse to Fall">
       <property name="Rank" value="10"/>
@@ -645,7 +645,7 @@
       <property name="Outfit" value=""/>
       <property name="Rarity" value="C"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Reaction: Play when the last Dude in your posse is aced in a shootout, and that Dude has Influence greater than 0. Reduce the Dude''s Influence by 1 permanently. The Dude is not aced in this round. Ace the Dude after the shootout."/>
+      <property name="Text" value="Reaction: Play when the last Dude in your posse is aced in a shootout, and that Dude has Influence greater than 0. Reduce the Dude's Influence by 1 permanently. The Dude is not aced in this round. Ace the Dude after the shootout."/>
     </card>
     <card id="00e655dd-6a9d-451a-8819-d86fb44a7fb2" name="Reverend Simon MacPherson">
       <property name="Rank" value="5"/>
@@ -698,7 +698,7 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="Shootout: Before this Shootout continues, there is a Shootout between one of your unbooted dude who is adjacent but not in the Shootout and any one enemy dude who is in this Shootout. No other dudes may enter this new Shootout."/>
     </card>
-    <card id="30374f50-4716-49ab-a0c3-101fef981472" name="Scooter''s Lift Winch">
+    <card id="30374f50-4716-49ab-a0c3-101fef981472" name="Scooter's Lift Winch">
       <property name="Rank" value="9"/>
       <property name="Suit" value="D"/>
       <property name="Type" value="Deed"/>
@@ -730,9 +730,9 @@
       <property name="Outfit" value="Drifters"/>
       <property name="Rarity" value="R"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Noon: Boot Sir Whitmore and pay 1 ghost rock to look at a Player''s Play Hand."/>
+      <property name="Text" value="Noon: Boot Sir Whitmore and pay 1 ghost rock to look at a Player's Play Hand."/>
     </card>
-    <card id="b0e7cf2a-168c-4fa8-9e00-1a9048936c9d" name="Smiley''s Shaft">
+    <card id="b0e7cf2a-168c-4fa8-9e00-1a9048936c9d" name="Smiley's Shaft">
       <property name="Rank" value="2"/>
       <property name="Suit" value="D"/>
       <property name="Type" value="Deed"/>
@@ -755,7 +755,7 @@
       <property name="Type" value="Outfit"/>
       <property name="Cost" value="0"/>
       <property name="Upkeep" value=""/>
-      <property name="Production" value="5"/>
+      <property name="Production" value="3"/>
       <property name="Bullets" value=""/>
       <property name="Bullet Bonus" value=""/>
       <property name="Draw Type" value=""/>
@@ -764,7 +764,7 @@
       <property name="Outfit" value="Sweetrock"/>
       <property name="Rarity" value="F"/>
       <property name="Ghost Rock" value="20"/>
-      <property name="Text" value="GR: 20. You have one additional Control Point for each Strike that produces more than 5 ghost rock per turn. When playing lowball during the gambling Phase, you draw and discard an additional card."/>
+      <property name="Text" value="GR: 20 You cannot put into play or take control of a Dude from another Outfit if you already control a non-Sweetrock, non-Drifter Dude. You have +1 Control Point for each Strike that you control that has a current Production more than 5. When playing lowball during the Gambling Phase, draw an extra card, then discard a card."/>
     </card>
     <card id="e4ccf125-1aae-4fbc-ab64-43a044e931e9" name="The Docks">
       <property name="Rank" value="6"/>
@@ -851,7 +851,7 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="If The Twitch is aced during a shootout, send him home booted instead of to Boot Hill, and permanently reduce his printed Bullet rating by 1. If his printed Bullet rating is ever permanently reduced to 0, The Twitch is removed from play and cannot return."/>
     </card>
-    <card id="b0af599e-219f-4f10-86e3-921c6447028f" name="Tom O''Reilly">
+    <card id="b0af599e-219f-4f10-86e3-921c6447028f" name="Tom O'Reilly">
       <property name="Rank" value="5"/>
       <property name="Suit" value="S"/>
       <property name="Type" value="Dude"/>
@@ -866,7 +866,7 @@
       <property name="Outfit" value="Whateleys"/>
       <property name="Rarity" value="C"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Tom''s upkeep is reduced by one for every dude in Boot Hill."/>
+      <property name="Text" value="Tom's upkeep is reduced by one for every dude in Boot Hill."/>
     </card>
     <card id="3e83de16-f065-4d9e-ae11-90dc15af1e6c" name="Top of the World Lode">
       <property name="Rank" value="9"/>

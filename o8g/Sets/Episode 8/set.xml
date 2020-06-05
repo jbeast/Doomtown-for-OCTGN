@@ -16,7 +16,7 @@
       <property name="Outfit" value="Flock"/>
       <property name="Rarity" value="R"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Any location with Avarice in it has it''s printed ghost rock production doubled. Noon: Boot Avarice to get any strike from your deck. Show it to the other players and place it in your hand. Shuffle your deck. Discard a card from your hand."/>
+      <property name="Text" value="Any location with Avarice in it has it's printed ghost rock production doubled. Noon: Boot Avarice to get any strike from your deck. Show it to the other players and place it in your hand. Shuffle your deck. Discard a card from your hand."/>
     </card>
     <card id="a38c6e9a-4e4c-4090-b065-df9c81dae077" name="Benjamin Dean">
       <property name="Rank" value="3"/>
@@ -118,7 +118,7 @@
       <property name="Outfit" value=""/>
       <property name="Rarity" value="R"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Reaction Miracle 5: Perform this Miracle immediately before a Huckster pulls to perform a hex. If this Miracle is successful, the pull is reduced by your Blessed''s Value."/>
+      <property name="Text" value="Reaction Miracle 5: Perform this Miracle immediately before a Huckster pulls to perform a hex. If this Miracle is successful, the pull is reduced by your Blessed's Value."/>
     </card>
     <card id="550599da-6364-4e19-972a-9ca5a6eba3f2" name="Chester Nero">
       <property name="Rank" value="4"/>
@@ -254,7 +254,7 @@
       <property name="Outfit" value=""/>
       <property name="Rarity" value="R"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Gadget Difficulty: 6. Noon Pull: Target a dude in play. If the pull is greater than or equal to the dude''s value, then your dude gets to choose any one action on the target dude. Treat your dude as if he had that action printed on him until after nightfall."/>
+      <property name="Text" value="Gadget Difficulty: 6. Noon Pull: Target a dude in play. If the pull is greater than or equal to the dude's value, then your dude gets to choose any one action on the target dude. Treat your dude as if he had that action printed on him until after nightfall."/>
     </card>
     <card id="ac274fc9-ff29-4d5c-bb3c-7da99345646c" name="Erik Zarkov">
       <property name="Rank" value="9"/>
@@ -458,9 +458,9 @@
       <property name="Outfit" value=""/>
       <property name="Rarity" value="C"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Reaction: Play when a Blessed''s Miracle is unsuccessful. That dude loses the Blessed skill, permanently."/>
+      <property name="Text" value="Reaction: Play when a Blessed's Miracle is unsuccessful. That dude loses the Blessed skill, permanently."/>
     </card>
-    <card id="82d11b15-d832-45f7-9a69-fa0f57d931ac" name="Machinist''s Shop">
+    <card id="82d11b15-d832-45f7-9a69-fa0f57d931ac" name="Machinist's Shop">
       <property name="Rank" value="Q"/>
       <property name="Suit" value="D"/>
       <property name="Type" value="Deed"/>
@@ -543,7 +543,7 @@
       <property name="Outfit" value="Drifters"/>
       <property name="Rarity" value="R"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Experienced. Nash will not call out a Sweetrock dude. Noon: Boot Nash to call out one dude at an adjacent location. The Shootout will take place in Nash''s location - the target moves to this location. "/>
+      <property name="Text" value="Experienced. Nash will not call out a Sweetrock dude. Noon: Boot Nash to call out one dude at an adjacent location. The Shootout will take place in Nash's location - the target moves to this location. "/>
     </card>
     <card id="b366e435-35bb-4bde-b462-b7e762d065a5" name="Nate Hunter is Elected Sherrif">
       <property name="Rank" value="10"/>
@@ -696,7 +696,7 @@
       <property name="Outfit" value=""/>
       <property name="Rarity" value="C"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Shootout Miracle 5: If this Miracle is successful, this Blessed''s bullet rating is increased to be equal to his or her Influence and becomes a stud, until the end of this shootout."/>
+      <property name="Text" value="Shootout Miracle 5: If this Miracle is successful, this Blessed's bullet rating is increased to be equal to his or her Influence and becomes a stud, until the end of this shootout."/>
     </card>
     <card id="062a03a2-df50-4740-a705-76f60abae412" name="That’ll Leave a Scar">
       <property name="Rank" value="K"/>
@@ -834,7 +834,7 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="Harrowed. Frank cannot be aced in a shootout unless your hand is beaten by at least 3 ranks."/>
     </card>
-    <card id="5c8039be-3995-47bd-b58d-ab3ce14179a0" name="Turtle''s Shell">
+    <card id="5c8039be-3995-47bd-b58d-ab3ce14179a0" name="Turtle's Shell">
       <property name="Rank" value="2"/>
       <property name="Suit" value="H"/>
       <property name="Type" value="Spell"/>
@@ -851,7 +851,7 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="Shootout Spirit 6: If this Spirit is successful, then you can ace one less Dude (if you have to ace any) each round for the rest of this shootout."/>
     </card>
-    <card id="0a41b8f4-2148-450e-a592-512a399825db" name="Will o'' the Wisp">
+    <card id="0a41b8f4-2148-450e-a592-512a399825db" name="Will o' the Wisp">
       <property name="Rank" value="7"/>
       <property name="Suit" value="S"/>
       <property name="Type" value="Dude"/>
@@ -866,7 +866,7 @@
       <property name="Outfit" value="Drifters"/>
       <property name="Rarity" value="C"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Abomination. The Wisp cannot move to locations in town. Noon: Move the Will o'' the Wisp to a strike. This does not boot the Wisp. Noon: Boot one dude at this location."/>
+      <property name="Text" value="Abomination. The Wisp cannot move to locations in town. Noon: Move the Will o' the Wisp to a strike. This does not boot the Wisp. Noon: Boot one dude at this location."/>
     </card>
     <card id="6eaf8377-a2c2-4641-b867-fc359e8bbdea" name="William Olson">
       <property name="Rank" value="2"/>

@@ -50,7 +50,7 @@
       <property name="Outfit" value="Maze Rats"/>
       <property name="Rarity" value="F"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Experienced. Shootout: If Buckets is at a shootout and out of town, you can discard a card from your hand to create one Shark in Nelson''s posse. The Shark is a non-unique, 1-Stud, 0 Influence, ace value Dude. Sharks are removed from play after the Shootout. Nelson can perform this action any number of times per turn."/>
+      <property name="Text" value="Experienced. Shootout: If Buckets is at a shootout and out of town, you can discard a card from your hand to create one Shark in Nelson's posse. The Shark is a non-unique, 1-Stud, 0 Influence, ace value Dude. Sharks are removed from play after the Shootout. Nelson can perform this action any number of times per turn."/>
     </card>
     <card id="b799f441-3aaf-47b3-acd5-d205e0d633a2" name="Burial Ground">
       <property name="Rank" value="4"/>
@@ -101,7 +101,7 @@
       <property name="Outfit" value=""/>
       <property name="Rarity" value="F"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="River Boat. Casino. Saloon. Out of Town. Public. This Deed is considered adjacent to all Strikes in play. Any Dude not controlled by the California Queen''s owner who moves to the Queen must pay 1 Ghost Rock to the Queen''s owner."/>
+      <property name="Text" value="River Boat. Casino. Saloon. Out of Town. Public. This Deed is considered adjacent to all Strikes in play. Any Dude not controlled by the California Queen's owner who moves to the Queen must pay 1 Ghost Rock to the Queen's owner."/>
     </card>
     <card id="648854bb-5b43-4aa0-b4b1-54e2c953d340" name="Danny Hamilton">
       <property name="Rank" value="J"/>
@@ -118,9 +118,9 @@
       <property name="Outfit" value="Texas Rangers"/>
       <property name="Rarity" value="F"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Experienced. Noon: Move any Texas Ranger to a location with a Terror in it if the Terror is in Hamilton''s location or an adjacent location."/>
+      <property name="Text" value="Experienced. Noon: Move any Texas Ranger to a location with a Terror in it if the Terror is in Hamilton's location or an adjacent location."/>
     </card>
-    <card id="9ff6b4a5-c7b0-4c05-99fd-3a94eec0d0fb" name="Demon''s Eye">
+    <card id="9ff6b4a5-c7b0-4c05-99fd-3a94eec0d0fb" name="Demon's Eye">
       <property name="Rank" value="2"/>
       <property name="Suit" value="H"/>
       <property name="Type" value="Spell"/>
@@ -186,7 +186,7 @@
       <property name="Outfit" value="Collegium"/>
       <property name="Rarity" value="F"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Experienced. Shootout: Boot Klippstein to move him and any of your Dudes at his location into the shootout''s location and join them with either posse.  Noon: Move Klippstein to another location."/>
+      <property name="Text" value="Experienced. Shootout: Boot Klippstein to move him and any of your Dudes at his location into the shootout's location and join them with either posse.  Noon: Move Klippstein to another location."/>
     </card>
     <card id="1895c96f-9f66-493d-b38f-afec08a035b7" name="Ghost Rock Detector">
       <property name="Rank" value="3"/>
@@ -205,7 +205,7 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="Gadget Difficulty: 5. Noon: Discard the Detector to go through your deck, retrieve any one Strike, and immediately put it into play. The cost of the Strike is reduced by 4 Ghost Rock. Pay all other costs normally."/>
     </card>
-    <card id="603f5e33-99fd-43f8-bde5-5ea23106cdcd" name="Hell''s Comin'' With Me">
+    <card id="603f5e33-99fd-43f8-bde5-5ea23106cdcd" name="Hell's Comin' With Me">
       <property name="Rank" value="9"/>
       <property name="Suit" value="C"/>
       <property name="Type" value="Action"/>
@@ -237,7 +237,7 @@
       <property name="Outfit" value="Sweetrock"/>
       <property name="Rarity" value="F"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Experienced. Noon:  MacNeil can call out any Dude who has called out a Sweetrock Dude this turn or last turn, if that Dude is in MacNeil''s location or an adjacent location."/>
+      <property name="Text" value="Experienced. Noon:  MacNeil can call out any Dude who has called out a Sweetrock Dude this turn or last turn, if that Dude is in MacNeil's location or an adjacent location."/>
     </card>
     <card id="e585701b-6086-4a38-aac3-45fccd59a263" name="Nate Hunter">
       <property name="Rank" value="K"/>
@@ -254,7 +254,7 @@
       <property name="Outfit" value="Law Dogs"/>
       <property name="Rarity" value="F"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Experienced. Sheriff of Gomorra.  Noon: Nate can call out any Wanted Dude in his location or an adjacent location. If the Wanted Dude does not accept the challenge, that Dude goes to his or her owner''s discard pile."/>
+      <property name="Text" value="Experienced. Sheriff of Gomorra.  Noon: Nate can call out any Wanted Dude in his location or an adjacent location. If the Wanted Dude does not accept the challenge, that Dude goes to his or her owner's discard pile."/>
     </card>
     <card id="dcacd774-fccf-4e8d-909c-1576f3c8f709" name="Rachel Sumner">
       <property name="Rank" value="Q"/>
@@ -273,7 +273,7 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="Experienced. Noon:  Rachel can call out any Law Dog in her location or an adjacent location. Rachel becomes Wanted."/>
     </card>
-    <card id="48629cd6-7b4e-4268-b0b8-92bc731b40f4" name="Takin'' Precautions">
+    <card id="48629cd6-7b4e-4268-b0b8-92bc731b40f4" name="Takin' Precautions">
       <property name="Rank" value="K"/>
       <property name="Suit" value="C"/>
       <property name="Type" value="Action"/>
