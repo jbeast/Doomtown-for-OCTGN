@@ -360,32 +360,36 @@ def orgAttachments(card,facing = 'Same'):
    #    for attachment in cardAttachements: notify("{} index = {}".format(attachment,attachment.getIndex)) # Debug
    debugNotify("<<< orgAttachments()", 3) #Debug      
 
-def makeChoiceListfromCardList(cardList,includeText = False):
+def makeChoiceListfromCardList(cards, includeText = False):
 # A function that returns a list of strings suitable for a choice menu, out of a list of cards
 # Each member of the list includes a card's name, traits, resources, markers and, if applicable, combat icons
    debugNotify(">>> makeChoiceListfromCardList()")
-   debugNotify("cardList: {}".format([c.name for c in cardList]), 2)
+   debugNotify("cardList: {}".format([c.name for c in cards]), 2)
    targetChoices = []
    debugNotify("About to prepare choices list.", 2)# Debug
-   for T in cardList:
-      debugNotify("Checking {}".format(T), 4)# Debug
+   for card in cards:
+      debugNotify("Checking {}".format(card), 4)# Debug
       markers = 'Counters:'
-      if T.markers[mdict['WantedMarker']] and T.markers[mdict['WantedMarker']] >= 1: markers += "Wanted,".format(T.markers[mdict['Advancement']])
-      if T.markers[mdict['HarrowedMarker']] and T.markers[mdict['HarrowedMarker']] >= 1: markers += "Harrowed,".format(T.markers[mdict['Credits']])
-      if markers != 'Counters:': markers += '\n'
-      else: markers = ''
+      if card.markers[WantedMarker] and card.markers[WantedMarker] >= 1:
+         markers += "Wanted,".format(WantedMarker[1])
+      if card.markers[HarrowedMarker] and card.markers[HarrowedMarker] >= 1:
+         markers += "Harrowed,".format(HarrowedMarker[1])
+      if markers != 'Counters:': 
+         markers += '\n'
+      else: 
+         markers = ''
       debugNotify("Finished Adding Markers. Adding stats...", 4)# Debug               
       stats = ''
-      stats += "Cost: {}. ".format(T.Cost)
-      if num(T.Upkeep): stats += "Upkeep: {}.\n".format(T.Upkeep)
-      if num(T.Production): stats += "Production: {}.\n".format(T.Production)
-      if num(T.Bullets): stats += "Bullets: {}.".format(T.Bullets)
-      if num(T.Influence): stats += "Influence: {}.".format(T.Influence)
-      if num(T.Control): stats += "CP: {}.".format(T.Control)
-      if includeText: cText = '\n' + T.Text
+      stats += "Cost: {}. ".format(card.Cost)
+      if num(card.Upkeep): stats += "Upkeep: {}.\n".format(card.Upkeep)
+      if num(card.Production): stats += "Production: {}.\n".format(card.Production)
+      if num(card.Bullets): stats += "Bullets: {}.".format(card.Bullets)
+      if num(card.Influence): stats += "Influence: {}.".format(card.Influence)
+      if num(card.Control): stats += "CP: {}.".format(card.Control)
+      if includeText: cText = '\n' + card.Text
       else: cText = ''
       debugNotify("Finished Adding Stats. Going to choice...", 4)# Debug               
-      choiceTXT = "{}\n{}\n{}{}{}".format(T.name,T.Type,markers,stats,cText)
+      choiceTXT = "{}\n{}\n{}{}{}".format(card.name,card.Type,markers,stats,cText)
       targetChoices.append(choiceTXT)
    debugNotify("<<< makeChoiceListfromCardList()", 3)
    return targetChoices

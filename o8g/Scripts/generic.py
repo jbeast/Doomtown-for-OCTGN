@@ -358,7 +358,8 @@ class MultiChoiceWindow(Form):
          self.TopMost = True # And re-send it to top
          self.timer_tries += 1 # Increment this counter to stop after 3 tries.
       
-def multiChoice(title, options): # This displays a choice where the player can select more than one ability to trigger serially one after the other
+def multiChoice(title, options):
+   """This displays a choice where the player can select more than one ability to trigger serially one after the other"""
    debugNotify(">>> multiChoice()".format(title))
    if Automations['WinForms']: # If the player has not disabled the custom WinForms, we use those
       Application.EnableVisualStyles() # To make the window look like all other windows in the user's system

@@ -366,8 +366,10 @@ def setWinner(winner):
    outfits = (card for card in table
               if card.Type == 'Outfit')
    for outfit in outfits:
-      if outfit.owner == winner: outfit.markers[WinnerMarker] = 1
-      else: outfit.markers[WinnerMarker] = 0
+      if outfit.owner == winner:
+         outfit.markers[WinnerMarker] = 1
+      else:
+         outfit.markers[WinnerMarker] = 0
 
 #---------------------------------------------------------------------------
 # Marker functions
@@ -483,7 +485,11 @@ def calcValue(card, type = 'poker'):
 def plusValue(card, x = 0, y = 0, notification = 'loud', valuemod = None): 
 # Very much like plus Influence and control, but we don't have to worry about modifying the player's totals
    mute()
-   if valuemod == None: valuemod = askInteger("Increase {}'s value by how much? (Current value is: {})".format(card.name,calcValue(card)), 3)
+   if valuemod is None:
+      valuemod = askInteger("Increase {}'s value by how much? (Current value is: {})".format(card.name,calcValue(card)), 3)
+      if valuemod is None:
+         return
+
    if ValueMinusMarker in card.markers:
       if valuemod <= card.markers[ValueMinusMarker]:
          card.markers[ValueMinusMarker] -= valuemod
@@ -498,7 +504,11 @@ def plusValue(card, x = 0, y = 0, notification = 'loud', valuemod = None):
         
 def minusValue(card, x = 0, y = 0, notification = 'loud', valuemod = None): 
    mute()
-   if valuemod == None: valuemod = askInteger("Decrease {}'s value by how much? (Current value is: {})".format(card.name,calcValue(card)), 3)
+   if valuemod is None:
+       valuemod = askInteger("Decrease {}'s value by how much? (Current value is: {})".format(card.name,calcValue(card)), 3)
+       if valuemod is None:
+          return
+
    if ValuePlusMarker in card.markers:
       if valuemod <= card.markers[ValuePlusMarker]:
          card.markers[ValuePlusMarker] -= valuemod
@@ -513,10 +523,14 @@ def minusValue(card, x = 0, y = 0, notification = 'loud', valuemod = None):
 
 def setValue(card, x = 0, y = 0):
    mute()
-   currentValue = calcValue(card,'raw')
-   newValue = askInteger("What should the new value be? (use direct number format: 1 - 13)", calcValue(card,'numeral'))
-   if newValue > currentValue: plusValue(card,0,0,silent,(newValue - currentValue))
-   if newValue < currentValue: minusValue(card,0,0,silent,(currentValue - newValue))
+   current_value = calcValue(card,'raw')
+   new_value = askInteger("What should the new value be? (use direct number format: 1 - 13)", calcValue(card,'numeral'))
+   if new_value is None or new_value == current_value:
+      return
+   elif new_value > current_value:
+      plusValue(card,0,0,silent,(new_value - current_value))
+   else:
+      minusValue(card,0,0,silent,(current_value - new_value))
    notify("{} has set the value of {} to {}".format(me,card,calcValue(card)))
     
 def addMarker(cards, x = 0, y = 0): # A simple function to manually add any of the available markers.
@@ -654,16 +668,19 @@ def tradeGoods(card, x = 0, y = 0):
       attachCard(attachedGoods[0],newHost)  #If there's only 1 goods attached, we assume that's the one that is going to be moved.
       chosenGoods.append(attachedGoods[0])
    else:
-      notify("{} is trading goods some goods between their dudes...".format(me))
-      choices = multiChoice("Choose goods to trade to {}".format(newHost.name), makeChoiceListfromCardList(attachedGoods))
-      if choices == 'ABORT': 
+      notify("{} is trading some goods between their dudes...".format(me))
+      card_dialog = cardDlg(attachedGoods)
+      card_dialog.title = "Select Goods to trade"
+      card_dialog.max = len(attachedGoods)
+      choices = card_dialog.show()
+      if len(choices) == 0:
          notify("{} has aborted the trading action.".format(me))
          return
       for choice in choices: 
-         attachCard(attachedGoods[choice],newHost)
-         chosenGoods.append(attachedGoods[choice])
+         attachCard(choice, newHost)
+         chosenGoods.append(choice)
    orgAttachments(card)
-   notify("{} has traded {} to {}".format(card,[c.name for c in chosenGoods],newHost))
+   notify("{} has traded {} to {}".format(card,", ".join([c.name for c in chosenGoods]),newHost))
    
 #---------------------------------------------------------------------------
 # Posse actions
