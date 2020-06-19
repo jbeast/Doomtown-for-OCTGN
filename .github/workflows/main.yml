@@ -23,3 +23,7 @@ jobs:
     # Runs a single command using the runners shell
     - name: Run o8build
       run: bin\o8build.exe -d o8g
+    
+    - uses: actions/upload-artifact@v2
+      with:
+        path: o8g\Doomtown-*.nupkg
