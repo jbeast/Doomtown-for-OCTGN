@@ -1,6 +1,8 @@
 Doomtown CCG plugin for OCTGN
 =============================
 
+[Classic DTDB](http://classic-dtdb.co)
+
 A western themed card game, marying poker mechanics, town building, and chess-like maneuvering.
 
 **[Please visit the OCTGN Game Directory Site for all relevant information](http://octgn.gamersjudgement.com/wordpress/doomtown/)**
