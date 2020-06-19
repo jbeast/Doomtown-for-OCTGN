@@ -26,7 +26,7 @@ jobs:
     
     - uses: actions/upload-artifact@v2
       with:
-        name: doomtown
+        name: doomtown.nupkg
         path: o8g\Doomtown-*.nupkg
         
   upload:
@@ -39,7 +39,7 @@ jobs:
       - name: Download nupkg artifact
         uses: actions/download-artifact@v1
         with:
-          name: doomtown
+          name: doomtown.nupkg
           
       - name: Upload to MyGet
         env:
