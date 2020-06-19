@@ -1,6 +1,7 @@
 import re
 import collections
 import time
+from itertools import chain
 
 def chkTwoSided():
    mute()
@@ -61,3 +62,13 @@ def onCardControllerChanged(args):
       modControl(control_change, notification = loud)
    elif args.oldPlayer == me:
       modControl(-control_change)
+
+
+def onDeckLoaded(args):
+   mute()
+   deck_validator = DeckValidator()
+   validation_result = deck_validator.validate(chain(args.player.Deck, args.player.piles['Play Hand']))
+
+   if not validation_result.is_valid:
+      notify('WARNING:: {} has loaded an illegal deck!'.format(args.player))
+      notify(validation_result.errors.format('\n'))

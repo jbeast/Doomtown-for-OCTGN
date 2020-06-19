@@ -4,7 +4,7 @@
       name="Doomtown"
       id="9afa6473-fd81-41b9-955f-8f67c7d3f423"
       octgnVersion="3.1.0.0"
-      version="3.2.12.0"
+      version="3.2.13.0"
       markersize="16"
       tags="western deadlands poker maneuvering multiplayer"
       description="A western themed card game, marrying poker mechanics, town building, and chess-like maneuvering.
@@ -27,11 +27,13 @@
         <script src="Scripts/meta.py"/>
         <script src="Scripts/poker.py"/>
         <script src="Scripts/events.py"/>
+        <script src="Scripts/deck_validator.py" />
     </scripts>
     <events>
         <event name="OnTableLoad" action="chkTwoSided"/>
         <event name="OnMoveCard" action="checkMovedCard"/>
         <event name="OnCardControllerChanged" action="onCardControllerChanged" />
+        <event name="OnDeckLoaded" action="onDeckLoaded" />
     </events>
     <fonts>
         <font src="Fonts/american-typewriter-medium-bt-2.ttf" size="12" target="context"/>
@@ -160,7 +162,7 @@
             <groupaction menu="Reveal Shootout Hand" default="False" execute="revealShootoutHand"/>
             <groupaction menu="Discard hand" default="False" execute="discardDrawHand"/>
         </group>
-        <group name="Deck" visibility="none" ordered="False" viewState="pile" icon="Groups/deck.png" collapsed="False">
+        <group name="Deck" visibility="me" ordered="False" viewState="pile" icon="Groups/deck.png" collapsed="False">
             <groupaction menu="Draw" default="True" shortcut="Ctrl+D" execute="draw"/>
             <groupaction menu="Pull" default="False" shortcut="Ctrl+P" execute="pull"/>
             <groupaction menu="QuickPlay Lowball!" default="False" execute="playLowball"/>

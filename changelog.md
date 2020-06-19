@@ -1,6 +1,11 @@
 Changelog - Doomtown CCG OCTGN Game Definition
 ===============================================
 
+### 3.2.13.x
+
+* Validate a deck on load
+
+
 ### 3.2.6.x
 
 * Side placement now more automated and less mistake-prone

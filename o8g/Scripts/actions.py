@@ -121,10 +121,13 @@ def defaultAction(card, x = 0, y = 0):
    else: boot(card)
    debugNotify("<<< defaultAction()") #Debug
 
-def setup(group,x=0,y=0):
-# This function is usually the first one the player does. It will setup their home and cards on the left or right of the playfield 
-# It will also setup the starting Ghost Rock for the player according to the cards they bring in play, as well as their influence and CP.
-   global playerOutfit # Import some necessary variables we're using around the game.
+
+def setup(group, x=0, y=0):
+   """
+   This function is usually the first one the player does. It will setup their home and cards on the left or right of the playfield
+   It will also setup the starting Ghost Rock for the player according to the cards they bring in play, as well as their influence and CP.
+   """
+   global playerOutfit  # Import some necessary variables we're using around the game.
    debugNotify(">>> setup()")
    mute()
    if table.isTwoSided(): 
@@ -132,6 +135,7 @@ def setup(group,x=0,y=0):
    if playerOutfit and not confirm("Are you sure you want to setup for a new game? (This action should only be done after a table reset)"): return # We make sure the player intended to start a new game
    resetAll()
    chooseSide() # The classic place where the players choose their side.
+   me.Deck.visibility = 'none'
    me.Deck.shuffle() # First let's shuffle our deck now that we have the chance.
    if len([c for c in table if c.name == 'Town Square']) == 0: # Only create a Town Square token if there's not one in the table until now
       TSL = table.create("ac0b08ed-8f78-4cff-a63b-fa1010878af9",2 - cwidth(divisor = 0),0, 1, True) # Create a Left Town Square card in the middle of the table.
