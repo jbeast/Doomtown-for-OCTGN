@@ -40,4 +40,9 @@ jobs:
         uses: actions/download-artifact@v1
         with:
           name: doomtown
+          
+      - name: Upload to MyGet
+        env:
+          MYGET_API_KEY: ${{ secrets.MYGET_API_KEY }}
+        run: nuget.exe push doomtown.nupkg "%MYGET_API_KEY%" -Source https://www.myget.org/F/octgngamedirectory/api/v2/package
         
