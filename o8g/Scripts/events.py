@@ -66,6 +66,9 @@ def onCardControllerChanged(args):
 
 def onDeckLoaded(args):
    mute()
+   if args.player != me:
+      return
+
    deck_validator = DeckValidator()
    validation_result = deck_validator.validate(chain(args.player.Deck, args.player.piles['Play Hand']))
 
