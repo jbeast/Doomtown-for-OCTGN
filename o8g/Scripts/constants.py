@@ -3,6 +3,8 @@
 #---------------------------------------------------------------------------
 import re
 
+MAX_STARTING_DUDES = 5
+
 phases = [
     '{} is currently in the Pre-game Setup Phase'.format(me),
     "It is now GAMBLIN' time. Play Lowball!",

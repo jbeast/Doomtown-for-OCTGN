@@ -2,7 +2,7 @@ import os
 from collections import namedtuple
 
 if os.getenv('ENV') == 'devel':
-    from card import is_outfit, is_joker
+    from o8g.Scripts.v2.card import is_outfit, is_joker
 
 
 class DeckValidator(object):

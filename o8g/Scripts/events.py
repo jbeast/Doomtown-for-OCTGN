@@ -3,75 +3,95 @@ import collections
 import time
 from itertools import chain
 
-def chkTwoSided():
-   mute()
-   if table.isTwoSided(): information(":::WARNING::: This game is NOT designed to be played on a two-sided table. Things will not look right!! Please start a new game and unckeck the appropriate button.")
-   
+def onTableLoad():
+    mute()
+    if table.isTwoSided():
+        information(":::WARNING::: This game is NOT designed to be played on a two-sided table. "
+                    "Things will not look right! Please start a new game and uncheck the appropriate button.")
+        return
+
+    town_square = find_table_cards_by_name('Town Square')
+
+    if not len(town_square):
+        # Left Town Square
+        table.create("ac0b08ed-8f78-4cff-a63b-fa1010878af9", 2 - cwidth(divisor=0), 0, quantity=1, persist=True)
+        # Right Town Square
+        table.create("72f6c0a9-e4f6-4b17-9777-185f88187ad7", -1, 0, quantity=1, persist=True)
+
+
+def find_table_cards_by_name(name):
+    return [card for card in tableCards() if card.name == name]
+
+
+
+
+
+
 def chooseSide(): # Called from many functions to check if the player has chosen a side for this game.
-   mute()
-   global playerside, playeraxis
-   plCount = 0
-   for player in sorted(getPlayers()):
-      if len(player.Deck) == 0: continue # We ignore spectators
-      plCount += 1
-      if player != me: continue # We only set our own side
-      if plCount == 1: # First player is on the right
-         playeraxis = Xaxis
-         playerside = 1
-         notify(":> {}'s gang arrives on the west side of town.".format(me))
-      elif plCount == 2: # First player is on the left
-         playeraxis = Xaxis
-         playerside = -1
-         notify(":> {}' dudes scout warily from the east.".format(me))
-      elif plCount == 3: # Third player is on the bottom
-         playeraxis = Yaxis
-         playerside = 1
-         notify(":> {}' outfit sets up on the south entrance.".format(me))
-      elif plCount == 4: # Fourth player is on the top
-         playeraxis = Yaxis
-         playerside = -1
-         notify(":> {}'s posse claims the north entrance.".format(me))
-      else:
-         playeraxis = None  # Fifth and upward players are unaligned
-         playerside = 0
-         notify(":> {}' arrive late to the party.".format(me))
+    mute()
+    global playerside, playeraxis
+    plCount = 0
+    for player in sorted(getPlayers()):
+        if len(player.Deck) == 0: continue # We ignore spectators
+        plCount += 1
+        if player != me: continue # We only set our own side
+        if plCount == 1: # First player is on the right
+            playeraxis = Xaxis
+            playerside = 1
+            notify(":> {}'s gang arrives on the west side of town.".format(me))
+        elif plCount == 2: # First player is on the left
+            playeraxis = Xaxis
+            playerside = -1
+            notify(":> {}' dudes scout warily from the east.".format(me))
+        elif plCount == 3: # Third player is on the bottom
+            playeraxis = Yaxis
+            playerside = 1
+            notify(":> {}' outfit sets up on the south entrance.".format(me))
+        elif plCount == 4: # Fourth player is on the top
+            playeraxis = Yaxis
+            playerside = -1
+            notify(":> {}'s posse claims the north entrance.".format(me))
+        else:
+            playeraxis = None  # Fifth and upward players are unaligned
+            playerside = 0
+            notify(":> {}' arrive late to the party.".format(me))
 
 def checkMovedCard(player,card,fromGroup,toGroup,oldIndex,index,oldX,oldY,x,y,isScriptMove,highlight = None,markers = None):
-   mute()
-   debugNotify("isScriptMove = {}".format(isScriptMove))
-   if isScriptMove: return # If the card move happened via a script, then all automations should have happened already.
-   if fromGroup == me.piles['Play Hand'] and toGroup == table:
-      if card.Type == 'Outfit': 
-         card.moveTo(me.piles['Play Hand'])
-         setup(group = table)
-      else: playcard(card, retainPos = True)
-   elif fromGroup != table and toGroup == table and card.owner == me: # If the player moves a card into the table from Deck or Trash, we assume they are installing it for free.
-      modControl(num(card.Control))
-      modInfluence(num(card.Influence))
-   elif fromGroup == table and toGroup != table and card.owner == me: # If the player dragged a card manually from the table to their discard pile...
-      if toGroup.name == 'Boot Hill': clearAttachLinks(card, type = 'Ace')
-      else: clearAttachLinks(card) # If the card was manually uninstalled or moved elsewhere than trash, then we simply take care of the attachments
-   elif fromGroup == table and toGroup == table and card.controller == me: # If the player dragged a card manually to a different location on the table, we want to re-arrange the attachments
-      orgAttachments(card) 
+    mute()
+    debugNotify("isScriptMove = {}".format(isScriptMove))
+    if isScriptMove: return # If the card move happened via a script, then all automations should have happened already.
+    if fromGroup == me.piles['Play Hand'] and toGroup == table:
+        if card.Type == 'Outfit':
+            card.moveTo(me.piles['Play Hand'])
+            setup(group = table)
+        else: playcard(card, retainPos = True)
+    elif fromGroup != table and toGroup == table and card.owner == me: # If the player moves a card into the table from Deck or Trash, we assume they are installing it for free.
+        modControl(num(card.Control))
+        modInfluence(num(card.Influence))
+    elif fromGroup == table and toGroup != table and card.owner == me: # If the player dragged a card manually from the table to their discard pile...
+        if toGroup.name == 'Boot Hill': clearAttachLinks(card, type = 'Ace')
+        else: clearAttachLinks(card) # If the card was manually uninstalled or moved elsewhere than trash, then we simply take care of the attachments
+    elif fromGroup == table and toGroup == table and card.controller == me: # If the player dragged a card manually to a different location on the table, we want to re-arrange the attachments
+        orgAttachments(card)
 
 
 def onCardControllerChanged(args):
-   mute()
-   control_change = num(args.card.Control) + args.card.markers[ControlPlusMarker] - args.card.markers[ControlMinusMarker]
-   if args.player == me:
-      modControl(control_change, notification = loud)
-   elif args.oldPlayer == me:
-      modControl(-control_change)
+    mute()
+    control_change = num(args.card.Control) + args.card.markers[ControlPlusMarker] - args.card.markers[ControlMinusMarker]
+    if args.player == me:
+        modControl(control_change, notification = loud)
+    elif args.oldPlayer == me:
+        modControl(-control_change)
 
 
 def onDeckLoaded(args):
-   mute()
-   if args.player != me:
-      return
+    mute()
+    if args.player != me:
+        return
 
-   deck_validator = DeckValidator()
-   validation_result = deck_validator.validate(chain(args.player.Deck, args.player.piles['Play Hand']))
+    deck_validator = DeckValidator()
+    validation_result = deck_validator.validate(chain(args.player.Deck, args.player.piles['Play Hand']))
 
-   if not validation_result.is_valid:
-      notify('WARNING:: {} has loaded an illegal deck!'.format(args.player))
-      notify(validation_result.errors.format('\n'))
+    if not validation_result.is_valid:
+        notify('WARNING:: {} has loaded an illegal deck!'.format(args.player))
+        notify(validation_result.errors.format('\n'))
