@@ -3,6 +3,10 @@ Changelog - Doomtown CCG OCTGN Game Definition
 
 ### 3.2.13.x
 
+* Add missing drifters (before they found the way of the Flock) [#PR 5](https://github.com/jbeast/Doomtown-for-OCTGN/pull/5)
+
+### 3.2.13.x
+
 * Validate a deck on load
 
 
