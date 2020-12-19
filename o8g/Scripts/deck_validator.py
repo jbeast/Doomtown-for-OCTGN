@@ -1,22 +1,9 @@
+import os
 from collections import namedtuple
 
+if os.getenv('ENV') == 'devel':
+    from card import is_outfit, is_joker
 
-def is_outfit(card):
-    """
-    Returns True or False on whether card is an Outfit.
-    :param card: A Card
-    :return: bool
-    """
-    return card.type == 'Outfit'
-
-
-def is_joker(card):
-    """
-    Returns True or False on whether card is a Joker.
-    :param card: A Card
-    :return: bool
-    """
-    return card.type == 'Joker'
 
 class DeckValidator(object):
 
