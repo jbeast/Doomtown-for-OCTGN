@@ -18,6 +18,23 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="Every player with one or more Blessed in play can get any one Miracle from his or her deck, show it to the other players, and put it into his or her Play hand. All decks are reshuffled. Ace this card"/>
     </card>
+    <card id="f9009a9f-ff80-46fa-9c16-e0c271b03d18" name="Avarice">
+      <property name="Rank" value="4"/>
+      <property name="Suit" value="S"/>
+      <property name="Type" value="Dude"/>
+      <property name="Cost" value="2"/>
+      <property name="Upkeep" value="3"/>
+      <property name="Production" value=""/>
+      <property name="Bullets" value="0"/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value="Draw"/>
+      <property name="Influence" value="2"/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value="Drifters"/>
+      <property name="Rarity" value="R"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="Any location with Avarice in it has it's printed ghost rock production doubled. Noon: Boot Avarice to get any strike from your deck. Show it to the other players and place it in your hand. Shuffle your deck. Discard a card from your hand."/>
+    </card>
     <card id="9fa59db0-5090-48c1-91e5-fcbcb8f7d8f7" name="Between the Shoulderblades">
       <property name="Rank" value="7"/>
       <property name="Suit" value="C"/>
@@ -154,22 +171,39 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="Experienced. Shootout:  If Dolores is at the Whateley Family Estate or a location with &quot;Graveyard&quot; or &quot;Undertaker&quot; in the title, discard any number of black cards from your hand. Each card discarded in this fashion creates one Skeleton - a 2 Stud, 0 Influence, ace value Dude - in this shootout. Skeletons are removed from play after the shootout."/>
     </card>
-    <card id="1f5c4222-7118-4492-ac7c-77cb0b859dcd" name="Elijah">
-      <property name="Rank" value="K"/>
+    <card id="a291533f-4ee8-402e-b841-730623cf6930" name="Envy">
+      <property name="Rank" value="6"/>
       <property name="Suit" value="S"/>
       <property name="Type" value="Dude"/>
-      <property name="Cost" value="9"/>
-      <property name="Upkeep" value="2"/>
+      <property name="Cost" value="5"/>
+      <property name="Upkeep" value="0"/>
       <property name="Production" value=""/>
-      <property name="Bullets" value="1"/>
+      <property name="Bullets" value="0"/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value="Draw"/>
+      <property name="Influence" value="2"/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value="Drifters"/>
+      <property name="Rarity" value="C"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="Shootout: Target one dude. That dude may not be the shooter during this Shootout, if another dude is available."/>
+    </card>
+    <card id="a5a0b23a-92fb-4dfd-8804-6e880a821963" name="Flim">
+      <property name="Rank" value="9"/>
+      <property name="Suit" value="S"/>
+      <property name="Type" value="Dude"/>
+      <property name="Cost" value="4"/>
+      <property name="Upkeep" value="3"/>
+      <property name="Production" value=""/>
+      <property name="Bullets" value="3"/>
       <property name="Bullet Bonus" value=""/>
       <property name="Draw Type" value="Stud"/>
-      <property name="Influence" value="3"/>
+      <property name="Influence" value="0"/>
       <property name="Control" value=""/>
-      <property name="Outfit" value="Flock"/>
-      <property name="Rarity" value="F"/>
+      <property name="Outfit" value="Drifters"/>
+      <property name="Rarity" value="C"/>
       <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Experienced. Terrors cannot call out Elijah. Noon: Take a Miracle from another of your Dudes and attach it to Elijah.  Reaction: When you attach a Miracle to Elijah, draw a card from your deck and add it to your hand."/>
+      <property name="Text" value="Abomination. No Goods. Flim has no upkeep when he is adjacent to Elijah. Shootout: Ace any one dude in the opposing posse with a value lower than Flim's bullet rating."/>
     </card>
     <card id="1a97eb42-146a-4322-bbec-2a42ee048a6e" name="Gerald Klippstein">
       <property name="Rank" value="Q"/>
@@ -205,6 +239,23 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="Gadget Difficulty: 5. Noon: Discard the Detector to go through your deck, retrieve any one Strike, and immediately put it into play. The cost of the Strike is reduced by 4 Ghost Rock. Pay all other costs normally."/>
     </card>
+    <card id="0b5f8084-058a-46ac-8aba-185cc7146c42" name="Gluttony">
+      <property name="Rank" value="2"/>
+      <property name="Suit" value="S"/>
+      <property name="Type" value="Dude"/>
+      <property name="Cost" value="1"/>
+      <property name="Upkeep" value="1"/>
+      <property name="Production" value=""/>
+      <property name="Bullets" value="0"/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value="Draw"/>
+      <property name="Influence" value="1"/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value="Drifters"/>
+      <property name="Rarity" value="R"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="All Goods being attached to Gluttony have their costs reduced by two. Goods cannot be moved off of Gluttony without a card effect."/>
+    </card>
     <card id="603f5e33-99fd-43f8-bde5-5ea23106cdcd" name="Hell's Comin' With Me">
       <property name="Rank" value="9"/>
       <property name="Suit" value="C"/>
@@ -221,6 +272,23 @@
       <property name="Rarity" value="F"/>
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="Reaction: Play this card when one of your Dudes is aced during a shootout. Target one of your Dudes who, until after Nightfall, gains a +2 Bullet bonus and becomes a Stud."/>
+    </card>
+    <card id="6d1647ce-fb8b-4b56-8a12-817fac478edb" name="Idleness">
+      <property name="Rank" value="3"/>
+      <property name="Suit" value="S"/>
+      <property name="Type" value="Dude"/>
+      <property name="Cost" value="0"/>
+      <property name="Upkeep" value="1"/>
+      <property name="Production" value=""/>
+      <property name="Bullets" value="1"/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value="Draw"/>
+      <property name="Influence" value="0"/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value="Drifters"/>
+      <property name="Rarity" value="R"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value=""/>
     </card>
     <card id="dfa85ca4-0b78-4d25-8818-895c92f26634" name="Jim MacNeil">
       <property name="Rank" value="J"/>
@@ -239,6 +307,23 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="Experienced. Noon:  MacNeil can call out any Dude who has called out a Sweetrock Dude this turn or last turn, if that Dude is in MacNeil's location or an adjacent location."/>
     </card>
+    <card id="a428faaa-0648-4216-b84f-bf5171649261" name="Lechery">
+      <property name="Rank" value="5"/>
+      <property name="Suit" value="S"/>
+      <property name="Type" value="Dude"/>
+      <property name="Cost" value="4"/>
+      <property name="Upkeep" value="0"/>
+      <property name="Production" value=""/>
+      <property name="Bullets" value="1"/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value="Draw"/>
+      <property name="Influence" value="1"/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value="Drifters"/>
+      <property name="Rarity" value="C"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value=""/>
+    </card>
     <card id="e585701b-6086-4a38-aac3-45fccd59a263" name="Nate Hunter">
       <property name="Rank" value="K"/>
       <property name="Suit" value="S"/>
@@ -255,6 +340,23 @@
       <property name="Rarity" value="F"/>
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="Experienced. Sheriff of Gomorra.  Noon: Nate can call out any Wanted Dude in his location or an adjacent location. If the Wanted Dude does not accept the challenge, that Dude goes to his or her owner's discard pile."/>
+    </card>
+    <card id="68b17590-1a00-4ee7-b8c3-379148fda587" name="Pride">
+      <property name="Rank" value="7"/>
+      <property name="Suit" value="S"/>
+      <property name="Type" value="Dude"/>
+      <property name="Cost" value="6"/>
+      <property name="Upkeep" value="2"/>
+      <property name="Production" value=""/>
+      <property name="Bullets" value="2"/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value="Stud"/>
+      <property name="Influence" value="2"/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value="Drifters"/>
+      <property name="Rarity" value="C"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="Pride will not leave a Shootout without a card effect."/>
     </card>
     <card id="dcacd774-fccf-4e8d-909c-1576f3c8f709" name="Rachel Sumner">
       <property name="Rank" value="Q"/>
@@ -340,6 +442,23 @@
       <property name="Rarity" value="F"/>
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="Shootout: Target a Dude in this shootout. No card effect can prevent that Dude from being aced in this shootout. Any card effect that would prevent that Dude fom being aced is negated."/>
+    </card>
+    <card id="fa92c18a-c4f7-454b-850d-6de9d633f8e7" name="Wrath">
+      <property name="Rank" value="J"/>
+      <property name="Suit" value="S"/>
+      <property name="Type" value="Dude"/>
+      <property name="Cost" value="7"/>
+      <property name="Upkeep" value="2"/>
+      <property name="Production" value=""/>
+      <property name="Bullets" value="5"/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value="Draw"/>
+      <property name="Influence" value="2"/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value="Drifters"/>
+      <property name="Rarity" value="R"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="Reaction: Cancel any one Shootout action card played during a Shootout with Wrath in the Shootout."/>
     </card>
   </cards>
 </set>

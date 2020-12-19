@@ -1055,23 +1055,6 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="Unique. This card has no ghost rock cost when being attached to Howard Findley. While this Dude and the Deed he or she is in are controlled by the same player, the Deed has its printed Production increased by 2."/>
     </card>
-    <card id="012ccf94-f494-4b92-81b1-717d1530ebf2" name="Flim">
-      <property name="Rank" value="10"/>
-      <property name="Suit" value="S"/>
-      <property name="Type" value="Dude"/>
-      <property name="Cost" value="6"/>
-      <property name="Upkeep" value="3"/>
-      <property name="Production" value=""/>
-      <property name="Bullets" value="3"/>
-      <property name="Bullet Bonus" value=""/>
-      <property name="Draw Type" value="Stud"/>
-      <property name="Influence" value="0"/>
-      <property name="Control" value=""/>
-      <property name="Outfit" value="Flock"/>
-      <property name="Rarity" value="R"/>
-      <property name="Ghost Rock" value=""/>
-      <property name="Text" value="Abomination. Experienced. Flim cannot attach Goods. Flim has no Upkeep cost when he is adjacent to Elijah. Shootout: Flim gains a +1 Bullet bonus until the end of the shootout. Flim can perform this action once per shootout round."/>
-    </card>
     <card id="58761d93-a97a-4551-87e3-929720fd3baa" name="Fortune-Teller's Shop">
       <property name="Rank" value="2"/>
       <property name="Suit" value="D"/>
