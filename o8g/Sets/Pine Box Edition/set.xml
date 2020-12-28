@@ -171,6 +171,23 @@
       <property name="Ghost Rock" value=""/>
       <property name="Text" value="Experienced. Shootout:  If Dolores is at the Whateley Family Estate or a location with &quot;Graveyard&quot; or &quot;Undertaker&quot; in the title, discard any number of black cards from your hand. Each card discarded in this fashion creates one Skeleton - a 2 Stud, 0 Influence, ace value Dude - in this shootout. Skeletons are removed from play after the shootout."/>
     </card>
+    <card id="1f5c4222-7118-4492-ac7c-77cb0b859dcd" name="Elijah">
+      <property name="Rank" value="K"/>
+      <property name="Suit" value="S"/>
+      <property name="Type" value="Dude"/>
+      <property name="Cost" value="9"/>
+      <property name="Upkeep" value="2"/>
+      <property name="Production" value=""/>
+      <property name="Bullets" value="1"/>
+      <property name="Bullet Bonus" value=""/>
+      <property name="Draw Type" value="Stud"/>
+      <property name="Influence" value="3"/>
+      <property name="Control" value=""/>
+      <property name="Outfit" value="Flock"/>
+      <property name="Rarity" value="F"/>
+      <property name="Ghost Rock" value=""/>
+      <property name="Text" value="Experienced. Terrors cannot call out Elijah. Noon: Take a Miracle from another of your Dudes and attach it to Elijah. Reaction: When you attach a Miracle to Elijah, draw a card from your deck and add it to your hand."/>
+    </card>
     <card id="a291533f-4ee8-402e-b841-730623cf6930" name="Envy">
       <property name="Rank" value="6"/>
       <property name="Suit" value="S"/>
