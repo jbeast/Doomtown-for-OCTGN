@@ -1,6 +1,12 @@
 Changelog - Doomtown CCG OCTGN Game Definition
 ===============================================
 
+### 3.2.16.x
+
+* Fixed DeckValidator errors
+* Fixed "Win Lowball" errors
+* Updated incorrect card details
+
 ### 3.2.15.x
 
 * Fix Elijah (E) being missing
