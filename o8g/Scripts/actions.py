@@ -878,16 +878,14 @@ def draw(group = None): # Draws one card from the deck into the player's hand.
    if card is None:
       notify("top of group is empty")
    else:
-      notify("going to move to hand")
       hand = me.piles['Play Hand']
-      notify("hand is good")
       card.moveTo(hand)
       notify("{} draws a card.".format(me))
    
 def pull(group = None, x = 0, y = 0, silent = False): # Draws one card from the deck into the discard pile and announces its value.
    mute()
    if group is None:
-      group =  me.Deck
+      group = me.Deck
    Deck = me.Deck
    if len(Deck) == 0: # In case the deck is empty, invoke the reshuffle function.
       notify("{}'s Deck empty. Will reshuffle discard pile".format(me))
@@ -1147,9 +1145,13 @@ def winLowball(group = None, x = 0,y = 0, winner = me): # A function which sets 
    notify("{} is the lowball winner has received {} Ghost Rock from the pot".format(winner, potCard.markers[mdict['Ante']])) # Notify all other players
    #potCard.moveTo(shared.piles['Removed from Play']) # Remove the lowball card from the table
    delCard(potCard) # Remove the lowball card from the table
-   for card in table: # once we have a winner, we clear all the draw hands from the table.
-      if card.highlight == DrawHandColor: 
-         discard(card)
-         card.highlight = None
+   for player in players:
+      remoteCall(player, "discardDrawHand", [])
    debugNotify("<<< winLowball()")
       
+
+def discardDrawHand():
+   for card in table:
+      if card.controller == me and card.highlight == DrawHandColor:
+         discard(card)
+         card.highlight = None

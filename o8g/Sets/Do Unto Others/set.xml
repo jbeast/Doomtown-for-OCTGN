@@ -589,7 +589,7 @@
       <property name="Bullets" value="1"/>
       <property name="Bullet Bonus" value=""/>
       <property name="Draw Type" value="Draw"/>
-      <property name="Influence" value="0"/>
+      <property name="Influence" value="1"/>
       <property name="Control" value=""/>
       <property name="Outfit" value="Lost Angels"/>
       <property name="Rarity" value="F"/>
@@ -1385,10 +1385,10 @@
       <property name="Cost" value="5"/>
       <property name="Upkeep" value="0"/>
       <property name="Production" value=""/>
-      <property name="Bullets" value="2"/>
+      <property name="Bullets" value="1"/>
       <property name="Bullet Bonus" value=""/>
       <property name="Draw Type" value="Draw"/>
-      <property name="Influence" value="1"/>
+      <property name="Influence" value="2"/>
       <property name="Control" value=""/>
       <property name="Outfit" value="Whateleys"/>
       <property name="Rarity" value="F"/>
@@ -1961,7 +1961,7 @@
       <property name="Suit" value="S"/>
       <property name="Type" value="Dude"/>
       <property name="Cost" value="7"/>
-      <property name="Upkeep" value="1"/>
+      <property name="Upkeep" value="0"/>
       <property name="Production" value=""/>
       <property name="Bullets" value="3"/>
       <property name="Bullet Bonus" value=""/>
@@ -2527,7 +2527,7 @@
       <property name="Bullets" value="0"/>
       <property name="Bullet Bonus" value=""/>
       <property name="Draw Type" value="Draw"/>
-      <property name="Influence" value="1"/>
+      <property name="Influence" value="2"/>
       <property name="Control" value=""/>
       <property name="Outfit" value="Drifters"/>
       <property name="Rarity" value="F"/>

@@ -4,7 +4,7 @@
       name="Doomtown"
       id="9afa6473-fd81-41b9-955f-8f67c7d3f423"
       octgnVersion="3.1.0.0"
-      version="3.2.15.1"
+      version="3.2.16.1"
       markersize="16"
       tags="western deadlands poker maneuvering multiplayer"
       description="A western themed card game, marrying poker mechanics, town building, and chess-like maneuvering.
@@ -27,6 +27,7 @@
         <script src="Scripts/meta.py"/>
         <script src="Scripts/poker.py"/>
         <script src="Scripts/events.py"/>
+        <script src="Scripts/card.py" />
         <script src="Scripts/deck_validator.py" />
     </scripts>
     <events>
@@ -165,7 +166,7 @@
         <group name="Deck" visibility="me" ordered="False" viewState="pile" icon="Groups/deck.png" collapsed="False">
             <groupaction menu="Draw" default="True" shortcut="Ctrl+D" execute="draw"/>
             <groupaction menu="Pull" default="False" shortcut="Ctrl+P" execute="pull"/>
-            <groupaction menu="QuickPlay Lowball!" default="False" execute="playLowball"/>
+            <groupaction menu="QuickPlay Lowball!" default="False" shortcut="Ctrl+Q" execute="playLowball"/>
             <groupaction menu="Draw cards to Draw Hand" default="False" execute="drawhandMany"/>
             <groupaction menu="Draw cards to Play Hand" default="False" execute="drawMany"/>
             <groupaction menu="Shuffle" default="False" execute="shuffle"/>
