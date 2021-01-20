@@ -169,7 +169,7 @@ def myCards():
          yield card
 
 
-def revealStartingDudes():
+def revealStartingDudes(table, x=0, y=0):
    mute()
    dudecount = 0
    concat_dudes = "{} has the following starting dudes: ".format(me)
@@ -201,11 +201,6 @@ def flipCard(card, x=0, y=0, notification = 'loud'):
    card.isFaceUp = not card.isFaceUp
    if notification == loud:
       notify("{} flips {}".format(me, card))
-
-
-def invokeRevealStartingDudes(table, x=0, y=0):
-   for player in players:
-      remoteCall(player, 'revealStartingDudes', [])
 
 
 def Pass(group, x = 0, y = 0): # Player says pass. A very common action.

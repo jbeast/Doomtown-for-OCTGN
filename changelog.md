@@ -1,9 +1,13 @@
 Changelog - Doomtown CCG OCTGN Game Definition
 ===============================================
 
+### 3.2.18.x
+
+* Reveal only your own starting dudes
+
 ### 3.2.17.x
 
-* Added a "Revel Starting Cards" to make setup like the real thing
+* Added a "Reveal Starting Cards" to make setup like the real thing
 * Added "Flip Card" action
 
 ### 3.2.16.x
