@@ -1,6 +1,11 @@
 Changelog - Doomtown CCG OCTGN Game Definition
 ===============================================
 
+### 3.2.17.x
+
+* Added a "Revel Starting Cards" to make setup like the real thing
+* Added "Flip Card" action
+
 ### 3.2.16.x
 
 * Fixed DeckValidator errors

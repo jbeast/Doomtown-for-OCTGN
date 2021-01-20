@@ -149,29 +149,65 @@ def setup(group, x=0, y=0):
    if not playerOutfit: # If we haven't found an outfit in the player's hand, we assume they made some mistake and break out.
       whisper(":::ERROR:::  You need to have an outfit card in your hand before you try to setup the game. Please reset the board, load a valid deck and try again.")
       return
-   debugNotify("About to place Dudes",2)
+
    dudecount = 0
-   concat_dudes = 'and has the following starting dudes: ' # A string where we collect the names of the dudes we bring in
-   concat_other = '' # A string to remember any other card (like sweetrock's mine)
    for card in me.piles['Play Hand']: # For every card in the player's hand... (which should a bunch of dudes now)
       debugNotify("Placing {}".format(card),4)
       if card.Type == "Dude" : # If it's a dude...
          placeCard(card,'SetupDude',dudecount)
-         dudecount += 1 # This counter increments per dude, ad we use it to move each other dude further back.
-         payCost(card.Cost) # Pay the cost of the dude
-         modInfluence(card.Influence, silent) # Add their influence to the total
-         concat_dudes += '{}. '.format(card) # And prepare a concatenated string with all the names.
+         dudecount += 1
       else: # If it's any other card...
          placeCard(card,'SetupOther')
-         payCost(card.Cost) # We pay the cost 
-         modControl(card.Control) # Add any control to the total
-         modInfluence(card.Influence) # Add any influence to the total
-         concat_other = ', brings {} into play'.format(card) # And we create a special concat string to use later for the notification.
-   if dudecount == 0: concat_dudes = 'and has no starting dudes. ' # In case the player has no starting dudes, we change the notification a bit.
+      card.isFaceUp = False
    refill() # We fill the player's play hand to their hand size (usually 5)
-   notify("{} is playing {} {} {}Starting Ghost Rock is {} and starting influence is {}.".format(me, concat_home, concat_other, concat_dudes, me.GhostRock, me.Influence))  
+   notify("{} is playing {}.".format(me, concat_home))
    # And finally we inform everyone of the player's outfit, starting dudes & other cards, starting ghost rock and influence.
-   
+
+def myCards():
+   for card in table:
+      if card.controller == me and card.name != 'Town Square':
+         yield card
+
+
+def revealStartingDudes():
+   mute()
+   dudecount = 0
+   concat_dudes = "{} has the following starting dudes: ".format(me)
+   concat_other = ''  # A string to remember any other card (like sweetrock's mine)
+   for card in myCards():
+      if card.Type == "Outfit":
+         continue
+
+      card.isFaceUp = True
+      if card.Type == "Dude":  # If it's a dude...
+         dudecount += 1
+         modInfluence(card.Influence, silent)  # Add their influence to the total
+         payCost(card.Cost)
+         concat_dudes += '{}. '.format(card)  # And prepare a concatenated string with all the names.
+      else:  # If it's any other card...
+         modControl(card.Control)  # Add any control to the total
+         modInfluence(card.Influence, silent)  # Add any influence to the total
+         payCost(card.Cost)
+         concat_other += ', brings {} into play'.format(card) # And we create a special concat string to use later for the notification.
+
+   if dudecount == 0:
+      concat_dudes += '...none'  # In case the player has no starting dudes, we change the notification a bit.
+
+   notify("{}Starting Ghost Rock is {}.".format(concat_dudes, me.GhostRock))
+
+
+def flipCard(card, x=0, y=0, notification = 'loud'):
+   mute()
+   card.isFaceUp = not card.isFaceUp
+   if notification == loud:
+      notify("{} flips {}".format(me, card))
+
+
+def invokeRevealStartingDudes(table, x=0, y=0):
+   for player in players:
+      remoteCall(player, 'revealStartingDudes', [])
+
+
 def Pass(group, x = 0, y = 0): # Player says pass. A very common action.
    notify('{} Passes.'.format(me))
 
